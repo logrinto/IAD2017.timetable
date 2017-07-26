@@ -207,12 +207,12 @@ semester:
           comment:
       SA:
         morning:
-          teacher: BV
-          lession: ExpStory
-          comment:
-        afternoon:
           teacher: MW
           lession: Agil
+          comment:
+        afternoon:
+          teacher: BV
+          lession: ExpStory
           comment:
     -
       KW: KW41-2017
