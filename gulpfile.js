@@ -131,7 +131,7 @@ gulp.task('sass', function () {
 
 gulp.task('watch', function() {
     gulp.watch(observe, ['sass']);
-    gulp.watch(['../data/*.hbs', '../data/data.yml', './src/semesterplan.js'], ['yaml']);
+    gulp.watch(['./src/template/*.hbs', './src/data/data.yml', './src/semesterplan.js'], ['yaml']);
 
 
 });
