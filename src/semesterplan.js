@@ -160,6 +160,7 @@ class Semesterplan {
           parameters: {
             FREQ: 'DAILY',
             COUNT: 5,
+            INTERVAL: 1,
           }
         })
       )
@@ -234,8 +235,8 @@ class Semesterplan {
       if (value.week) {
         value.week.resolve = {
           dates: {
-            start: new moment(value.KW, '[KW]ww-YYYY').hour(8).minute(15),
-            end: new moment(value.KW, '[KW]ww-YYYY').hour(16).minute(45),
+            start: new moment(value.KW, '[KW]ww-YYYY').add(1, 'd').hour(8).minute(15),
+            end: new moment(value.KW, '[KW]ww-YYYY').add(1, 'd').hour(16).minute(45),
             repeat: true,
           },
           teacher: data.teachers[value.week.teacher] || '',
