@@ -156,12 +156,12 @@ class Semesterplan {
       properties.push(
         new Property({
           name: 'RRULE',
-          // value: data.resolve.dates.end.toDate(),
-          parameters: {
-            FREQ: 'DAILY',
-            COUNT: 5,
-            INTERVAL: 1,
-          }
+          value: 'FREQ=DAILY;COUNT=5',
+          // parameters: {
+          //   FREQ: 'DAILY',
+          //   COUNT: 5,
+          //   INTERVAL: 1,
+          // }
         })
       )
     }
