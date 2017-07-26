@@ -125,7 +125,7 @@ class Semesterplan {
               new Property({ name: 'UID', value: uuid.v1() }),
               new Property({
                 name: 'DTSTAMP',
-                value: now,
+                value: now.toDate(),
                 parameters: {
                   VALUE: 'DATE-TIME',
                   TZID: 'Europe/Zurich',
@@ -137,7 +137,7 @@ class Semesterplan {
               }),
               new Property({
                 name: 'DTSTART',
-                value: data.resolve.dates.start,
+                value: data.resolve.dates.start.toDate(),
                 parameters: {
                   VALUE: 'DATE-TIME',
                   TZID: 'Europe/Zurich',
@@ -145,7 +145,7 @@ class Semesterplan {
               }),
               new Property({
                 name: 'DTEND',
-                value: data.resolve.dates.end,
+                value: data.resolve.dates.end.toDate(),
                 parameters: {
                   VALUE: 'DATE-TIME',
                   TZID: 'Europe/Zurich',
