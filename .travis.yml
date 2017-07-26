@@ -4,7 +4,6 @@ node_js:
 install:
   - yarn install
 script:
-  - yarn run
   - bash ./travis/gh-pages.sh
 env:
   global:
