@@ -6,21 +6,21 @@
           <span class="lessen_caption--color {{this.color}}"></span>
 
           <span class="lessen_caption--title">
-              {{#if this.total}}{{padLeft this.total 2}} Lektionen – {{/if}}<b>{{this.title}}</b> <span class="small noPrint">({{@key}})</span>
-
-              <ul>
-                {{#each this.days}}
-                  <li>
-                    KW{{datecalc this.KW parse='[KW]ww-YYYY' format="ww"}}
-                    ·
-                    {{datecalc this.KW parse='[KW]ww-YYYY' addDays=this.day format="dd · DD.MM.YYYY"}}
-                    ·
-                    {{this.text}}
-                  </li>
-
-                {{/each}}
-              </ul>
+            {{#if this.total}}{{padLeft this.total 2}} Lektionen – {{/if}}<b>{{this.title}}</b> <span class="small noPrint">({{@key}})</span>
           </span>
+
+          <ul>
+            {{#each this.days}}
+              <li>
+                KW{{datecalc this.KW parse='[KW]ww-YYYY' format="ww"}}
+                ·
+                {{datecalc this.KW parse='[KW]ww-YYYY' addDays=this.day format="dd · DD.MM.YYYY"}}
+                ·
+                {{this.text}}
+              </li>
+
+            {{/each}}
+          </ul>
 
         </div>
     {{/if}}

@@ -50,7 +50,7 @@
       <div class="week">
         <div class="header">
           <div class="header--date">
-            <b>KW{{datecalc this.KW parse='[KW]ww-YYYY' format="ww [–] YYYY"}}</b></br>
+            <b>KW{{datecalc this.KW parse='[KW]ww-YYYY' format="ww [–] YYYY"}}</b><br>
             {{#if this.week}}
               {{datecalc this.KW parse='[KW]ww-YYYY' addDays=1 format="DD.MM"}}–{{datecalc this.KW parse='[KW]ww-YYYY' addDays=5 format="DD.MM.YYYY"}}
             {{else}}
