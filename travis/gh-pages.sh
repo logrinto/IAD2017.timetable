@@ -25,11 +25,6 @@ set -e # Exit with nonzero exit code if anything fails
 
 echo "-- start"
 
-echo "-- env start"
-echo ${SOURCE_BRANCH}
-echo ${DEPLOY_DIR}
-echo "-- env end"
-
 SOURCE_BRANCH="master"
 TARGET_BRANCH="gh-pages"
 DEPLOY_DIR="public"
@@ -68,8 +63,9 @@ sh ./travis/build.sh
 
 # Now let's go have some fun with the cloned repo
 cd $DEPLOY_DIR
+echo "-- build info"
 ls -las
-git diff
+git status
 
 git config user.name "Travis CI"
 git config user.email "$COMMIT_AUTHOR_EMAIL"

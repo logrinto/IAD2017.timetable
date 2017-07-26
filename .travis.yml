@@ -9,5 +9,3 @@ env:
   global:
   - ENCRYPTION_LABEL: "6914688fca78"
   - COMMIT_AUTHOR_EMAIL: "sh@signalwerk.ch"
-  - SOURCE_BRANCH: "master"
-  - DEPLOY_DIR: "public"
