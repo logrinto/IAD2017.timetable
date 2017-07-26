@@ -2,7 +2,6 @@
 <div class="lession_captions">
   {{#each lessions}}
     {{#if this.total}}
-    {{/if}}
         <div class="lession_caption">
 
           <span class="lessen_caption--color {{this.color}}"></span>
@@ -12,6 +11,7 @@
           </span>
 
         </div>
+    {{/if}}
   {{/each}}
 </div>
 
@@ -65,50 +65,57 @@
 
         <div class="morning--container">
 
-          <div class="lessions fr morning {{#with (lookup ../lessions this.FR.morning.lession)}}{{color}}{{/with}} {{or this.FR.morning.lession "bg-gray"}}">
-            {{#if this.FR.morning.lession}}
-              <div class="teacher">{{lookup ../teachers this.FR.morning.teacher}}</div>
-              <div class="lession"><span class="bg">{{#with (lookup ../lessions this.FR.morning.lession)}}{{title}}{{/with}}</span></div>
-            {{/if}}
-            {{#if this.FR.morning.comment}}
-              <div class="comment"><span class="bg">{{this.FR.morning.comment}}</span></div>
-            {{/if}}
-          </div>
+          {{#if this.FR.morning.lession}}<a href="#detail-{{this.FR.morning.lession}}">{{/if}}
+            <div class="lessions fr morning {{#with (lookup ../lessions this.FR.morning.lession)}}{{color}}{{/with}} {{or this.FR.morning.lession "bg-gray"}}">
+              {{#if this.FR.morning.lession}}
+                <div class="teacher">{{lookup ../teachers this.FR.morning.teacher}}</div>
+                <div class="lession"><span class="bg">{{#with (lookup ../lessions this.FR.morning.lession)}}{{title}}{{/with}}</span></div>
+              {{/if}}
+              {{#if this.FR.morning.comment}}
+                <div class="comment"><span class="bg">{{this.FR.morning.comment}}</span></div>
+              {{/if}}
+            </div>
+          {{#if this.FR.morning.lession}}</a>{{/if}}
 
-
-          <div class="lessions sa morning {{#with (lookup ../lessions this.SA.morning.lession)}}{{color}}{{/with}} {{or this.SA.morning.lession "bg-gray"}}">
-            {{#if this.SA.morning.lession}}
-              <div class="teacher">{{lookup ../teachers this.SA.morning.teacher}}</div>
-              <div class="lession"><span class="bg">{{#with (lookup ../lessions this.SA.morning.lession)}}{{title}}{{/with}}</span></div>
-            {{/if}}
-            {{#if this.SA.morning.comment}}
-              <div class="comment"><span class="bg">{{this.SA.afternoon.comment}}</span></div>
-            {{/if}}
-          </div>
+          {{#if this.SA.morning.lession}}<a href="#detail-{{this.SA.morning.lession}}">{{/if}}
+            <div class="lessions sa morning {{#with (lookup ../lessions this.SA.morning.lession)}}{{color}}{{/with}} {{or this.SA.morning.lession "bg-gray"}}">
+              {{#if this.SA.morning.lession}}
+                <div class="teacher">{{lookup ../teachers this.SA.morning.teacher}}</div>
+                <div class="lession"><span class="bg">{{#with (lookup ../lessions this.SA.morning.lession)}}{{title}}{{/with}}</span></div>
+              {{/if}}
+              {{#if this.SA.morning.comment}}
+                <div class="comment"><span class="bg">{{this.SA.afternoon.comment}}</span></div>
+              {{/if}}
+            </div>
+          {{#if this.SA.morning.lession}}</a>{{/if}}
         </div>
 
 
         <div class="afternoon--container">
 
-          <div class="lessions fr afternoon {{#with (lookup ../lessions this.FR.afternoon.lession)}}{{color}}{{/with}} {{or this.FR.afternoon.lession "bg-gray"}}">
-            {{#if this.FR.afternoon.lession}}
-              <div class="teacher">{{lookup ../teachers this.FR.afternoon.teacher}}</div>
-              <div class="lession"><span class="bg">{{#with (lookup ../lessions this.FR.afternoon.lession)}}{{title}}{{/with}}</span></div>
-            {{/if}}
-            {{#if this.FR.afternoon.comment}}
-              <div class="comment"><span class="bg">{{this.FR.afternoon.comment}}</span></div>
-            {{/if}}
-          </div>
+          {{#if this.FR.afternoon.lession}}<a href="#detail-{{this.FR.afternoon.lession}}">{{/if}}
+            <div class="lessions fr afternoon {{#with (lookup ../lessions this.FR.afternoon.lession)}}{{color}}{{/with}} {{or this.FR.afternoon.lession "bg-gray"}}">
+              {{#if this.FR.afternoon.lession}}
+                <div class="teacher">{{lookup ../teachers this.FR.afternoon.teacher}}</div>
+                <div class="lession"><span class="bg">{{#with (lookup ../lessions this.FR.afternoon.lession)}}{{title}}{{/with}}</span></div>
+              {{/if}}
+              {{#if this.FR.afternoon.comment}}
+                <div class="comment"><span class="bg">{{this.FR.afternoon.comment}}</span></div>
+              {{/if}}
+            </div>
+          {{#if this.FR.afternoon.lession}}</a>{{/if}}
 
-          <div class="lessions sa afternoon {{#with (lookup ../lessions this.SA.afternoon.lession)}}{{color}}{{/with}} {{or this.SA.afternoon.lession "bg-gray"}}">
-            {{#if this.SA.afternoon.lession}}
-              <div class="teacher">{{lookup ../teachers this.SA.afternoon.teacher}}</div>
-              <div class="lession"><span class="bg">{{#with (lookup ../lessions this.SA.afternoon.lession)}}{{title}}{{/with}}</span></div>
-            {{/if}}
-            {{#if this.SA.afternoon.comment}}
-              <div class="comment"><span class="bg">{{this.SA.afternoon.comment}}</span></div>
-            {{/if}}
-          </div>
+          {{#if this.SA.afternoon.lession}}<a href="#detail-{{this.SA.afternoon.lession}}">{{/if}}
+            <div class="lessions sa afternoon {{#with (lookup ../lessions this.SA.afternoon.lession)}}{{color}}{{/with}} {{or this.SA.afternoon.lession "bg-gray"}}">
+              {{#if this.SA.afternoon.lession}}
+                <div class="teacher">{{lookup ../teachers this.SA.afternoon.teacher}}</div>
+                <div class="lession"><span class="bg">{{#with (lookup ../lessions this.SA.afternoon.lession)}}{{title}}{{/with}}</span></div>
+              {{/if}}
+              {{#if this.SA.afternoon.comment}}
+                <div class="comment"><span class="bg">{{this.SA.afternoon.comment}}</span></div>
+              {{/if}}
+            </div>
+          {{#if this.SA.afternoon.lession}}</a>{{/if}}
         </div>
 
 

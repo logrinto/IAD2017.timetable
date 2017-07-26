@@ -41,6 +41,10 @@ b, .bold {
 	font-weight: bold;
 }
 
+a {
+  text-decoration: none;
+}
+
 .small {
   font-size: 0.6rem;
 }
@@ -114,6 +118,10 @@ b, .bold {
 .lessions.afternoon {
 	height: $dayHeight - 0.6rem - 0.5rem;
 
+  &:hover {
+    opacity: 0.9;
+  }
+
 	&.fr {
 		margin-bottom: $dayPadding;
 	}
@@ -140,6 +148,7 @@ $highlight: rgba(255,255,255,0.4);
 }
 .comment span,
 .lession span {
+  color: black;
 	background-color: $highlight;
   	font-weight: bold;
     // box-shadow:
