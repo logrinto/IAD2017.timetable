@@ -115,7 +115,7 @@ class Semesterplan {
         name: 'DTSTAMP',
         value: now.toDate(),
         parameters: {
-          VALUE: 'DATE-TIME',
+          // VALUE: 'DATE-TIME',
           TZID: 'Europe/Zurich',
         }
       }),
@@ -127,7 +127,7 @@ class Semesterplan {
         name: 'DTSTART',
         value: data.resolve.dates.start.toDate(),
         parameters: {
-          VALUE: 'DATE-TIME',
+          // VALUE: 'DATE-TIME',
           TZID: 'Europe/Zurich',
         }
       }),
@@ -135,7 +135,7 @@ class Semesterplan {
         name: 'DTEND',
         value: data.resolve.dates.end.toDate(),
         parameters: {
-          VALUE: 'DATE-TIME',
+          // VALUE: 'DATE-TIME',
           TZID: 'Europe/Zurich',
         }
       }),
