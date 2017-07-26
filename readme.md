@@ -1,8 +1,9 @@
 # logrinto timetable
 Program to generate timetables.
 
-
 ### Status
+[![Build Status](https://travis-ci.org/logrinto/IAD2017.timetable.svg?branch=master)](https://travis-ci.org/logrinto/IAD2017.timetable) 
+
 This is an early beta version. Everything is just quick and dirty...
 
 
