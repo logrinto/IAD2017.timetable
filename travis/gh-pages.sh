@@ -59,7 +59,7 @@ echo "-- clean up"
 cd $DEPLOY_DIR
 # Recursively clean current directory but not dir named .git
 #rm -r `find . | grep -v '.git'`
-rm -r $(ls | grep -v '.git')
+rm -r $(ls -a | grep -v '.git' | grep -v '.' | grep -v '..')
 cd ..
 
 
