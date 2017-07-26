@@ -1,0 +1,89 @@
+
+// @mixin bgcolorprint ($name, $color) {
+//
+//   .bg-#{$name} {
+//     position: relative;
+//     overflow: hidden;
+//   }
+//
+//   .bg-#{$name}:before {
+//      content: '';
+//      position: absolute;
+//      top: 0;
+//      right: 0;
+//      left: 0;
+//      bottom: 0;
+//      /* and here it is, the background color */
+//      border: 99999px $color solid;
+//      z-index: 0; /* was required in my situation */
+//   }
+//   .bg-#{$name} * {
+//     /* was required in my situation */
+//     position: relative;
+//     z-index: 1;
+//   }
+// }
+
+
+@media print {
+
+  body {
+    // bg-print for chrome
+    -webkit-print-color-adjust: exact; /*Chrome, Safari */
+    color-adjust: exact; /*Firefox*/
+
+
+    width: 120rem;
+
+ }
+ .container {
+
+    column-count: 2;
+    column-gap: 2em;
+    column-rule: 0.5rem solid black;
+ }
+
+ .noPrint {
+  display: none;
+ }
+
+/*
+.lessions.morning,
+.lessions.afternoon {
+  height: 2.6rem;
+}
+
+.lessions {
+    padding-top: 0.2rem;
+    padding-bottom: 0.1rem;
+}
+
+.header--days--FR,
+.header--days--SA {
+  line-height: 3.3rem;
+  height: 3.9rem;
+}
+*/
+
+
+  .week {
+    page-break-inside: avoid;
+  }
+
+  // hack for bg-print
+ // @each $value in $color-list {
+ //   @include bgcolorprint(nth($value, 1), nth($value, 2));
+ // }
+
+}
+
+
+
+
+
+@media print {
+    .pagebreak {
+      // page-break-after: always;
+      page-break-before: always;
+    }
+}

@@ -1,0 +1,596 @@
+lessions:
+  LAB:
+    title: LAB
+    color: bg-dark-red
+
+  TecHistory:
+    title: Medien-/Technologiegeschichte
+    color: bg-violet
+
+  TypeHistory:
+    title: Technologiegeschichte der Schrift
+    color: bg-violet
+
+  FutureMngmnt:
+    title: Zukunft – Umgang mit der Ungewissheit
+    color: bg-petrol
+
+  ExpStory:
+    title: Experimentelles Erzählen
+    color: bg-light-green
+
+  CommunityBuild:
+    title: Community Building
+    color: bg-cold-green
+
+  InteractiveGraphic:
+    title: Interaktive Grafiken
+    color: bg-cyan
+
+  ReadScreen:
+    title: Leseführung am Bildschirm (eBook)
+    color: bg-green
+
+#  MobileTypo:
+#    title: Typografie am mobilen Gerät
+#    color: bg-dark-green
+
+#  Crossmedia:
+#    title: Crossmedia von der Datenbank zur Ausgabe
+#    color: bg-gray-violet
+
+  GridModule:
+    title: Grids & Modules  – Systeme für die Gestaltung
+    color: bg-magenta
+
+  DiyHardware:
+    title: Interaktion mit DIY–Hardware
+    color: bg-bordeaux
+
+  Agil:
+    title: Agile Planung
+    color: bg-light-brown
+
+  Costs:
+    title: Was kostet meine Stunde?
+    color: bg-orange
+
+#  Guest:
+#    title: Gastreferat
+#    color: bg-mint
+
+teachers:
+  T1: Lehrername
+  T2: Lehrername
+  SH: Stefan Huber
+  BV: Basil Vogt
+  MW: Martin Werren
+  VM: Victor Mazón Gardoqui
+  HZ: Hanna Züllig/Brigitte Lampert
+  DF: Daniel Frei
+  UF: Ulrike Felsing
+  LG: Laurent Gachnang
+
+
+semester:
+  planing:
+    -
+      KW: KW34-2017
+      FR:
+        morning:
+          teacher: SH
+          lession: LAB
+          comment: Einführung Lehrgang
+        afternoon:
+          teacher: SH
+          lession: LAB
+          comment: Einführung Lehrgang
+      SA:
+        morning:
+          teacher: BV
+          lession: ExpStory
+          comment:
+        afternoon:
+          teacher: MW
+          lession: Agil
+          comment:
+    -
+      KW: KW35-2017
+      FR:
+        morning:
+          teacher: LG
+          lession: ReadScreen
+          comment:
+        afternoon:
+          teacher: SH
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher: BV
+          lession: ExpStory
+          comment:
+        afternoon:
+          teacher: MW
+          lession: Agil
+          comment:
+    -
+      KW: KW36-2017
+      FR:
+        morning:
+          teacher: LG
+          lession: ReadScreen
+          comment:
+        afternoon:
+          teacher: UF
+          lession: TecHistory
+          comment:
+      SA:
+        morning:
+          teacher: BV
+          lession: ExpStory
+          comment:
+        afternoon:
+          teacher: MW
+          lession: Agil
+          comment:
+    -
+      KW: KW37-2017
+      FR:
+        morning:
+          teacher: LG
+          lession: ReadScreen
+          comment:
+        afternoon:
+          teacher: SH
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher: BV
+          lession: ExpStory
+          comment:
+        afternoon:
+          teacher: MW
+          lession: Agil
+          comment:
+    -
+      KW: KW38-2017
+      FR:
+        morning:
+          teacher: LG
+          lession: ReadScreen
+          comment:
+        afternoon:
+          teacher: UF
+          lession: TecHistory
+          comment:
+      SA:
+        morning:
+          teacher: BV
+          lession: ExpStory
+          comment:
+        afternoon:
+          teacher: MW
+          lession: Agil
+          comment:
+    -
+      KW: KW39-2017
+      FR:
+        morning:
+          teacher: LG
+          lession: ReadScreen
+          comment:
+        afternoon:
+          teacher: SH
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher: BV
+          lession: ExpStory
+          comment:
+        afternoon:
+          teacher: MW
+          lession: Agil
+          comment:
+    -
+      KW: KW40-2017
+      FR:
+        morning:
+          teacher: LG
+          lession: ReadScreen
+          comment:
+        afternoon:
+          teacher: UF
+          lession: TecHistory
+          comment:
+      SA:
+        morning:
+          teacher: BV
+          lession: ExpStory
+          comment:
+        afternoon:
+          teacher: MW
+          lession: Agil
+          comment:
+    -
+      KW: KW41-2017
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Herbstferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Herbstferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Herbstferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Herbstferien
+    -
+      KW: KW42-2017
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Herbstferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Herbstferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Herbstferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Herbstferien
+    -
+      KW: KW43-2017
+      FR:
+        morning:
+          teacher: DF
+          lession: CommunityBuild
+          comment:
+        afternoon:
+          teacher: DF
+          lession: CommunityBuild
+          comment:
+      SA:
+        morning:
+          teacher: BV
+          lession: ExpStory
+          comment:
+        afternoon:
+          teacher: BV
+          lession: ExpStory
+          comment:
+    -
+      KW: KW44-2017
+      FR:
+        morning:
+          teacher: DF
+          lession: CommunityBuild
+          comment:
+        afternoon:
+          teacher: UF
+          lession: TecHistory
+          comment:
+      SA:
+        morning:
+          teacher: MW
+          lession: Agil
+          comment:
+        afternoon:
+          teacher: MW
+          lession: Agil
+          comment:
+    -
+      KW: KW45-2017
+      FR:
+        morning:
+          teacher: DF
+          lession: CommunityBuild
+          comment:
+        afternoon:
+          teacher: SH
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment:
+        afternoon:
+          teacher:
+          lession:
+          comment:
+    -
+      KW: KW46-2017
+      FR:
+        morning:
+          teacher: DF
+          lession: CommunityBuild
+          comment:
+        afternoon:
+          teacher: UF
+          lession: TecHistory
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment:
+        afternoon:
+          teacher:
+          lession:
+          comment:
+    -
+      KW: KW47-2017
+      FR:
+        morning:
+          teacher: DF
+          lession: CommunityBuild
+          comment:
+        afternoon:
+          teacher: SH
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher: HZ
+          lession: GridModule
+          comment:
+        afternoon:
+          teacher: HZ
+          lession: GridModule
+          comment:
+    -
+      KW: KW48-2017
+      FR:
+        morning:
+          teacher: DF
+          lession: CommunityBuild
+          comment:
+        afternoon:
+          teacher: DF
+          lession: CommunityBuild
+          comment:
+      SA:
+        morning:
+          teacher: HZ
+          lession: GridModule
+          comment:
+        afternoon:
+          teacher: HZ
+          lession: GridModule
+          comment:
+    -
+      KW: KW49-2017
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment:
+        afternoon:
+          teacher: UF
+          lession: TecHistory
+          comment:
+      SA:
+        morning:
+          teacher: HZ
+          lession: GridModule
+          comment:
+        afternoon:
+          teacher: HZ
+          lession: GridModule
+          comment:
+    -
+      KW: KW50-2017
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment:
+        afternoon:
+          teacher:
+          lession:
+          comment:
+      SA:
+        morning:
+          teacher: HZ
+          lession: GridModule
+          comment:
+        afternoon:
+          teacher: HZ
+          lession: GridModule
+          comment:
+    -
+      KW: KW51-2017
+      FR:
+        morning:
+          teacher:
+          lession: Costs
+          comment:
+        afternoon:
+          teacher: SH
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher: HZ
+          lession: GridModule
+          comment:
+        afternoon:
+          teacher: HZ
+          lession: GridModule
+          comment:
+    -
+      KW: KW52-2017
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+    -
+      KW: KW01-2017
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+    -
+      KW: KW02-2018
+      FR:
+        morning:
+          teacher:
+          lession: Costs
+          comment:
+        afternoon:
+          teacher:
+          lession:
+          comment:
+      SA:
+        morning:
+          teacher: HZ
+          lession: GridModule
+          comment:
+        afternoon:
+          teacher: HZ
+          lession: GridModule
+          comment:
+    -
+      KW: KW03-2018
+      FR:
+        morning:
+          teacher:
+          lession: Costs
+          comment:
+        afternoon:
+          teacher: SH
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher: HZ
+          lession: GridModule
+          comment:
+        afternoon:
+          teacher: HZ
+          lession: GridModule
+          comment:
+    -
+      KW: KW04-2018
+      FR:
+        morning:
+          teacher:
+          lession: Costs
+          comment:
+        afternoon:
+          teacher:
+          lession:
+          comment:
+      SA:
+        morning:
+          teacher: HZ
+          lession: GridModule
+          comment:
+        afternoon:
+          teacher: HZ
+          lession: GridModule
+          comment:
+    -
+      KW: KW05-2018
+      FR:
+        morning:
+          teacher: VM
+          lession: DiyHardware
+          comment:
+        afternoon:
+          teacher: VM
+          lession: DiyHardware
+          comment:
+      SA:
+        morning:
+          teacher: VM
+          lession: DiyHardware
+          comment:
+        afternoon:
+          teacher: VM
+          lession: DiyHardware
+          comment:
+    -
+      KW: KW06-2018
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Sportferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sportferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Sportferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sportferien
+    -
+      KW: KW07-2018
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Sportferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sportferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Sportferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sportferien

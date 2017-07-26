@@ -1,0 +1,53 @@
+$c_black: black;
+$c_bordeaux: #613b4d;
+$c_cold-green: #60c45b;
+$c_cyan: #0098db;
+$c_dark-green: #006133;
+$c_dark-red: #94262a;
+$c_gray-violet: #6b6887;
+$c_green: #40ab25;
+$c_green-gray: red;
+$c_light-brown: #b48644;
+$c_light-green: #9bc45b;
+$c_magenta: #d30080;
+$c_orange: #e7963d;
+$c_petrol: #116e72;
+$c_violet: #75475d;
+$c_gray: #999;
+$c_mint: #00cfb9;
+
+
+$color-list: (
+	black          $c_black       ,
+	bordeaux       $c_bordeaux    ,
+	cold-green     $c_cold-green  ,
+	cyan           $c_cyan        ,
+	dark-green     $c_dark-green  ,
+	dark-red       $c_dark-red    ,
+	gray-violet    $c_gray-violet ,
+	green          $c_green       ,
+	green-gray     $c_green-gray  ,
+	light-brown    $c_light-brown ,
+	light-green    $c_light-green ,
+	magenta        $c_magenta     ,
+	orange         $c_orange      ,
+	petrol         $c_petrol      ,
+	violet         $c_violet      ,
+	gray           $c_gray        ,
+	mint           $c_mint        ,
+);
+
+
+@mixin bgcolor ($name, $color) {
+
+  .bg-#{$name} {
+	background-color: $color;
+  }
+}
+
+@each $value in $color-list {
+  @include bgcolor(nth($value, 1), nth($value, 2));
+}
+
+
+
