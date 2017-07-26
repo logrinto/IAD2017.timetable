@@ -82,6 +82,7 @@ a {
 	@include span(last 3);
 	text-align: center;
 }
+.header--days--week,
 .header--days--FR,
 .header--days--SA {
 	height: $dayHeight;
@@ -122,6 +123,7 @@ a {
     opacity: 0.9;
   }
 
+  &.wholeweek,
 	&.fr {
 		margin-bottom: $dayPadding;
 	}

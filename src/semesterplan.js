@@ -76,16 +76,20 @@ class Semesterplan {
     // calculate total numbers of lessions
     _.forEach(data.semester.planing, (value, key) => {
 
-      this._addTimeToLession(value.FR.morning.lession);
-      this._addTimeToLession(value.FR.afternoon.lession);
+      if (value.FR) {
 
-      this._addTimeToLession(value.SA.morning.lession);
-      this._addTimeToLession(value.SA.afternoon.lession);
+        this._addTimeToLession(value.FR.morning.lession);
+        this._addTimeToLession(value.FR.afternoon.lession);
+        this._addDayToLession(value.FR.morning.lession, {KW: value.KW, day: 5, text:' 08:15 – 11:40'});
+        this._addDayToLession(value.FR.afternoon.lession, {KW: value.KW, day: 5, text:' 13:15 – 16:45'});
+      }
 
-      this._addDayToLession(value.FR.morning.lession, {KW: value.KW, day: 5, text:' 08:15 – 11:40'});
-      this._addDayToLession(value.FR.afternoon.lession, {KW: value.KW, day: 5, text:' 13:15 – 16:45'});
-      this._addDayToLession(value.SA.morning.lession, {KW: value.KW, day: 6, text:' 08:15 – 11:40'});
-      this._addDayToLession(value.SA.afternoon.lession, {KW: value.KW, day: 6, text:' 13:15 – 16:45'});
+      if (value.SA) {
+        this._addTimeToLession(value.SA.morning.lession);
+        this._addTimeToLession(value.SA.afternoon.lession);
+        this._addDayToLession(value.SA.morning.lession, {KW: value.KW, day: 6, text:' 08:15 – 11:40'});
+        this._addDayToLession(value.SA.afternoon.lession, {KW: value.KW, day: 6, text:' 13:15 – 16:45'});
+      }
     });
     data.lessions = _.sortKeysBy(data.lessions, (item) => { return item.title; });
   }
