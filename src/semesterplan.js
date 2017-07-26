@@ -109,6 +109,62 @@ class Semesterplan {
       title = data.resolve.lession.title;
     }
 
+    var properties = [
+      new Property({ name: 'UID', value: uuid.v1() }),
+      new Property({
+        name: 'DTSTAMP',
+        value: now.toDate(),
+        parameters: {
+          VALUE: 'DATE-TIME',
+          TZID: 'Europe/Zurich',
+        }
+      }),
+      new Property({
+        name: 'SUMMARY',
+        value: title,
+      }),
+      new Property({
+        name: 'DTSTART',
+        value: data.resolve.dates.start.toDate(),
+        parameters: {
+          VALUE: 'DATE-TIME',
+          TZID: 'Europe/Zurich',
+        }
+      }),
+      new Property({
+        name: 'DTEND',
+        value: data.resolve.dates.end.toDate(),
+        parameters: {
+          VALUE: 'DATE-TIME',
+          TZID: 'Europe/Zurich',
+        }
+      }),
+      new Property({
+        name: 'DESCRIPTION',
+        value: 'Lehrer: ' + (data.resolve.teacher || 'noch offen'),
+      }),
+      // new Property({
+      //   name: 'ATTENDEE',
+      //   parameters: {
+      //     CN: 'Sample Company',
+      //     RSVP: 'FALSE:foo@example.com'
+      //   }
+      // })
+    ]
+
+    if(data.resolve.dates.repeat) {
+      properties.push(
+        new Property({
+          name: 'RRULE',
+          // value: data.resolve.dates.end.toDate(),
+          parameters: {
+            FREQ: 'DAILY',
+            COUNT: 5,
+          }
+        })
+      )
+    }
+
     var event = new Component({
             name: 'VEVENT',
             // components: [
@@ -121,49 +177,13 @@ class Semesterplan {
             //     ]
             //   })
             // ],
-            properties: [
-              new Property({ name: 'UID', value: uuid.v1() }),
-              new Property({
-                name: 'DTSTAMP',
-                value: now.toDate(),
-                parameters: {
-                  VALUE: 'DATE-TIME',
-                  TZID: 'Europe/Zurich',
-                }
-              }),
-              new Property({
-                name: 'SUMMARY',
-                value: title,
-              }),
-              new Property({
-                name: 'DTSTART',
-                value: data.resolve.dates.start.toDate(),
-                parameters: {
-                  VALUE: 'DATE-TIME',
-                  TZID: 'Europe/Zurich',
-                }
-              }),
-              new Property({
-                name: 'DTEND',
-                value: data.resolve.dates.end.toDate(),
-                parameters: {
-                  VALUE: 'DATE-TIME',
-                  TZID: 'Europe/Zurich',
-                }
-              }),
-              new Property({
-                name: 'DESCRIPTION',
-                value: 'Lehrer: ' + (data.resolve.teacher || 'noch offen'),
-              }),
-              // new Property({
-              //   name: 'ATTENDEE',
-              //   parameters: {
-              //     CN: 'Sample Company',
-              //     RSVP: 'FALSE:foo@example.com'
-              //   }
-              // })
-            ]
+            properties
           });
+
+
+
+
+
           return event;
   }
 
@@ -180,6 +200,9 @@ class Semesterplan {
       if (value.SA) {
         events.push(this.icsEvent(value.SA.morning))
         events.push(this.icsEvent(value.SA.afternoon))
+      }
+      if (value.week) {
+        events.push(this.icsEvent(value.week))
       }
     });
 
@@ -208,11 +231,22 @@ class Semesterplan {
       //     sa: new moment(value.KW, '[KW]ww-YYYY').add(6, 'd')
       //   }
       // }
+      if (value.week) {
+        value.week.resolve = {
+          dates: {
+            start: new moment(value.KW, '[KW]ww-YYYY').hour(8).minute(15),
+            end: new moment(value.KW, '[KW]ww-YYYY').hour(16).minute(45),
+            repeat: true,
+          },
+          teacher: data.teachers[value.week.teacher] || '',
+          lession: data.lessions[value.week.lession] || {},
+        }
+      }
 
       if (value.FR) {
         value.FR.morning.resolve = {
           dates: {
-            start: new moment(value.KW, '[KW]ww-YYYY').add(5, 'd').hour(8).minute(5),
+            start: new moment(value.KW, '[KW]ww-YYYY').add(5, 'd').hour(8).minute(15),
             end: new moment(value.KW, '[KW]ww-YYYY').add(5, 'd').hour(11).minute(40),
           },
           teacher: data.teachers[value.FR.morning.teacher] || '',
@@ -231,7 +265,7 @@ class Semesterplan {
       if (value.SA) {
         value.SA.morning.resolve = {
           dates: {
-            start: new moment(value.KW, '[KW]ww-YYYY').add(6, 'd').hour(8).minute(5),
+            start: new moment(value.KW, '[KW]ww-YYYY').add(6, 'd').hour(8).minute(15),
             end: new moment(value.KW, '[KW]ww-YYYY').add(6, 'd').hour(11).minute(40),
           },
           teacher: data.teachers[value.SA.morning.teacher],
