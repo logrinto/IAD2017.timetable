@@ -56,8 +56,11 @@ cd ..
 
 # Clean out existing contents
 echo "-- clean up"
-rm -rf $DEPLOY_DIR/**/* -excludes .git || exit 0
-rm -rf $DEPLOY_DIR/* -excludes .git || exit 0
+cd $DEPLOY_DIR
+# Recursively clean current directory but not dir named .git
+rm -r `find . |grep -v ".git"`
+cd ..
+
 
 # Run our compile script
 echo "-- build"
