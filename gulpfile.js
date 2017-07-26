@@ -142,7 +142,12 @@ gulp.task('connect', function() {
   });
 });
 
+gulp.task('copy', function() {
+
+    gulp.src('assets/**/*')
+        .pipe(gulp.dest('./public/assets/'))
+});
 
 
-gulp.task('default', ['sass', 'yaml', 'connect', 'watch' /*, possible other tasks... */]);
-gulp.task('build', ['sass', 'yaml']);
+gulp.task('default', ['copy', 'sass', 'yaml', 'connect', 'watch' /*, possible other tasks... */]);
+gulp.task('build', ['copy', 'sass', 'yaml']);

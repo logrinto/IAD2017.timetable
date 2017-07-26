@@ -1,6 +1,6 @@
 
-$OpenSansPath: "../fonts/opensans" !default;
-$OpenSansVersion: "1.1.0" !default; 
+$OpenSansPath: "../assets/fonts/opensans" !default;
+$OpenSansVersion: "1.1.0" !default;
 
 @import "../../node_modules/normalize.css/normalize";
 @import "./font.scss";
@@ -48,7 +48,7 @@ b, .bold {
 
 
 .week {
-	@include container; 
+	@include container;
 
     border-top-style: solid;
     border-top-width: 0.5rem;
@@ -62,7 +62,7 @@ b, .bold {
 
 
 .header {
-	@include container; 
+	@include container;
 	@include span(4);
 
     // border-top-style: solid;
@@ -142,8 +142,8 @@ $highlight: rgba(255,255,255,0.4);
 .lession span {
 	background-color: $highlight;
   	font-weight: bold;
-    // box-shadow: 
-    //   0.4rem 0 0 $highlight, 
+    // box-shadow:
+    //   0.4rem 0 0 $highlight,
     //   -0.4rem 0 0 $highlight;
     padding-top: 0.05rem;
     padding-bottom: 0.05rem;
