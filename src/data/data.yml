@@ -309,11 +309,11 @@ semester:
         morning:
           teacher:
           lession:
-          comment:
+          comment: noch in Planung
         afternoon:
           teacher:
           lession:
-          comment:
+          comment: noch in Planung
     -
       KW: KW46-2017
       FR:
@@ -329,11 +329,11 @@ semester:
         morning:
           teacher:
           lession:
-          comment:
+          comment: noch in Planung
         afternoon:
           teacher:
           lession:
-          comment:
+          comment: noch in Planung
     -
       KW: KW47-2017
       FR:
@@ -380,7 +380,7 @@ semester:
         morning:
           teacher:
           lession:
-          comment:
+          comment: noch in Planung
         afternoon:
           teacher: UF
           lession: TecHistory
@@ -400,11 +400,11 @@ semester:
         morning:
           teacher:
           lession:
-          comment:
+          comment: noch in Planung
         afternoon:
           teacher:
           lession:
-          comment:
+          comment: noch in Planung
       SA:
         morning:
           teacher: HZ
@@ -484,7 +484,7 @@ semester:
         afternoon:
           teacher:
           lession:
-          comment:
+          comment: noch in Planung
       SA:
         morning:
           teacher: HZ
@@ -524,7 +524,7 @@ semester:
         afternoon:
           teacher:
           lession:
-          comment:
+          comment: noch in Planung
       SA:
         morning:
           teacher: HZ
