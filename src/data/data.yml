@@ -19,7 +19,7 @@ lessions:
     title: Experimentelles Erzählen
     color: bg-light-green
 
-  CommunityBuild:
+  community:
     title: Community Building
     color: bg-cold-green
 
@@ -259,11 +259,11 @@ semester:
       FR:
         morning:
           teacher: DF
-          lession: CommunityBuild
+          lession: community
           comment:
         afternoon:
           teacher: DF
-          lession: CommunityBuild
+          lession: community
           comment:
       SA:
         morning:
@@ -279,7 +279,7 @@ semester:
       FR:
         morning:
           teacher: DF
-          lession: CommunityBuild
+          lession: community
           comment:
         afternoon:
           teacher: UF
@@ -299,7 +299,7 @@ semester:
       FR:
         morning:
           teacher: DF
-          lession: CommunityBuild
+          lession: community
           comment:
         afternoon:
           teacher: SH
@@ -319,7 +319,7 @@ semester:
       FR:
         morning:
           teacher: DF
-          lession: CommunityBuild
+          lession: community
           comment:
         afternoon:
           teacher: UF
@@ -339,7 +339,7 @@ semester:
       FR:
         morning:
           teacher: DF
-          lession: CommunityBuild
+          lession: community
           comment:
         afternoon:
           teacher: SH
@@ -359,11 +359,11 @@ semester:
       FR:
         morning:
           teacher: DF
-          lession: CommunityBuild
+          lession: community
           comment:
         afternoon:
           teacher: DF
-          lession: CommunityBuild
+          lession: community
           comment:
       SA:
         morning:
