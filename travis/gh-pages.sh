@@ -56,7 +56,8 @@ cd ..
 
 # Clean out existing contents
 echo "-- clean up"
-rm -rf $DEPLOY_DIR/**/* || exit 0
+rm -rf $DEPLOY_DIR/**/* -excludes .git || exit 0
+rm -rf $DEPLOY_DIR/* -excludes .git || exit 0
 
 # Run our compile script
 echo "-- build"
