@@ -12,9 +12,9 @@
                 {{#each this.days}}
                   <li>
                     KW{{datecalc this.KW parse='[KW]ww-YYYY' format="ww"}}
-                    –
-                    {{datecalc this.KW parse='[KW]ww-YYYY' addDays=this.day format="DD.MM.YYYY"}}
-                    –
+                    ·
+                    {{datecalc this.KW parse='[KW]ww-YYYY' addDays=this.day format="dd · DD.MM.YYYY"}}
+                    ·
                     {{this.text}}
                   </li>
 
