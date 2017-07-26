@@ -3,7 +3,7 @@ lessions:
     title: LAB
     color: bg-dark-red
 
-  TecHistory:
+  ArtContext:
     title: Medien-/Technologiegeschichte
     color: bg-violet
 
@@ -123,7 +123,7 @@ semester:
           comment:
         afternoon:
           teacher: UF
-          lession: TecHistory
+          lession: ArtContext
           comment:
       SA:
         morning:
@@ -163,7 +163,7 @@ semester:
           comment:
         afternoon:
           teacher: UF
-          lession: TecHistory
+          lession: ArtContext
           comment:
       SA:
         morning:
@@ -203,7 +203,7 @@ semester:
           comment:
         afternoon:
           teacher: UF
-          lession: TecHistory
+          lession: ArtContext
           comment:
       SA:
         morning:
@@ -283,7 +283,7 @@ semester:
           comment:
         afternoon:
           teacher: UF
-          lession: TecHistory
+          lession: ArtContext
           comment:
       SA:
         morning:
@@ -323,7 +323,7 @@ semester:
           comment:
         afternoon:
           teacher: UF
-          lession: TecHistory
+          lession: ArtContext
           comment:
       SA:
         morning:
@@ -383,7 +383,7 @@ semester:
           comment: noch in Planung
         afternoon:
           teacher: UF
-          lession: TecHistory
+          lession: ArtContext
           comment:
       SA:
         morning:
