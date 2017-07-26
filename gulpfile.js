@@ -83,7 +83,7 @@ var shell = require('gulp-shell')
 
 gulp.task('yaml', function () {
   return gulp
-    .src('*.js', {read: false})
+    .src('index.js', {read: false})
     .pipe(shell([
       './node_modules/.bin/babel-node index.js',
       'echo finish'

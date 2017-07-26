@@ -194,6 +194,7 @@ class Semesterplan {
 
     let out = calendar.toString();
     fs.writeFileSync(this.path_ics, out);
+    console.log('ics written to ' + this.path_ics);
   }
 
 
@@ -258,6 +259,7 @@ class Semesterplan {
     let out = template(this.data);
 
     fs.writeFileSync(this.path_dest, out);
+    console.log('html written to ' + this.path_dest);
   }
 }
 
