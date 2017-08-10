@@ -331,13 +331,13 @@ semester:
           comment:
       SA:
         morning:
-          teacher:
-          lession:
-          comment: noch in Planung
+          teacher: HZ
+          lession: GridModule
+          comment:
         afternoon:
-          teacher:
-          lession:
-          comment: noch in Planung
+          teacher: HZ
+          lession: GridModule
+          comment:
     -
       KW: KW47-2017
       FR:
@@ -382,9 +382,9 @@ semester:
       KW: KW49-2017
       FR:
         morning:
-          teacher:
-          lession:
-          comment: noch in Planung
+          teacher: SH
+          lession: LAB
+          comment:
         afternoon:
           teacher: UF
           lession: ArtContext
@@ -403,8 +403,8 @@ semester:
       FR:
         morning:
           teacher:
-          lession:
-          comment: noch in Planung
+          lession: Costs
+          comment:
         afternoon:
           teacher:
           lession:
@@ -423,21 +423,21 @@ semester:
       FR:
         morning:
           teacher:
-          lession: Costs
-          comment:
+          lession:
+          comment: Weihnachtsferien
         afternoon:
-          teacher: SH
-          lession: LAB
-          comment:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
       SA:
         morning:
-          teacher: HZ
-          lession: GridModule
-          comment:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
         afternoon:
-          teacher: HZ
-          lession: GridModule
-          comment:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
     -
       KW: KW52-2017
       FR:
