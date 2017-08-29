@@ -108,7 +108,7 @@ semester:
         afternoon:
           teacher: SH
           lession: LAB
-          comment: (Unterrichtsstart: 12:45 Uhr)
+          comment: "(Unterrichtsstart: 12:45 Uhr)"
       SA:
         morning:
           teacher: BV
@@ -148,7 +148,7 @@ semester:
         afternoon:
           teacher: SH
           lession: LAB
-          comment: (Unterrichtsstart: 12:45 Uhr)
+          comment: "(Unterrichtsstart: 12:45 Uhr)"
       SA:
         morning:
           teacher: BV
@@ -188,7 +188,7 @@ semester:
         afternoon:
           teacher: SH
           lession: LAB
-          comment: (Unterrichtsstart: 12:45 Uhr)
+          comment: "(Unterrichtsstart: 12:45 Uhr)"
       SA:
         morning:
           teacher: BV
@@ -308,7 +308,7 @@ semester:
         afternoon:
           teacher: SH
           lession: LAB
-          comment: (Unterrichtsstart: 12:45 Uhr)
+          comment: "(Unterrichtsstart: 12:45 Uhr)"
       SA:
         morning:
           teacher:
@@ -348,7 +348,7 @@ semester:
         afternoon:
           teacher: SH
           lession: LAB
-          comment: (Unterrichtsstart: 12:45 Uhr)
+          comment: "(Unterrichtsstart: 12:45 Uhr)"
       SA:
         morning:
           teacher: HZ
@@ -508,7 +508,7 @@ semester:
         afternoon:
           teacher: SH
           lession: LAB
-          comment: (Unterrichtsstart: 12:45 Uhr)
+          comment: "(Unterrichtsstart: 12:45 Uhr)"
       SA:
         morning:
           teacher: HZ
