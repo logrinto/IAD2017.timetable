@@ -6,7 +6,7 @@ This is an early **beta** version. Everything is just quick and dirty. Don't loo
 
 ### ToDos
 * switch from gulp to webpack
-* switch parser to > markdown-it
+* switch parser to → markdown-it
 
 ### Status
 [![Build Status](https://travis-ci.org/logrinto/IAD2017.timetable.svg?branch=master)](https://travis-ci.org/logrinto/IAD2017.timetable) 
