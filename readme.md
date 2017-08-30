@@ -1,16 +1,15 @@
 # logrinto timetable
-Program to generate timetables.
+Program to generate timetables.  
+To edit the Data go [here](https://github.com/logrinto/IAD2017.timetable/blob/master/src/data/data.yml)
 
-### Status
-[![Build Status](https://travis-ci.org/logrinto/IAD2017.timetable.svg?branch=master)](https://travis-ci.org/logrinto/IAD2017.timetable) 
-
-This is an early beta version. Everything is just quick and dirty...
-
+This is an early **beta** version. Everything is just quick and dirty. Don't look too close...
 
 ### ToDos
 * switch from gulp to webpack
 * switch parser to > markdown-it
-* run ./node_modules/.bin/babel-node index.js
+
+### Status
+[![Build Status](https://travis-ci.org/logrinto/IAD2017.timetable.svg?branch=master)](https://travis-ci.org/logrinto/IAD2017.timetable) 
 
 ### License
 MIT. See also `license.txt`
