@@ -109,6 +109,17 @@ class Semesterplan {
       title = data.resolve.lession.title;
     }
 
+
+    var notes = '';
+    if (data.resolve.teacher) {
+      notes += 'Lehrer: ' + (data.resolve.teacher || 'noch offen');
+      notes += '\n\n';
+    }
+    if (data.comment) {
+      notes += data.comment;
+
+    }
+
     var properties = [
       new Property({ name: 'UID', value: uuid.v1() }),
       new Property({
@@ -141,7 +152,8 @@ class Semesterplan {
       }),
       new Property({
         name: 'DESCRIPTION',
-        value: 'Lehrer: ' + (data.resolve.teacher || 'noch offen'),
+
+        value: notes,
       }),
       // new Property({
       //   name: 'ATTENDEE',
