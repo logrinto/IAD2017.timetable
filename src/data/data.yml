@@ -508,7 +508,7 @@ semester:
         afternoon:
           teacher: SH
           lession: LAB
-          comment: "Unterrichtsstart: 12:45 Uhr"
+          comment: "Unterrichtsstart: 12:45 Uhr | Abgabe Dokumentation · Experimentelles Erzählen"
       SA:
         morning:
           teacher: HZ
