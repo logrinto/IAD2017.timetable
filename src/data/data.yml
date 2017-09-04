@@ -74,6 +74,7 @@ teachers:
   DF: Daniel Frei
   UF: Ulrike Felsing
   LG: Laurent Gachnang
+  UB: Urs Bernet
 
 
 semester:
@@ -402,7 +403,7 @@ semester:
       KW: KW50-2017
       FR:
         morning:
-          teacher:
+          teacher: UB
           lession: Costs
           comment:
         afternoon:
@@ -482,7 +483,7 @@ semester:
       KW: KW02-2018
       FR:
         morning:
-          teacher:
+          teacher: UB
           lession: Costs
           comment:
         afternoon:
@@ -502,7 +503,7 @@ semester:
       KW: KW03-2018
       FR:
         morning:
-          teacher:
+          teacher: UB
           lession: Costs
           comment:
         afternoon:
@@ -522,7 +523,7 @@ semester:
       KW: KW04-2018
       FR:
         morning:
-          teacher:
+          teacher: UB
           lession: Costs
           comment:
         afternoon:
