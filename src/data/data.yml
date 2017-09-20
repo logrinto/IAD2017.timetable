@@ -167,9 +167,9 @@ semester:
           lession: ReadScreen
           comment:
         afternoon:
-          teacher: UF
-          lession: ArtContext
-          comment:
+          teacher: SH
+          lession: LAB
+          comment: "Unterrichtsstart: 12:45 Uhr"
       SA:
         morning:
           teacher: BV
@@ -187,9 +187,9 @@ semester:
           lession: ReadScreen
           comment:
         afternoon:
-          teacher: SH
-          lession: LAB
-          comment: "Unterrichtsstart: 12:45 Uhr"
+          teacher: UF
+          lession: ArtContext
+          comment: 
       SA:
         morning:
           teacher: BV
