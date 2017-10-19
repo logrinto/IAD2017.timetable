@@ -1,0 +1,12 @@
+
+@mixin border-top() {
+  border-top-style: solid;
+  border-top-width: 0.5rem;
+  border-top-color: black;
+}
+
+@mixin border-bottom() {
+  border-bottom-style: solid;
+  border-bottom-width: 0.5rem;
+  border-bottom-color: black;
+}

@@ -1,0 +1,23 @@
+.lession {
+
+  @media print {
+      page-break-inside: avoid;
+  }
+
+
+  @each $value in $color-list {
+    .lession-bg--#{nth($value, 1)} {
+      background-color: nth($value, 2);
+    }
+  }
+  .id {
+    font-size: 0.6rem;
+  }
+
+  &-bg {
+      display: inline-block;
+      width: 2rem;
+      height: 1rem;
+      margin-right: 0.8rem;
+  }
+}

@@ -1,0 +1,625 @@
+id: IAD2017-2017HS
+data:
+  semester:
+    title: Herbstsemester 2017
+    slug: 2017-HS
+    class: IAD2017
+    room: Zimmer 510 · Schule für Gestaltung Zürich, Ausstellungsstrasse 104, 8005 Zürich
+    notes: Projektwoche 2018 – 16.7.-20.7.2018
+    links:
+      -
+        title: Frühlingssemester 2018
+        href: ./2018-FS
+
+
+  lessions:
+    -
+      id: LAB
+      title: LAB
+      color: dark-red
+    -
+      id: ArtContext
+      title: Medien-/Technologiegeschichte
+      color: violet
+    -
+      id: TypeHistory
+      title: Technologiegeschichte der Schrift
+      color: violet
+    -
+      id: FutureMngmnt
+      title: Zukunft – Umgang mit der Ungewissheit
+      color: petrol
+    -
+      id: ExpStory
+      title: Experimentelles Erzählen
+      color: light-green
+    -
+      id: community
+      title: Community Building
+      color: cold-green
+    -
+      id: InteractiveGraphic
+      title: Interaktive Grafiken
+      color: cyan
+    -
+      id: ReadScreen
+      title: Leseführung am Bildschirm (eBook)
+      color: green
+    -
+      id: ProjektWeek
+      title: Projektwoche
+      color: gray-violet
+
+  #  MobileTypo:
+  #    title: Typografie am mobilen Gerät
+  #    color: dark-green
+
+  #  Crossmedia:
+  #    title: Crossmedia von der Datenbank zur Ausgabe
+  #    color: gray-violet
+
+    -
+      id: GridModule
+      title: Grids & Modules  – Systeme für die Gestaltung
+      color: magenta
+    -
+      id: DiyHardware
+      title: Interaktion mit DIY–Hardware
+      color: bordeaux
+    -
+      id: Agil
+      title: Agile Planung
+      color: light-brown
+    -
+      id: Costs
+      title: Was kostet meine Stunde?
+      color: orange
+
+  #  Guest:
+  #    title: Gastreferat
+  #    color: mint
+
+  teachers:
+    -
+      id: T1
+      name: Lehrername
+    -
+      id: T2
+      name: Lehrername
+    -
+      id: SH
+      name: Stefan Huber
+    -
+      id: BV
+      name: Basil Vogt
+    -
+      id: MW
+      name: Martin Werren
+    -
+      id: VM
+      name: Victor Mazón Gardoqui
+    -
+      id: HZ
+      name: Hanna Züllig/Brigitte Lampert
+    -
+      id: DF
+      name: Daniel Frei
+    -
+      id: UF
+      name: Ulrike Felsing
+    -
+      id: LG
+      name: Laurent Gachnang
+    -
+      id: UB
+      name: Urs Bernet
+
+
+
+  date:
+    -
+      id: KW34-2017
+      FR:
+        morning:
+          teacher: SH
+          lession: LAB
+          comment: Einführung Lehrgang
+        afternoon:
+          teacher: SH
+          lession: LAB
+          comment: Einführung Lehrgang
+      SA:
+        morning:
+          teacher: BV
+          lession: ExpStory
+          comment:
+        afternoon:
+          teacher: MW
+          lession: Agil
+          comment:
+    -
+      id: KW35-2017
+      FR:
+        morning:
+          teacher: LG
+          lession: ReadScreen
+          comment: "9:00 Informatik → Einführung ownCloud"
+        afternoon:
+          teacher: SH
+          lession: LAB
+          comment: "Unterrichtsstart: 12:45 Uhr"
+      SA:
+        morning:
+          teacher: BV
+          lession: ExpStory
+          comment:
+        afternoon:
+          teacher: MW
+          lession: Agil
+          comment:
+    -
+      id: KW36-2017
+      FR:
+        morning:
+          teacher: LG
+          lession: ReadScreen
+          comment:
+        afternoon:
+          teacher: UF
+          lession: ArtContext
+          comment:
+      SA:
+        morning:
+          teacher: BV
+          lession: ExpStory
+          comment:
+        afternoon:
+          teacher: MW
+          lession: Agil
+          comment:
+    -
+      id: KW37-2017
+      FR:
+        morning:
+          teacher: LG
+          lession: ReadScreen
+          comment:
+        afternoon:
+          teacher: SH
+          lession: LAB
+          comment: "Unterrichtsstart: 12:45 Uhr"
+      SA:
+        morning:
+          teacher: BV
+          lession: ExpStory
+          comment:
+        afternoon:
+          teacher: MW
+          lession: Agil
+          comment:
+    -
+      id: KW38-2017
+      FR:
+        morning:
+          teacher: LG
+          lession: ReadScreen
+          comment:
+        afternoon:
+          teacher: SH
+          lession: LAB
+          comment: "Unterrichtsstart: 12:45 Uhr"
+      SA:
+        morning:
+          teacher: BV
+          lession: ExpStory
+          comment:
+        afternoon:
+          teacher: MW
+          lession: Agil
+          comment:
+    -
+      id: KW39-2017
+      FR:
+        morning:
+          teacher: LG
+          lession: ReadScreen
+          comment:
+        afternoon:
+          teacher: UF
+          lession: ArtContext
+          comment:
+      SA:
+        morning:
+          teacher: BV
+          lession: ExpStory
+          comment:
+        afternoon:
+          teacher: MW
+          lession: Agil
+          comment:
+    -
+      id: KW40-2017
+      FR:
+        morning:
+          teacher: LG
+          lession: ReadScreen
+          comment:
+        afternoon:
+          teacher: UF
+          lession: ArtContext
+          comment:
+      SA:
+        morning:
+          teacher: MW
+          lession: Agil
+          comment:
+        afternoon:
+          teacher: BV
+          lession: ExpStory
+          comment:
+    -
+      id: KW41-2017
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Herbstferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Herbstferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Herbstferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Herbstferien
+    -
+      id: KW42-2017
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Herbstferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Herbstferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Herbstferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Herbstferien
+    -
+      id: KW43-2017
+      FR:
+        morning:
+          teacher: DF
+          lession: community
+          comment:
+        afternoon:
+          teacher: DF
+          lession: community
+          comment:
+      SA:
+        morning:
+          teacher: BV
+          lession: ExpStory
+          comment:
+        afternoon:
+          teacher: BV
+          lession: ExpStory
+          comment:
+    -
+      id: KW44-2017
+      FR:
+        morning:
+          teacher: DF
+          lession: community
+          comment:
+        afternoon:
+          teacher: UF
+          lession: ArtContext
+          comment:
+      SA:
+        morning:
+          teacher: MW
+          lession: Agil
+          comment:
+        afternoon:
+          teacher: MW
+          lession: Agil
+          comment:
+    -
+      id: KW45-2017
+      FR:
+        morning:
+          teacher: DF
+          lession: community
+          comment:
+        afternoon:
+          teacher: SH
+          lession: LAB
+          comment: "Unterrichtsstart: 12:45 Uhr"
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: noch in Planung
+        afternoon:
+          teacher:
+          lession:
+          comment: noch in Planung
+    -
+      id: KW46-2017
+      FR:
+        morning:
+          teacher: DF
+          lession: community
+          comment:
+        afternoon:
+          teacher: UF
+          lession: ArtContext
+          comment:
+      SA:
+        morning:
+          teacher: HZ
+          lession: GridModule
+          comment:
+        afternoon:
+          teacher: HZ
+          lession: GridModule
+          comment:
+    -
+      id: KW47-2017
+      FR:
+        morning:
+          teacher: DF
+          lession: community
+          comment:
+        afternoon:
+          teacher: SH
+          lession: LAB
+          comment: "Unterrichtsstart: 12:45 Uhr"
+      SA:
+        morning:
+          teacher: HZ
+          lession: GridModule
+          comment:
+        afternoon:
+          teacher: HZ
+          lession: GridModule
+          comment:
+    -
+      id: KW48-2017
+      FR:
+        morning:
+          teacher: DF
+          lession: community
+          comment:
+        afternoon:
+          teacher: DF
+          lession: community
+          comment:
+      SA:
+        morning:
+          teacher: HZ
+          lession: GridModule
+          comment:
+        afternoon:
+          teacher: HZ
+          lession: GridModule
+          comment:
+    -
+      id: KW49-2017
+      FR:
+        morning:
+          teacher: SH
+          lession: LAB
+          comment:
+        afternoon:
+          teacher: UF
+          lession: ArtContext
+          comment:
+      SA:
+        morning:
+          teacher: HZ
+          lession: GridModule
+          comment:
+        afternoon:
+          teacher: HZ
+          lession: GridModule
+          comment:
+    -
+      id: KW50-2017
+      FR:
+        morning:
+          teacher: UB
+          lession: Costs
+          comment:
+        afternoon:
+          teacher:
+          lession:
+          comment: noch in Planung
+      SA:
+        morning:
+          teacher: HZ
+          lession: GridModule
+          comment:
+        afternoon:
+          teacher: HZ
+          lession: GridModule
+          comment:
+    -
+      id: KW51-2017
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+    -
+      id: KW52-2017
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+    -
+      id: KW01-2017
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+    -
+      id: KW02-2018
+      FR:
+        morning:
+          teacher: UB
+          lession: Costs
+          comment:
+        afternoon:
+          teacher:
+          lession:
+          comment: noch in Planung
+      SA:
+        morning:
+          teacher: HZ
+          lession: GridModule
+          comment:
+        afternoon:
+          teacher: HZ
+          lession: GridModule
+          comment:
+    -
+      id: KW03-2018
+      FR:
+        morning:
+          teacher: UB
+          lession: Costs
+          comment:
+        afternoon:
+          teacher: SH
+          lession: LAB
+          comment: "Unterrichtsstart: 12:45 Uhr | Abgabe Dokumentation · Experimentelles Erzählen"
+      SA:
+        morning:
+          teacher: HZ
+          lession: GridModule
+          comment:
+        afternoon:
+          teacher: HZ
+          lession: GridModule
+          comment:
+    -
+      id: KW04-2018
+      FR:
+        morning:
+          teacher: UB
+          lession: Costs
+          comment:
+        afternoon:
+          teacher:
+          lession:
+          comment: noch in Planung
+      SA:
+        morning:
+          teacher: HZ
+          lession: GridModule
+          comment:
+        afternoon:
+          teacher: HZ
+          lession: GridModule
+          comment:
+    -
+      id: KW05-2018
+      FR:
+        morning:
+          teacher: VM
+          lession: DiyHardware
+          comment:
+        afternoon:
+          teacher: VM
+          lession: DiyHardware
+          comment:
+      SA:
+        morning:
+          teacher: VM
+          lession: DiyHardware
+          comment:
+        afternoon:
+          teacher: VM
+          lession: DiyHardware
+          comment:
+    -
+      id: KW06-2018
+      week:
+        teacher:
+        lession: ProjektWeek
+        comment: Montag bis Freitag
+    -
+      id: KW07-2018
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Sportferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sportferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Sportferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sportferien

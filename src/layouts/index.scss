@@ -1,0 +1,33 @@
+@import "./styles/_includes.scss";
+
+@import "~susy/sass/susy";
+
+$susy: (
+  columns: 16,
+  gutters: 0,
+  math: fluid,
+  output: float,
+  // debug: (image: show),
+);
+
+$susy: (
+  'columns': susy-repeat(16),
+  'gutters': 0.25,
+);
+
+
+@import "./styles/color.scss";
+@import "./styles/font.scss";
+@import "./styles/html.scss";
+
+
+@import "../components/semester/style.scss";
+@import "../components/weeks/style.scss";
+@import "../components/week/style.scss";
+@import "../components/halfday/style.scss";
+
+
+@import "../components/lessions/style.scss";
+@import "../components/lession/style.scss";
+
+@import "../components/tableview/style.scss";

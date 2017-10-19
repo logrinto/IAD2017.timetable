@@ -36,18 +36,3 @@ $color-list: (
 	gray           $c_gray        ,
 	mint           $c_mint        ,
 );
-
-
-@mixin bgcolor ($name, $color) {
-
-  .bg-#{$name} {
-	background-color: $color;
-  }
-}
-
-@each $value in $color-list {
-  @include bgcolor(nth($value, 1), nth($value, 2));
-}
-
-
-

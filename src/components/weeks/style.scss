@@ -1,0 +1,38 @@
+.weeks-header {
+  // @include container;
+
+  position: sticky;
+  top: -3rem;
+  background-color: white;
+
+  @media print {
+    position: relative;
+    top: 0;
+  }
+
+  &-inner {
+    @include border-top();
+    @include border-bottom();
+
+    display: flex;
+
+    &--morning,
+    &--afternoon {
+      flex: 1 1 span(6);
+      p {
+        padding-left: 0.6rem;
+        padding-top: 2rem;
+        padding-bottom: 0.5rem;
+        margin-bottom: 0;
+      }
+    }
+    &--morning {
+      margin-left: span(4);
+      padding-left: gutter();
+    }
+  }
+}
+
+.weeks-header + .week {
+  border-top-width: 0;
+}

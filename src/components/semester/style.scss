@@ -1,0 +1,40 @@
+.semester {
+
+    	padding: 3rem;
+    	width: calc(100% - 6rem);
+
+      .navigation {
+        ul {
+          margin: 0;
+          padding: 0;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: left;
+          list-style: none;
+
+          li {
+            flex: 0 1 auto;
+            padding-right: 1rem;
+          }
+        }
+      }
+
+    @media print {
+        width: 120rem;
+        column-count: 2;
+        column-gap: 2em;
+        column-rule: 0.5rem solid black;
+
+        .noPrint {
+         display: none;
+        }
+
+
+      .pagebreak {
+        // page-break-after: always;
+        page-break-before: always;
+      }
+  }
+
+
+}
