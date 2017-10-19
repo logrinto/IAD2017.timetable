@@ -1,6 +1,6 @@
 .halfday {
 
-
+  hyphens: auto;
 
   @each $value in $color-list {
     .halfday-bg--#{nth($value, 1)} {
@@ -12,6 +12,7 @@
     min-height: 4rem;
 
     padding-left: 0.6rem;
+    padding-right: 0.6rem;
     padding-top: 0.6rem;
     padding-bottom: 0.5rem;
   }

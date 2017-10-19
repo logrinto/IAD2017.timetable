@@ -15,7 +15,7 @@ const Week = ({ data, teachers, lessions }) => {
             <span className="bold">
               KW{moment(data.id, '[KW]ww-YYYY').format('ww · YYYY')}
             </span><br />
-            {moment(data.id, '[KW]ww-YYYY').add(5, 'days').format('DD.MM')}/
+          {moment(data.id, '[KW]ww-YYYY').add(5, 'days').format('DD.MM')}/&shy;
             {moment(data.id, '[KW]ww-YYYY').add(6, 'days').format('DD.MM.YYYY')}
           </p>
         </div>

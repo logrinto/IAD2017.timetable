@@ -27,7 +27,7 @@ module.exports = class HTML extends React.Component {
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta
             name="viewport"
-            content="width=800"
+            content="width=640"
           />
           {/*<meta
             name="viewport"
