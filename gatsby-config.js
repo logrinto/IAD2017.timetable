@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `IAD`,
   },
+  pathPrefix: `/IAD2017.timetable`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-yaml`,
