@@ -4,7 +4,7 @@ import Lessions from '../lessions/lessions.js'
 // import './style.scss';
 
 const Semester = ({ semester, data, teachers, lessions }) => {
-  console.log('Semester', data);
+  // console.log('Semester', data);
   return (<div className="semester">
     <h1>{semester.title}</h1>
     <h3>{semester.room}</h3>

@@ -3,7 +3,7 @@ import Week from '../week/week.js'
 // import './style.scss';
 
 const Weeks = ({ data, teachers, lessions }) => {
-  console.log('Weeks', data);
+  // console.log('Weeks', data);
   return (<div>
 
     <div className="weeks-header">

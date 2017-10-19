@@ -4,7 +4,7 @@ import Tableview from '../tableview/tableview.js'
 // import './style.scss';
 
 const Lession = ({ data, teachers, lession, details }) => {
-  console.log('lession data', data);
+  // console.log('lession data', data);
 
   var total = data.reduce( (sum, item) => {
     let newSum = sum;

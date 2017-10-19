@@ -4,7 +4,7 @@ import Halfday from '../halfday/halfday.js'
 // import './style.scss';
 
 const Week = ({ data, teachers, lessions }) => {
-  console.log('Week', data);
+  // console.log('Week', data);
   return (<div className="week">
 
     <div className="week--text">
