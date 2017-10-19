@@ -22,7 +22,7 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "build": "yarn run gatsby-build && yarn run ics",
+    "build": "npm run gatsby-build && npm run ics",
     "gatsby-build": "gatsby build",
     "start": "gatsby develop",
     "ics": "./node_modules/.bin/babel-node --presets es2015 ./src/ics.js",
