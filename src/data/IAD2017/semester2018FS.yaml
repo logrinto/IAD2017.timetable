@@ -120,505 +120,519 @@ data:
       id: KW08-2018
       FR:
         morning:
-          teacher: SH
-          lession: LAB
-          comment: Einführung Lehrgang
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: SH
-          lession: LAB
-          comment: Einführung Lehrgang
+          teacher: 
+          lession: 
+          comment: 
       SA:
         morning:
-          teacher: BV
-          lession: ExpStory
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: MW
-          lession: Agil
-          comment:
+          teacher: 
+          lession: 
+          comment: 
     -
       id: KW09-2018
       FR:
         morning:
-          teacher: LG
-          lession: ReadScreen
-          comment: "9:00 Informatik → Einführung ownCloud"
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: SH
-          lession: LAB
-          comment: "Unterrichtsstart: 12:45 Uhr"
+          teacher: 
+          lession: 
+          comment: 
       SA:
         morning:
-          teacher: BV
-          lession: ExpStory
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: MW
-          lession: Agil
-          comment:
+          teacher: 
+          lession: 
+          comment: 
     -
       id: KW10-2018
       FR:
         morning:
-          teacher: LG
-          lession: ReadScreen
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: UF
-          lession: ArtContext
-          comment:
+          teacher: 
+          lession: 
+          comment: 
       SA:
         morning:
-          teacher: BV
-          lession: ExpStory
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: MW
-          lession: Agil
-          comment:
+          teacher: 
+          lession: 
+          comment: 
     -
       id: KW11-2018
       FR:
         morning:
-          teacher: LG
-          lession: ReadScreen
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: SH
-          lession: LAB
-          comment: "Unterrichtsstart: 12:45 Uhr"
+          teacher: 
+          lession: 
+          comment: 
       SA:
         morning:
-          teacher: BV
-          lession: ExpStory
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: MW
-          lession: Agil
-          comment:
+          teacher: 
+          lession: 
+          comment: 
     -
       id: KW12-2018
       FR:
         morning:
-          teacher: LG
-          lession: ReadScreen
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: UF
-          lession: ArtContext
-          comment:
+          teacher: 
+          lession: 
+          comment: 
       SA:
         morning:
-          teacher: BV
-          lession: ExpStory
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: MW
-          lession: Agil
-          comment:
+          teacher: 
+          lession: 
+          comment: 
     -
       id: KW13-2018
       FR:
         morning:
-          teacher: LG
-          lession: ReadScreen
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: SH
-          lession: LAB
-          comment: "Unterrichtsstart: 12:45 Uhr"
+          teacher: 
+          lession: 
+          comment: 
       SA:
         morning:
-          teacher: BV
-          lession: ExpStory
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: MW
-          lession: Agil
-          comment:
+          teacher: 
+          lession: 
+          comment: 
     -
       id: KW14-2018
       FR:
         morning:
-          teacher: LG
-          lession: ReadScreen
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: UF
-          lession: ArtContext
-          comment:
+          teacher: 
+          lession: 
+          comment: 
       SA:
         morning:
-          teacher: MW
-          lession: Agil
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: BV
-          lession: ExpStory
-          comment:
+          teacher: 
+          lession: 
+          comment: 
     -
       id: KW15-2018
       FR:
         morning:
-          teacher:
-          lession:
-          comment: Herbstferien
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher:
-          lession:
-          comment: Herbstferien
+          teacher: 
+          lession: 
+          comment: 
       SA:
         morning:
-          teacher:
-          lession:
-          comment: Herbstferien
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher:
-          lession:
-          comment: Herbstferien
+          teacher: 
+          lession: 
+          comment: 
     -
       id: KW16-2018
       FR:
         morning:
-          teacher:
-          lession:
-          comment: Herbstferien
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher:
-          lession:
-          comment: Herbstferien
+          teacher: 
+          lession: 
+          comment: 
       SA:
         morning:
-          teacher:
-          lession:
-          comment: Herbstferien
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher:
-          lession:
-          comment: Herbstferien
+          teacher: 
+          lession: 
+          comment: 
     -
       id: KW17-2018
       FR:
         morning:
-          teacher: DF
-          lession: community
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: DF
-          lession: community
-          comment:
+          teacher: 
+          lession: 
+          comment: 
       SA:
         morning:
-          teacher: BV
-          lession: ExpStory
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: BV
-          lession: ExpStory
-          comment:
+          teacher: 
+          lession: 
+          comment: 
     -
       id: KW18-2018
       FR:
         morning:
-          teacher: DF
-          lession: community
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: UF
-          lession: ArtContext
-          comment:
+          teacher: 
+          lession: 
+          comment: 
       SA:
         morning:
-          teacher: MW
-          lession: Agil
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: MW
-          lession: Agil
-          comment:
+          teacher: 
+          lession: 
+          comment: 
     -
       id: KW19-2018
       FR:
         morning:
-          teacher: DF
-          lession: community
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: SH
-          lession: LAB
-          comment: "Unterrichtsstart: 12:45 Uhr"
+          teacher: 
+          lession: 
+          comment: 
       SA:
         morning:
-          teacher:
-          lession:
-          comment: noch in Planung
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher:
-          lession:
-          comment: noch in Planung
+          teacher: 
+          lession: 
+          comment: 
     -
       id: KW20-2018
       FR:
         morning:
-          teacher: DF
-          lession: community
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: UF
-          lession: ArtContext
-          comment:
+          teacher: 
+          lession: 
+          comment: 
       SA:
         morning:
-          teacher: HZ
-          lession: GridModule
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: HZ
-          lession: GridModule
-          comment:
+          teacher: 
+          lession: 
+          comment: 
     -
       id: KW21-2018
       FR:
         morning:
-          teacher: DF
-          lession: community
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: SH
-          lession: LAB
-          comment: "Unterrichtsstart: 12:45 Uhr"
+          teacher: 
+          lession: 
+          comment: 
       SA:
         morning:
-          teacher: HZ
-          lession: GridModule
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: HZ
-          lession: GridModule
-          comment:
+          teacher: 
+          lession: 
+          comment: 
     -
       id: KW22-2018
       FR:
         morning:
-          teacher: DF
-          lession: community
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: DF
-          lession: community
-          comment:
+          teacher: 
+          lession: 
+          comment: 
       SA:
         morning:
-          teacher: HZ
-          lession: GridModule
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: HZ
-          lession: GridModule
-          comment:
+          teacher: 
+          lession: 
+          comment: 
     -
       id: KW23-2018
       FR:
         morning:
-          teacher: SH
-          lession: LAB
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: UF
-          lession: ArtContext
-          comment:
+          teacher: 
+          lession: 
+          comment: 
       SA:
         morning:
-          teacher: HZ
-          lession: GridModule
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: HZ
-          lession: GridModule
-          comment:
+          teacher: 
+          lession: 
+          comment: 
     -
       id: KW24-2018
       FR:
         morning:
-          teacher: UB
-          lession: Costs
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher:
-          lession:
-          comment: noch in Planung
+          teacher: 
+          lession: 
+          comment: 
       SA:
         morning:
-          teacher: HZ
-          lession: GridModule
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: HZ
-          lession: GridModule
-          comment:
+          teacher: 
+          lession: 
+          comment: 
     -
       id: KW25-2018
       FR:
         morning:
-          teacher:
-          lession:
-          comment: Weihnachtsferien
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher:
-          lession:
-          comment: Weihnachtsferien
+          teacher: 
+          lession: 
+          comment: 
       SA:
         morning:
-          teacher:
-          lession:
-          comment: Weihnachtsferien
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher:
-          lession:
-          comment: Weihnachtsferien
+          teacher: 
+          lession: 
+          comment: 
     -
       id: KW26-2018
       FR:
         morning:
-          teacher:
-          lession:
-          comment: Weihnachtsferien
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher:
-          lession:
-          comment: Weihnachtsferien
+          teacher: 
+          lession: 
+          comment: 
       SA:
         morning:
-          teacher:
-          lession:
-          comment: Weihnachtsferien
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher:
-          lession:
-          comment: Weihnachtsferien
+          teacher: 
+          lession: 
+          comment: 
     -
       id: KW27-2017
       FR:
         morning:
-          teacher:
-          lession:
-          comment: Weihnachtsferien
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher:
-          lession:
-          comment: Weihnachtsferien
+          teacher: 
+          lession: 
+          comment: 
       SA:
         morning:
-          teacher:
-          lession:
-          comment: Weihnachtsferien
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher:
-          lession:
-          comment: Weihnachtsferien
+          teacher: 
+          lession: 
+          comment: 
     -
       id: KW28-2018
       FR:
         morning:
-          teacher: UB
-          lession: Costs
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher:
-          lession:
-          comment: noch in Planung
+          teacher: 
+          lession: 
+          comment: 
       SA:
         morning:
-          teacher: HZ
-          lession: GridModule
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: HZ
-          lession: GridModule
-          comment:
+          teacher: 
+          lession: 
+          comment: 
     -
       id: KW29-2018
       FR:
         morning:
-          teacher: UB
-          lession: Costs
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: SH
-          lession: LAB
-          comment: "Unterrichtsstart: 12:45 Uhr | Abgabe Dokumentation · Experimentelles Erzählen"
+          teacher: 
+          lession: 
+          comment: 
       SA:
         morning:
-          teacher: HZ
-          lession: GridModule
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: HZ
-          lession: GridModule
-          comment:
+          teacher: 
+          lession: 
+          comment: 
     -
       id: KW30-2018
       FR:
         morning:
-          teacher: UB
-          lession: Costs
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher:
-          lession:
-          comment: noch in Planung
+          teacher: 
+          lession: 
+          comment: 
       SA:
         morning:
-          teacher: HZ
-          lession: GridModule
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: HZ
-          lession: GridModule
-          comment:
+          teacher: 
+          lession: 
+          comment: 
     -
       id: KW31-2018
       FR:
         morning:
-          teacher: VM
-          lession: DiyHardware
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: VM
-          lession: DiyHardware
-          comment:
+          teacher: 
+          lession: 
+          comment: 
       SA:
         morning:
-          teacher: VM
-          lession: DiyHardware
-          comment:
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher: VM
-          lession: DiyHardware
-          comment:
+          teacher: 
+          lession: 
+          comment: 
     -
       id: KW32-2018
-      week:
-        teacher:
-        lession: ProjektWeek
-        comment: Montag bis Freitag
+      FR:
+        morning:
+          teacher: 
+          lession: 
+          comment: 
+        afternoon:
+          teacher: 
+          lession: 
+          comment: 
+      SA:
+        morning:
+          teacher: 
+          lession: 
+          comment: 
+        afternoon:
+          teacher: 
+          lession: 
+          comment: 
     -
       id: KW33-2018
       FR:
         morning:
-          teacher:
-          lession:
-          comment: Sportferien
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher:
-          lession:
-          comment: Sportferien
+          teacher: 
+          lession: 
+          comment: 
       SA:
         morning:
-          teacher:
-          lession:
-          comment: Sportferien
+          teacher: 
+          lession: 
+          comment: 
         afternoon:
-          teacher:
-          lession:
-          comment: Sportferien
+          teacher: 
+          lession: 
+          comment: 
