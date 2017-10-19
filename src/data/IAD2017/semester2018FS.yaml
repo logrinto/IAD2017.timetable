@@ -117,7 +117,7 @@ data:
 
   date:
     -
-      id: KW34-2017
+      id: KW08-2018
       FR:
         morning:
           teacher: SH
@@ -137,7 +137,7 @@ data:
           lession: Agil
           comment:
     -
-      id: KW35-2017
+      id: KW09-2018
       FR:
         morning:
           teacher: LG
@@ -157,7 +157,7 @@ data:
           lession: Agil
           comment:
     -
-      id: KW36-2017
+      id: KW10-2018
       FR:
         morning:
           teacher: LG
@@ -177,7 +177,7 @@ data:
           lession: Agil
           comment:
     -
-      id: KW37-2017
+      id: KW11-2018
       FR:
         morning:
           teacher: LG
@@ -197,7 +197,7 @@ data:
           lession: Agil
           comment:
     -
-      id: KW38-2017
+      id: KW12-2018
       FR:
         morning:
           teacher: LG
@@ -217,7 +217,7 @@ data:
           lession: Agil
           comment:
     -
-      id: KW39-2017
+      id: KW13-2018
       FR:
         morning:
           teacher: LG
@@ -237,7 +237,7 @@ data:
           lession: Agil
           comment:
     -
-      id: KW40-2017
+      id: KW14-2018
       FR:
         morning:
           teacher: LG
@@ -257,7 +257,7 @@ data:
           lession: ExpStory
           comment:
     -
-      id: KW41-2017
+      id: KW15-2018
       FR:
         morning:
           teacher:
@@ -277,7 +277,7 @@ data:
           lession:
           comment: Herbstferien
     -
-      id: KW42-2017
+      id: KW16-2018
       FR:
         morning:
           teacher:
@@ -297,7 +297,7 @@ data:
           lession:
           comment: Herbstferien
     -
-      id: KW43-2017
+      id: KW17-2018
       FR:
         morning:
           teacher: DF
@@ -317,7 +317,7 @@ data:
           lession: ExpStory
           comment:
     -
-      id: KW44-2017
+      id: KW18-2018
       FR:
         morning:
           teacher: DF
@@ -337,7 +337,7 @@ data:
           lession: Agil
           comment:
     -
-      id: KW45-2017
+      id: KW19-2018
       FR:
         morning:
           teacher: DF
@@ -357,7 +357,7 @@ data:
           lession:
           comment: noch in Planung
     -
-      id: KW46-2017
+      id: KW20-2018
       FR:
         morning:
           teacher: DF
@@ -377,7 +377,7 @@ data:
           lession: GridModule
           comment:
     -
-      id: KW47-2017
+      id: KW21-2018
       FR:
         morning:
           teacher: DF
@@ -397,7 +397,7 @@ data:
           lession: GridModule
           comment:
     -
-      id: KW48-2017
+      id: KW22-2018
       FR:
         morning:
           teacher: DF
@@ -417,7 +417,7 @@ data:
           lession: GridModule
           comment:
     -
-      id: KW49-2017
+      id: KW23-2018
       FR:
         morning:
           teacher: SH
@@ -437,7 +437,7 @@ data:
           lession: GridModule
           comment:
     -
-      id: KW50-2017
+      id: KW24-2018
       FR:
         morning:
           teacher: UB
@@ -457,7 +457,7 @@ data:
           lession: GridModule
           comment:
     -
-      id: KW51-2017
+      id: KW25-2018
       FR:
         morning:
           teacher:
@@ -477,7 +477,7 @@ data:
           lession:
           comment: Weihnachtsferien
     -
-      id: KW52-2017
+      id: KW26-2018
       FR:
         morning:
           teacher:
@@ -497,7 +497,7 @@ data:
           lession:
           comment: Weihnachtsferien
     -
-      id: KW01-2017
+      id: KW27-2017
       FR:
         morning:
           teacher:
@@ -517,7 +517,7 @@ data:
           lession:
           comment: Weihnachtsferien
     -
-      id: KW02-2018
+      id: KW28-2018
       FR:
         morning:
           teacher: UB
@@ -537,7 +537,7 @@ data:
           lession: GridModule
           comment:
     -
-      id: KW03-2018
+      id: KW29-2018
       FR:
         morning:
           teacher: UB
@@ -557,7 +557,7 @@ data:
           lession: GridModule
           comment:
     -
-      id: KW04-2018
+      id: KW30-2018
       FR:
         morning:
           teacher: UB
@@ -577,7 +577,7 @@ data:
           lession: GridModule
           comment:
     -
-      id: KW05-2018
+      id: KW31-2018
       FR:
         morning:
           teacher: VM
@@ -597,13 +597,13 @@ data:
           lession: DiyHardware
           comment:
     -
-      id: KW06-2018
+      id: KW32-2018
       week:
         teacher:
         lession: ProjektWeek
         comment: Montag bis Freitag
     -
-      id: KW07-2018
+      id: KW33-2018
       FR:
         morning:
           teacher:
