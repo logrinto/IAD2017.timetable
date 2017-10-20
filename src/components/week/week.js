@@ -5,7 +5,7 @@ import Halfday from '../halfday/halfday.js'
 
 const Week = ({ data, teachers, lessions }) => {
   // console.log('Week', data);
-  return (<div className="week">
+  return (<div id={data.id} className="week">
 
     <div className="week--text">
 
