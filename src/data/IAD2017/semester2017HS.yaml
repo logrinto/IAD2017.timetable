@@ -49,7 +49,10 @@ data:
       id: ProjektWeek
       title: Projektwoche
       color: gray-violet
-
+    -
+      id: csInterface
+      title: Case Study – Interface
+      color: violet
   #  MobileTypo:
   #    title: Typografie am mobilen Gerät
   #    color: dark-green
@@ -113,6 +116,9 @@ data:
     -
       id: UB
       name: Urs Bernet
+    -
+      id: JS-SH
+      name: Jonas Shriqui & Stefan Huber
 
 
 
@@ -343,20 +349,20 @@ data:
         morning:
           teacher: DF
           lession: community
-          comment:
+          comment: "Analyse und Verbesserung eines bestehenden Interfaces."
         afternoon:
           teacher: SH
           lession: LAB
           comment: "Unterrichtsstart: 12:45 Uhr"
       SA:
         morning:
-          teacher:
-          lession:
+          teacher: JS-SH
+          lession: csInterface
           comment: noch in Planung
         afternoon:
-          teacher:
-          lession:
-          comment: noch in Planung
+          teacher: JS-SH
+          lession: csInterface
+          comment: "Unterrichtsstart: 12:45 Uhr"
     -
       id: KW46-2017
       FR:
