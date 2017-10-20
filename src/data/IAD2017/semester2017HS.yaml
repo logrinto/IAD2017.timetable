@@ -349,7 +349,7 @@ data:
         morning:
           teacher: DF
           lession: community
-          comment: "Analyse und Verbesserung eines bestehenden Interfaces."
+          comment:
         afternoon:
           teacher: SH
           lession: LAB
@@ -358,7 +358,7 @@ data:
         morning:
           teacher: JS-SH
           lession: csInterface
-          comment: noch in Planung
+          comment: "Analyse und Verbesserung eines bestehenden Interfaces."
         afternoon:
           teacher: JS-SH
           lession: csInterface
