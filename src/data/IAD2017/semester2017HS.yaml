@@ -52,7 +52,7 @@ data:
     -
       id: csInterface
       title: Case Study – Interface
-      color: violet
+      color: mint
   #  MobileTypo:
   #    title: Typografie am mobilen Gerät
   #    color: dark-green
