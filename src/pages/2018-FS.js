@@ -3,7 +3,6 @@ import Link from 'gatsby-link'
 import Semester from '../components/semester/semester.js'
 
 const IndexPage = ({ data }) => {
-  console.log('root', data);
   let root = data.allIad2017Yaml.edges[1].node.data;
   return <Semester
         semester={root.semester}

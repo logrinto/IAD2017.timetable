@@ -8,9 +8,11 @@
     page-break-inside: avoid;
   }
 
-  // p {
-  //   margin-top: 0;
-  // }
+  &--jump {
+    margin-top: -3rem;        /* Size of fixed header */
+    padding-bottom: 3rem;
+    display: block;
+  }
 
   &-header {
     display: flex;

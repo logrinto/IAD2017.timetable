@@ -1,61 +1,74 @@
 import React from 'react';
 import Weeks from '../weeks/weeks.js'
 import Lessions from '../lessions/lessions.js'
+import moment from 'moment'
 // import './style.scss';
 
-const Semester = ({ semester, data, teachers, lessions }) => {
-  // console.log('Semester', data);
-  return (<div className="semester">
-    <h1>{semester.title}</h1>
-    <h3>{semester.room}</h3>
-    <p>Klasse {semester.class} · Änderungen vorbehalten.</p>
 
-    <div className="navigation noPrint">
-      <ul>
-        {semester.links.map((link) => <li><a key={link.href} href={link.href}>→ {link.title}</a></li>)}
-      </ul>
-    </div>
+class Semester extends React.Component {
 
-    <Lessions
-        data={data}
-        teachers={teachers}
-        lessions={lessions}
-      />
-    <Weeks
-        data={data}
-        teachers={teachers}
-        lessions={lessions}
-      />
+  componentDidMount() {
+    this.setState({defaultLink: moment().format('[KW]ww-YYYY')})
+  }
 
-      <div className="pagebreak"></div>
+  render() {
+    let { semester, data, teachers, lessions } = this.props
 
-    <Lessions
-        data={data}
-        teachers={teachers}
-        lessions={lessions}
-        details={true}
-      />
+    return (<div className="semester">
+      <h1>{semester.title}</h1>
+      <h3>{semester.room}</h3>
+      <p>Klasse {semester.class} · Änderungen vorbehalten.</p>
+
+      <div className="navigation noPrint">
+        <ul>
+          {semester.links.map((link) => <li key={link.href}><a href={link.href}>→ {link.title}</a></li>)}
+        </ul>
+      </div>
 
 
-    <br /><br /><br /><br /><br />
+      {this.state && this.state.defaultLink && <a href={`#${this.state.defaultLink}`}>↓ aktuell</a>}
+
+      <Lessions
+          data={data}
+          teachers={teachers}
+          lessions={lessions}
+        />
+      <Weeks
+          data={data}
+          teachers={teachers}
+          lessions={lessions}
+        />
+
+        <div className="pagebreak"></div>
+
+      <Lessions
+          data={data}
+          teachers={teachers}
+          lessions={lessions}
+          details={true}
+        />
 
 
-    <h3>{semester.notes}</h3>
+      <br /><br /><br /><br /><br />
 
 
-    <div className="noPrint">
+      <h3>{semester.notes}</h3>
 
-        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-        <div>
-          <a href="https://github.com/logrinto/IAD2017.timetable" target="_blank">→ Stundenplan auf Github </a>
-          <a href="webcal://logrinto.github.io/IAD2017.timetable/IAD.ics" target="_blank">→ Stundenplan abonnieren</a>
-        </div>
+      <div className="noPrint">
 
-    </div>
+          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-  </div>)
+          <div>
+            <a href="https://github.com/logrinto/IAD2017.timetable" target="_blank">→ Stundenplan auf Github </a>
+            <a href="webcal://logrinto.github.io/IAD2017.timetable/IAD.ics" target="_blank">→ Stundenplan abonnieren</a>
+          </div>
+
+      </div>
+
+    </div>)
+  }
 }
 
 export default Semester
