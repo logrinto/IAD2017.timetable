@@ -358,7 +358,7 @@ data:
         morning:
           teacher: JS-SH
           lession: csInterface
-          comment: "Analyse und Verbesserung eines bestehenden Interfaces."
+          comment: "Unterrichtsstart: 8:15 Uhr | Ort: Treffpunk Zürich HB | Analyse und Verbesserung eines bestehenden Interfaces."
         afternoon:
           teacher: JS-SH
           lession: csInterface
@@ -553,7 +553,7 @@ data:
         afternoon:
           teacher: SH
           lession: LAB
-          comment: "Unterrichtsstart: 12:45 Uhr | Abgabe Dokumentation · Experimentelles Erzählen"
+          comment: "Unterrichtsstart: 12:45 Uhr | Coding Grids & Modules | Abgabe Dokumentation · Experimentelles Erzählen"
       SA:
         morning:
           teacher: HZ
