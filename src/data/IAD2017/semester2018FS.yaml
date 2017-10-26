@@ -25,7 +25,7 @@ data:
       title: Technologiegeschichte der Schrift
       color: violet
     -
-      id: FutureMngmnt
+      id: ChangeMngmnt
       title: Zukunft – Umgang mit der Ungewissheit
       color: petrol
     -
@@ -44,10 +44,66 @@ data:
       id: ReadScreen
       title: Leseführung am Bildschirm (eBook)
       color: green
+
+    -
+      id: Publisher
+      title: Verlegen und Verlage (eBook)
+      color: green
+
+
+    -
+      id: YouTube
+      title: YouTube – Inhalte von Stars
+      color: light-brown
+    -
+      id: csInterface
+      title: Case Study – Interface
+      color: mint
+
+
+
+
+    -
+      id: MoDesign
+      title: Motion Design
+      color: cyan
+
     -
       id: ProjektWeek
       title: Projektwoche
       color: gray-violet
+
+
+    -
+      id: DataJournalism
+      title: Interaktion und Journalismus
+      color: gray-violet
+
+
+    -
+      id: IoT
+      title: Internet of Things
+      color: magenta
+
+    -
+      id: Fontdesign
+      title: Fontdesign
+      color: cold-green
+
+    -
+      id: FontOnScreen
+      title: Bildschirme und Fonts
+      color: green-gray
+
+    -
+      id: Storytelling
+      title: Vom Platzhalter zur Geschichte
+      color: black
+
+
+
+
+
 
   #  MobileTypo:
   #    title: Typografie am mobilen Gerät
@@ -73,7 +129,10 @@ data:
       id: Costs
       title: Was kostet meine Stunde?
       color: orange
-
+    -
+      id: Business
+      title: Unternehmensziele
+      color: orange
   #  Guest:
   #    title: Gastreferat
   #    color: mint
@@ -120,519 +179,505 @@ data:
       id: KW08-2018
       FR:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: Publisher
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: LAB
+          comment:
       SA:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: MoDesign
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: MoDesign
+          comment:
     -
       id: KW09-2018
       FR:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: Publisher
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: ArtContext
+          comment:
       SA:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: YouTube
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: MoDesign
+          comment:
     -
       id: KW10-2018
       FR:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: Publisher
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: LAB
+          comment:
       SA:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: YouTube
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: MoDesign
+          comment:
     -
       id: KW11-2018
       FR:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: Publisher
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: ArtContext
+          comment:
       SA:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: YouTube
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: MoDesign
+          comment:
     -
       id: KW12-2018
       FR:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: Publisher
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: LAB
+          comment:
       SA:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: YouTube
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: MoDesign
+          comment:
     -
       id: KW13-2018
       FR:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Karfreitag
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Karfreitag
       SA:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Ostern
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Ostern
     -
       id: KW14-2018
       FR:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: Publisher
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: LAB
+          comment:
       SA:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: FontOnScreen
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: MoDesign
+          comment:
     -
       id: KW15-2018
       FR:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: FontOnScreen
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: ArtContext
+          comment:
       SA:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: DataJournalism
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: DataJournalism
+          comment:
     -
       id: KW16-2018
       FR:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: Fontdesign
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: LAB
+          comment:
       SA:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: DataJournalism
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: DataJournalism
+          comment:
     -
       id: KW17-2018
       FR:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Frühlingsferien
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Frühlingsferien
       SA:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Frühlingsferien
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Frühlingsferien
     -
       id: KW18-2018
       FR:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Frühlingsferien
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Frühlingsferien
       SA:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Frühlingsferien
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Frühlingsferien
     -
       id: KW19-2018
       FR:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Auffahrt
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Auffahrt
       SA:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Auffahrt
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Auffahrt
     -
       id: KW20-2018
       FR:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: Fontdesign
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: LAB
+          comment:
       SA:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: DataJournalism
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: DataJournalism
+          comment:
     -
       id: KW21-2018
       FR:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: Fontdesign
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: ArtContext
+          comment:
       SA:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: DataJournalism
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: DataJournalism
+          comment:
     -
       id: KW22-2018
       FR:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: Fontdesign
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: LAB
+          comment:
       SA:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: Storytelling
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: Storytelling
+          comment:
     -
       id: KW23-2018
       FR:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: Fontdesign
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: ArtContext
+          comment:
       SA:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: ChangeMngmnt
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: ChangeMngmnt
+          comment:
     -
       id: KW24-2018
       FR:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: Business
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: LAB
+          comment:
       SA:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: ChangeMngmnt
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: ChangeMngmnt
+          comment:
     -
       id: KW25-2018
       FR:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: Business
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: ArtContext
+          comment:
       SA:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: ChangeMngmnt
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: ChangeMngmnt
+          comment:
     -
       id: KW26-2018
       FR:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: Business
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: LAB
+          comment:
       SA:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: csInterface
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: csInterface
+          comment:
     -
       id: KW27-2017
       FR:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: IoT
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: IoT
+          comment:
       SA:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: IoT
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: IoT
+          comment:
     -
       id: KW28-2018
       FR:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: Business
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: LAB
+          comment:
       SA:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: Storytelling
+          comment:
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession: Storytelling
+          comment:
     -
       id: KW29-2018
-      FR:
-        morning:
-          teacher: 
-          lession: 
-          comment: 
-        afternoon:
-          teacher: 
-          lession: 
-          comment: 
-      SA:
-        morning:
-          teacher: 
-          lession: 
-          comment: 
-        afternoon:
-          teacher: 
-          lession: 
-          comment: 
+      week:
+        teacher:
+        lession: ProjektWeek
+        comment: Montag bis Freitag
     -
       id: KW30-2018
       FR:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Sommerferien
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Sommerferien
       SA:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Sommerferien
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Sommerferien
     -
       id: KW31-2018
       FR:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Sommerferien
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Sommerferien
       SA:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Sommerferien
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Sommerferien
     -
       id: KW32-2018
       FR:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Sommerferien
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Sommerferien
       SA:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Sommerferien
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Sommerferien
     -
       id: KW33-2018
       FR:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Sommerferien
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Sommerferien
       SA:
         morning:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Sommerferien
         afternoon:
-          teacher: 
-          lession: 
-          comment: 
+          teacher:
+          lession:
+          comment: Sommerferien
