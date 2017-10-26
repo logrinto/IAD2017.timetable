@@ -7,7 +7,7 @@ import moment from 'moment'
 
 class Semester extends React.Component {
 
-  state = { defaultLink: '-' };
+  state = { defaultLink: false };
 
   componentDidMount() {
     this.setState({defaultLink: moment().format('[KW]ww-YYYY')})
