@@ -7,3 +7,7 @@ To edit the Data go [here](https://github.com/logrinto/IAD2017.timetable/blob/ma
 
 ### License
 MIT. See also `license.txt`
+
+### Todo
+
+* Link different nodes [#1583](https://github.com/gatsbyjs/gatsby/issues/1583) & [#2575](https://github.com/gatsbyjs/gatsby/issues/2575)
