@@ -340,7 +340,7 @@ data:
       FR:
         morning:
           teacher:
-          lession: Fontdesign
+          lession: ArtContext
           comment:
         afternoon:
           teacher:
@@ -420,11 +420,11 @@ data:
       FR:
         morning:
           teacher:
-          lession: Fontdesign
+          lession: LAB
           comment:
         afternoon:
           teacher:
-          lession: LAB
+          lession: Fontdesign
           comment:
       SA:
         morning:
@@ -440,11 +440,11 @@ data:
       FR:
         morning:
           teacher:
-          lession: Fontdesign
+          lession: ArtContext
           comment:
         afternoon:
           teacher:
-          lession: ArtContext
+          lession: Fontdesign
           comment:
       SA:
         morning:
@@ -460,11 +460,11 @@ data:
       FR:
         morning:
           teacher:
-          lession: Fontdesign
+          lession: LAB
           comment:
         afternoon:
           teacher:
-          lession: LAB
+          lession: Fontdesign
           comment:
       SA:
         morning:
@@ -480,11 +480,11 @@ data:
       FR:
         morning:
           teacher:
-          lession: Fontdesign
+          lession: ArtContext
           comment:
         afternoon:
           teacher:
-          lession: ArtContext
+          lession: Fontdesign
           comment:
       SA:
         morning:
@@ -524,7 +524,7 @@ data:
           comment:
         afternoon:
           teacher:
-          lession: ArtContext
+          lession: Fontdesign
           comment:
       SA:
         morning:
