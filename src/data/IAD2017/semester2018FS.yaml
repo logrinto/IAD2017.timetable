@@ -180,11 +180,11 @@ data:
       FR:
         morning:
           teacher:
-          lession: Publisher
+          lession: FontOnScreen
           comment:
         afternoon:
           teacher:
-          lession: LAB
+          lession: ArtContext
           comment:
       SA:
         morning:
@@ -204,7 +204,7 @@ data:
           comment:
         afternoon:
           teacher:
-          lession: ArtContext
+          lession: LAB
           comment:
       SA:
         morning:
@@ -224,7 +224,7 @@ data:
           comment:
         afternoon:
           teacher:
-          lession: LAB
+          lession: ArtContext
           comment:
       SA:
         morning:
@@ -244,7 +244,7 @@ data:
           comment:
         afternoon:
           teacher:
-          lession: ArtContext
+          lession: LAB
           comment:
       SA:
         morning:
@@ -264,7 +264,7 @@ data:
           comment:
         afternoon:
           teacher:
-          lession: LAB
+          lession: ArtContext
           comment:
       SA:
         morning:
@@ -320,7 +320,7 @@ data:
       FR:
         morning:
           teacher:
-          lession: FontOnScreen
+          lession: Publisher
           comment:
         afternoon:
           teacher:
@@ -340,7 +340,7 @@ data:
       FR:
         morning:
           teacher:
-          lession: ArtContext
+          lession: FontOnScreen
           comment:
         afternoon:
           teacher:
