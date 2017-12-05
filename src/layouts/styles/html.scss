@@ -2,22 +2,31 @@ html {
   font-family: 'Open Sans', Sans-Serif;
   line-height: 1.5;
   font-size: 16px;
-
   @media print {
-  	font-size: 8px;
-    -webkit-print-color-adjust: exact; /*Chrome, Safari */
-    color-adjust: exact; /*Firefox*/
+    font-size: 8px;
+    -webkit-print-color-adjust: exact; // Chrome, Safari
+    color-adjust: exact; // Firefox
   }
 }
 
-b, .bold {
-	font-weight: bold;
+// Tage defaults
+// @media print {
+//   body {
+//     margin: 15mm 15mm 20mm;
+//   }
+// }
+
+.bold,
+b {
+  font-weight: bold;
 }
 
 a {
   text-decoration: none;
   color: #004d61;
-  &:hover, &:focus {
+
+  &:focus,
+  &:hover {
     color: black;
   }
 }

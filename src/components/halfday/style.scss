@@ -1,7 +1,5 @@
 .halfday {
-
   hyphens: auto;
-
   @each $value in $color-list {
     .halfday-bg--#{nth($value, 1)} {
       background-color: nth($value, 2);
@@ -10,17 +8,14 @@
 
   &--inner {
     min-height: 4rem;
-
-    padding-left: 0.6rem;
-    padding-right: 0.6rem;
-    padding-top: 0.6rem;
-    padding-bottom: 0.5rem;
+    padding: 0.6rem 0.6rem 0.5rem;
   }
 
-  &--teacher,
+  &--comment,
   &--lession,
-  &--comment {
+  &--teacher {
     font-weight: bold;
+
     .bg {
       padding-right: 0.4rem;
       padding-left: 0.4rem;
@@ -35,17 +30,17 @@
     }
   }
 
-  &--lession,
-  &--comment {
-
+  &--comment,
+  &--lession {
     .bg {
       background-color: rgba(255, 255, 255, 0.4);
     }
   }
 
-  &--teacher,
-  &--comment {
+  &--comment,
+  &--teacher {
     font-size: 0.6rem;
+
     .bg {
       padding-top: 0.04rem;
       padding-bottom: 0.03rem;
@@ -55,18 +50,16 @@
   &--teacher {
     .bg {
       background-color: #333;
-
     }
     color: #bbb;
     display: table;
-
   }
+
   &--lession {
     color: black;
   }
+
   &--comment {
     color: black;
   }
-
-
 }

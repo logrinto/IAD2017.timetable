@@ -1,42 +1,37 @@
 .semester {
+  padding: 3rem 1rem;
+  // width: calc(100% - 2rem);
+  margin: 0 auto;
+  max-width: 70rem;
 
-    	padding: 3rem 1rem;
-    	// width: calc(100% - 2rem);
-      margin: 0 auto;
-      max-width: 70rem;
+  .navigation {
+    ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: left;
+      list-style: none;
 
-      .navigation {
-        ul {
-          margin: 0;
-          padding: 0;
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: left;
-          list-style: none;
-
-          li {
-            flex: 0 1 auto;
-            padding-right: 1rem;
-          }
-        }
+      li {
+        flex: 0 1 auto;
+        padding-right: 1rem;
       }
-
-    @media print {
-        width: 120rem;
-        column-count: 2;
-        column-gap: 2em;
-        column-rule: 0.5rem solid black;
-
-        .noPrint {
-         display: none;
-        }
-
-
-      .pagebreak {
-        // page-break-after: always;
-        page-break-before: always;
-      }
+    }
   }
+  @media print {
+    max-width: 120rem;
+    column-count: 2;
+    column-gap: 8mm;
+    column-rule: 0.5rem solid black;
+    padding: 0;
 
+    .noPrint {
+      display: none;
+    }
 
+    .pagebreak {
+      page-break-before: always;
+    }
+  }
 }
