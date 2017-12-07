@@ -430,9 +430,9 @@ data:
           lession: LAB
           comment:
         afternoon:
-          teacher: UF
-          lession: ArtContext
-          comment:
+          teacher: SH
+          lession: LAB
+          comment: "Unterrichtsstart: 12:45 Uhr. Abtausch von KW45"
       SA:
         morning:
           teacher: HZ
@@ -450,9 +450,9 @@ data:
           lession: Costs
           comment:
         afternoon:
-          teacher: SH
-          lession: LAB
-          comment: "Unterrichtsstart: 12:45 Uhr. Abtausch von KW45"
+          teacher: UF
+          lession: ArtContext
+          comment:
       SA:
         morning:
           teacher: HZ
