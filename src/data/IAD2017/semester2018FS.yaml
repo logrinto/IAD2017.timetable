@@ -53,7 +53,7 @@ data:
 
     -
       id: YouTube
-      title: YouTube – Inhalte von Stars
+      title: YouTube – Inhalte & Kanäle
       color: light-brown
     -
       id: csInterface
@@ -200,11 +200,11 @@ data:
       FR:
         morning:
           teacher:
-          lession: Publisher
+          lession: FontOnScreen
           comment:
         afternoon:
           teacher:
-          lession: LAB
+          lession: ArtContext
           comment:
       SA:
         morning:
@@ -264,7 +264,7 @@ data:
           comment:
         afternoon:
           teacher:
-          lession: ArtContext
+          lession: LAB
           comment:
       SA:
         morning:
@@ -309,7 +309,7 @@ data:
       SA:
         morning:
           teacher:
-          lession: FontOnScreen
+          lession: MoDesign
           comment:
         afternoon:
           teacher:
@@ -320,7 +320,7 @@ data:
       FR:
         morning:
           teacher:
-          lession: Publisher
+          lession: FontOnScreen
           comment:
         afternoon:
           teacher:
