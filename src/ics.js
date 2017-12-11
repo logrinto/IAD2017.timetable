@@ -231,5 +231,6 @@ class Semesterplan {
 console.log('-- start ics generation --');
 let ics = new Semesterplan();
 ics.add('./src/data/IAD2017/semester2017HS.yaml');
+ics.add('./src/data/IAD2017/semester2018FS.yaml');
 ics.ics('./public/IAD.ics');
 console.log('-- end ics generation --');
