@@ -8,8 +8,23 @@ data:
     notes: Projektwoche 2018 – 5.2–9.2.2018 & 16.7.-20.7.2018
     links:
       -
+        title: Herbstsemester 2017
+        href: ./2017-HS
+      -
         title: Frühlingssemester 2018
         href: ./2018-FS
+      -
+        title: Herbstsemester 2018
+        href: ./2018-HS
+      -
+        title: Frühlingssemester 2019
+        href: ./2019-FS
+      -
+        title: Herbstsemester 2019
+        href: ./2019-HS
+      -
+        title: Frühlingssemester 2020
+        href: ./2020-FS
 
   lessions:
     -
