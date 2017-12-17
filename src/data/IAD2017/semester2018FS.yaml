@@ -79,8 +79,8 @@ data:
 
 
     -
-      id: DataJournalism
-      title: Interaktion und Journalismus
+      id: DataLiteracy
+      title: Journalismus – Data Literacy
       color: gray-violet
 
 
@@ -333,11 +333,11 @@ data:
       SA:
         morning:
           teacher:
-          lession: DataJournalism
+          lession: DataLiteracy
           comment:
         afternoon:
           teacher:
-          lession: DataJournalism
+          lession: DataLiteracy
           comment:
     -
       id: KW16-2018
@@ -353,11 +353,11 @@ data:
       SA:
         morning:
           teacher:
-          lession: DataJournalism
+          lession: DataLiteracy
           comment:
         afternoon:
           teacher:
-          lession: DataJournalism
+          lession: DataLiteracy
           comment:
     -
       id: KW17-2018
@@ -433,11 +433,11 @@ data:
       SA:
         morning:
           teacher:
-          lession: DataJournalism
+          lession: DataLiteracy
           comment:
         afternoon:
           teacher:
-          lession: DataJournalism
+          lession: DataLiteracy
           comment:
     -
       id: KW21-2018
@@ -453,11 +453,11 @@ data:
       SA:
         morning:
           teacher:
-          lession: DataJournalism
+          lession: DataLiteracy
           comment:
         afternoon:
           teacher:
-          lession: DataJournalism
+          lession: DataLiteracy
           comment:
     -
       id: KW22-2018
