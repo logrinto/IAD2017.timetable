@@ -38,14 +38,14 @@ data:
     -
       id: TypeHistory
       title: Technologiegeschichte der Schrift
-      color: violet
+      color: bordeaux
     -
       id: ChangeMngmnt
       title: Zukunft – Umgang mit der Ungewissheit
       color: petrol
     -
-      id: ExpStory
-      title: Experimentelles Erzählen
+      id: FontDay
+      title: Tag der Schrift
       color: light-green
     -
       id: community
@@ -109,6 +109,10 @@ data:
       title: Fontdesign
       color: cold-green
 
+    -
+      id: TypeHistory
+      title: Technologiegeschichte der Schrift
+      color: green-gray
     -
       id: FontOnScreen
       title: Bildschirme und Fonts
@@ -199,7 +203,7 @@ data:
       FR:
         morning:
           teacher:
-          lession: FontOnScreen
+          lession: TypeHistory
           comment:
         afternoon:
           teacher:
@@ -219,7 +223,7 @@ data:
       FR:
         morning:
           teacher:
-          lession: FontOnScreen
+          lession: TypeHistory
           comment:
         afternoon:
           teacher:
@@ -328,11 +332,11 @@ data:
       SA:
         morning:
           teacher:
-          lession: AltDesign
+          lession: FontDay
           comment:
         afternoon:
           teacher:
-          lession: AltDesign
+          lession: FontDay
           comment:
     -
       id: KW15-2018
@@ -578,21 +582,21 @@ data:
       id: KW27-2017
       FR:
         morning:
-          teacher:
-          lession: IoT
+          teacher: VM
+          lession: DiyHardware
           comment:
         afternoon:
-          teacher:
-          lession: IoT
+          teacher: VM
+          lession: DiyHardware
           comment:
       SA:
         morning:
-          teacher:
-          lession: IoT
+          teacher: VM
+          lession: DiyHardware
           comment:
         afternoon:
-          teacher:
-          lession: IoT
+          teacher: VM
+          lession: DiyHardware
           comment:
     -
       id: KW28-2018

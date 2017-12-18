@@ -46,7 +46,7 @@ data:
     -
       id: InteractionJournalism
       title: Interaktion und Journalismus
-      color: light-green
+      color: light-brown
     -
       id: userinterfaces
       title: Userinterfaces
@@ -55,9 +55,14 @@ data:
       id: editorialDesign
       title: Editorial Design
       color: cyan
+
+    -
+      id: production
+      title: Digitale/Analoge Produktionsmittel
+      color: dark-green
     -
       id: FabLab
-      title: Digitale Produktionsmittel
+      title: Digitale/Analoge Produktionsmittel
       color: green
     -
       id: ProjektWeek
@@ -202,12 +207,12 @@ data:
       FR:
         morning:
           teacher:
-          lession: Law
-          comment:
+          lession: production
+          comment: Bleisatz
         afternoon:
           teacher:
-          lession: infografik
-          comment:
+          lession: production
+          comment: Bleisatz
       SA:
         morning:
           teacher:
