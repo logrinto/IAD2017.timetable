@@ -32,6 +32,10 @@ data:
       title: LAB
       color: dark-red
     -
+      id: test
+      title: Semesterprüfung
+      color: dark-red
+    -
       id: ArtContext
       title: Medien-/Technologiegeschichte
       color: violet
@@ -81,7 +85,7 @@ data:
       color: magenta
     -
       id: DiyHardware
-      title: Interaktion mit DIY–Hardware
+      title: Interface mit DIY–Hardware
       color: bordeaux
     -
       id: Agil
@@ -546,8 +550,8 @@ data:
           comment:
         afternoon:
           teacher:
-          lession:
-          comment: noch in Planung
+          lession: test
+          comment:
       SA:
         morning:
           teacher: HZ
@@ -586,8 +590,8 @@ data:
           comment:
         afternoon:
           teacher:
-          lession:
-          comment: noch in Planung
+          lession: LAB
+          comment: Rückschau – Input – ((noch in Planung))
       SA:
         morning:
           teacher: HZ
@@ -601,20 +605,20 @@ data:
       id: KW05-2018
       FR:
         morning:
-          teacher: VM
+          teacher:
           lession: DiyHardware
           comment:
         afternoon:
-          teacher: VM
+          teacher:
           lession: DiyHardware
           comment:
       SA:
         morning:
-          teacher: VM
+          teacher:
           lession: DiyHardware
           comment:
         afternoon:
-          teacher: VM
+          teacher:
           lession: DiyHardware
           comment:
     -
