@@ -1,0 +1,662 @@
+id: IAD2017-2019HS
+data:
+  semester:
+    title: Herbstsemester 2019
+    slug: 2019-HS
+    class: IAD2017
+    room: Zimmer 413 (noch nicht sicher) · Schule für Gestaltung Zürich, Ausstellungsstrasse 104, 8005 Zürich
+    notes:
+    links:
+      -
+        title: Herbstsemester 2017
+        href: ./2017-HS
+      -
+        title: Frühlingssemester 2018
+        href: ./2018-FS
+      -
+        title: Herbstsemester 2018
+        href: ./2018-HS
+      -
+        title: Frühlingssemester 2019
+        href: ./2019-FS
+      -
+        title: Herbstsemester 2019
+        href: ./2019-HS
+      -
+        title: Frühlingssemester 2020
+        href: ./2020-FS
+
+  lessions:
+    -
+      id: LAB
+      title: LAB
+      color: dark-red
+    -
+      id: ArtContext
+      title: Medien-/Technologiegeschichte
+      color: violet
+    -
+      id: TypeHistory
+      title: Technologiegeschichte der Schrift
+      color: violet
+    -
+      id: designStructure
+      title: Design strukturieren
+      color: petrol
+    -
+      id: projectLead
+      title: Projekte begleiten
+      color: light-green
+    -
+      id: sponsoring
+      title: Projektfinanzierung durch Sponsoring
+      color: cold-green
+    -
+      id: userinterface1x1
+      title: Das Wesen in der Bedienung
+      color: cyan
+    -
+      id: didacticDesign
+      title: Didaktisches Design
+      color: violet
+    -
+      id: 3d
+      title: 3D im Browser
+      color: gray-violet
+    -
+      id: csInterface
+      title: Case Study – Interface
+      color: mint
+  #  MobileTypo:
+  #    title: Typografie am mobilen Gerät
+  #    color: dark-green
+
+  #  Crossmedia:
+  #    title: Crossmedia von der Datenbank zur Ausgabe
+  #    color: gray-violet
+
+    -
+      id: documentation
+      title: Dokumentieren mit Text und Bild
+      color: magenta
+    -
+      id: DiyHardware
+      title: Interaktion mit DIY–Hardware
+      color: bordeaux
+    -
+      id: presentation
+      title: Kommunizieren & Präsentieren
+      color: light-brown
+    -
+      id: gameDesign
+      title: Spiele als Zugang zur Information
+      color: orange
+    -
+      id: thesis
+      title: Thesis (selbstständige Arbeit)
+      color: green
+  #  Guest:
+  #    title: Gastreferat
+  #    color: mint
+
+  teachers:
+    -
+      id: T1
+      name: Lehrername
+    -
+      id: T2
+      name: Lehrername
+    -
+      id: SH
+      name: Stefan Huber
+    -
+      id: BV
+      name: Basil Vogt
+    -
+      id: MW
+      name: Martin Werren
+    -
+      id: VM
+      name: Victor Mazón Gardoqui
+    -
+      id: HZ
+      name: Hanna Züllig/Brigitte Lampert
+    -
+      id: DF
+      name: Daniel Frei
+    -
+      id: UF
+      name: Ulrike Felsing
+    -
+      id: LG
+      name: Laurent Gachnang
+    -
+      id: UB
+      name: Urs Bernet
+    -
+      id: JS-SH
+      name: Jonas Shriqui & Stefan Huber
+
+
+
+  date:
+    -
+      id: KW34-2019
+      FR:
+        morning:
+          teacher: SH
+          lession: LAB
+          comment:
+        afternoon:
+          teacher:
+          lession: documentation
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: gameDesign
+          comment:
+        afternoon:
+          teacher:
+          lession: gameDesign
+          comment:
+    -
+      id: KW35-2019
+      FR:
+        morning:
+          teacher:
+          lession: presentation
+          comment:
+        afternoon:
+          teacher:
+          lession: presentation
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: gameDesign
+          comment:
+        afternoon:
+          teacher:
+          lession: gameDesign
+          comment:
+    -
+      id: KW36-2019
+      FR:
+        morning:
+          teacher:
+          lession: presentation
+          comment:
+        afternoon:
+          teacher:
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: thesis
+          comment:
+        afternoon:
+          teacher:
+          lession: thesis
+          comment:
+    -
+      id: KW37-2019
+      FR:
+        morning:
+          teacher:
+          lession: presentation
+          comment:
+        afternoon:
+          teacher:
+          lession: presentation
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: gameDesign
+          comment:
+        afternoon:
+          teacher:
+          lession: gameDesign
+          comment:
+    -
+      id: KW38-2019
+      FR:
+        morning:
+          teacher:
+          lession: presentation
+          comment:
+        afternoon:
+          teacher:
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: gameDesign
+          comment:
+        afternoon:
+          teacher:
+          lession: gameDesign
+          comment:
+    -
+      id: KW39-2019
+      FR:
+        morning:
+          teacher:
+          lession: presentation
+          comment:
+        afternoon:
+          teacher:
+          lession: presentation
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: 3d
+          comment:
+        afternoon:
+          teacher:
+          lession: 3d
+          comment:
+    -
+      id: KW40-2019
+      FR:
+        morning:
+          teacher:
+          lession: sponsoring
+          comment:
+        afternoon:
+          teacher:
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: 3d
+          comment:
+        afternoon:
+          teacher:
+          lession: 3d
+          comment:
+    -
+      id: KW41-2019
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Herbstferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Herbstferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Herbstferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Herbstferien
+    -
+      id: KW42-2019
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Herbstferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Herbstferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Herbstferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Herbstferien
+    -
+      id: KW43-2019
+      FR:
+        morning:
+          teacher:
+          lession: csInterface
+          comment:
+        afternoon:
+          teacher:
+          lession: csInterface
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: userinterface1x1
+          comment:
+        afternoon:
+          teacher:
+          lession: userinterface1x1
+          comment:
+    -
+      id: KW44-2019
+      FR:
+        morning:
+          teacher:
+          lession: projectLead
+          comment:
+        afternoon:
+          teacher:
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: userinterface1x1
+          comment:
+        afternoon:
+          teacher:
+          lession: userinterface1x1
+          comment:
+    -
+      id: KW45-2019
+      FR:
+        morning:
+          teacher:
+          lession: projectLead
+          comment:
+        afternoon:
+          teacher:
+          lession: didacticDesign
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: userinterface1x1
+          comment:
+        afternoon:
+          teacher:
+          lession: userinterface1x1
+          comment:
+    -
+      id: KW46-2019
+      FR:
+        morning:
+          teacher:
+          lession: projectLead
+          comment:
+        afternoon:
+          teacher:
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: userinterface1x1
+          comment:
+        afternoon:
+          teacher:
+          lession: userinterface1x1
+          comment:
+    -
+      id: KW47-2019
+      FR:
+        morning:
+          teacher:
+          lession: projectLead
+          comment:
+        afternoon:
+          teacher:
+          lession: didacticDesign
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: userinterface1x1
+          comment:
+        afternoon:
+          teacher:
+          lession: userinterface1x1
+          comment:
+    -
+      id: KW48-2019
+      FR:
+        morning:
+          teacher:
+          lession: projectLead
+          comment:
+        afternoon:
+          teacher:
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: designStructure
+          comment:
+        afternoon:
+          teacher:
+          lession: designStructure
+          comment:
+    -
+      id: KW49-2019
+      FR:
+        morning:
+          teacher:
+          lession: didacticDesign
+          comment:
+        afternoon:
+          teacher:
+          lession: didacticDesign
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: designStructure
+          comment:
+        afternoon:
+          teacher:
+          lession: designStructure
+          comment:
+    -
+      id: KW50-2019
+      FR:
+        morning:
+          teacher:
+          lession: didacticDesign
+          comment:
+        afternoon:
+          teacher:
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: designStructure
+          comment:
+        afternoon:
+          teacher:
+          lession: designStructure
+          comment:
+    -
+      id: KW51-2019
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+    -
+      id: KW52-2019
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+    -
+      id: KW01-2019
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+    -
+      id: KW02-2020
+      FR:
+        morning:
+          teacher:
+          lession: didacticDesign
+          comment:
+        afternoon:
+          teacher:
+          lession: didacticDesign
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: thesis
+          comment:
+        afternoon:
+          teacher:
+          lession: thesis
+          comment:
+    -
+      id: KW03-2020
+      FR:
+        morning:
+          teacher:
+          lession: LAB
+          comment:
+        afternoon:
+          teacher:
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: thesis
+          comment:
+        afternoon:
+          teacher:
+          lession: thesis
+          comment:
+    -
+      id: KW04-2020
+      FR:
+        morning:
+          teacher:
+          lession: LAB
+          comment:
+        afternoon:
+          teacher:
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: thesis
+          comment:
+        afternoon:
+          teacher:
+          lession: thesis
+          comment:
+    -
+      id: KW05-2020
+      FR:
+        morning:
+          teacher:
+          lession: thesis
+          comment:
+        afternoon:
+          teacher:
+          lession: thesis
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: thesis
+          comment:
+        afternoon:
+          teacher:
+          lession: thesis
+          comment:
+    -
+      id: KW06-2020
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Sportferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sportferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Sportferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sportferien
+    -
+      id: KW07-2020
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Sportferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sportferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Sportferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sportferien

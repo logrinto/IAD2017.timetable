@@ -1,0 +1,704 @@
+id: IAD2017-2019FS
+data:
+  semester:
+    title: Frühlingssemester 2019
+    slug: 2019-FS
+    class: IAD2017
+    room: Zimmer 413 (noch nicht sicher) · Schule für Gestaltung Zürich, Ausstellungsstrasse 104, 8005 Zürich
+    notes:
+    links:
+      -
+        title: Herbstsemester 2017
+        href: ./2017-HS
+      -
+        title: Frühlingssemester 2018
+        href: ./2018-FS
+      -
+        title: Herbstsemester 2018
+        href: ./2018-HS
+      -
+        title: Frühlingssemester 2019
+        href: ./2019-FS
+      -
+        title: Herbstsemester 2019
+        href: ./2019-HS
+      -
+        title: Frühlingssemester 2020
+        href: ./2020-FS
+
+  lessions:
+    -
+      id: LAB
+      title: LAB
+      color: dark-red
+    -
+      id: accessibility
+      title: Design und Accessibility
+      color: violet
+    -
+      id: TypeHistory
+      title: Technologiegeschichte der Schrift
+      color: violet
+    -
+      id: responsive
+      title: Responsive Design
+      color: petrol
+    -
+      id: politics
+      title: Politik und das Internet
+      color: light-green
+    -
+      id: FontDay
+      title: Tag der Schrift
+      color: cold-green
+    -
+      id: InteractiveGraphic
+      title: Interaktive Grafiken
+      color: cyan
+    -
+      id: ReadScreen
+      title: Leseführung am Bildschirm (eBook)
+      color: green
+    -
+      id: Publisher
+      title: Verlegen und Verlage (eBook)
+      color: green
+    -
+      id: templates
+      title: Templates und Services
+      color: light-brown
+    -
+      id: csInterface
+      title: Case Study – Interface
+      color: mint
+    -
+      id: MobileTypo
+      title: Typografie am mobilen Gerät
+      color: cyan
+    -
+      id: AltDesign
+      title: Alternate & Design
+      color: cyan
+    -
+      id: Podcast
+      title: Podcast – Inhalte hörbar machen
+      color: gray-violet
+    -
+      id: Crossmedia
+      title: Crossmedia von der Datenbank zur Ausgabe
+      color: gray-violet
+    -
+      id: geo
+      title: Geografie und Visualisierung
+      color: magenta
+    -
+      id: regEx
+      title: Regular Expressions
+      color: cold-green
+    -
+      id: webshops
+      title: Userinterfaces – Webshops
+      color: green-gray
+    -
+      id: Storytelling
+      title: Vom Platzhalter zur Geschichte
+      color: black
+    -
+      id: ads
+      title: Onlinewerbung
+      color: dark-green
+
+
+
+
+
+  #  MobileTypo:
+  #    title: Typografie am mobilen Gerät
+  #    color: dark-green
+
+  #  Crossmedia:
+  #    title: Crossmedia von der Datenbank zur Ausgabe
+  #    color: gray-violet
+
+    -
+      id: GridModule
+      title: Grids & Modules  – Systeme für die Gestaltung
+      color: magenta
+    -
+      id: DiyHardware
+      title: Interaktion mit DIY–Hardware
+      color: bordeaux
+    -
+      id: Agil
+      title: Agile Planung
+      color: light-brown
+    -
+      id: Costs
+      title: Was kostet meine Stunde?
+      color: orange
+    -
+      id: Business
+      title: Unternehmensziele
+      color: orange
+  #  Guest:
+  #    title: Gastreferat
+  #    color: mint
+
+  teachers:
+    -
+      id: T1
+      name: Lehrername
+    -
+      id: T2
+      name: Lehrername
+    -
+      id: SH
+      name: Stefan Huber
+    -
+      id: BV
+      name: Basil Vogt
+    -
+      id: MW
+      name: Martin Werren
+    -
+      id: VM
+      name: Victor Mazón Gardoqui
+    -
+      id: HZ
+      name: Hanna Züllig/Brigitte Lampert
+    -
+      id: DF
+      name: Daniel Frei
+    -
+      id: UF
+      name: Ulrike Felsing
+    -
+      id: LG
+      name: Laurent Gachnang
+    -
+      id: UB
+      name: Urs Bernet
+
+
+
+  date:
+    -
+      id: KW08-2019
+      FR:
+        morning:
+          teacher:
+          lession: LAB
+          comment:
+        afternoon:
+          teacher:
+          lession: accessibility
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: responsive
+          comment:
+        afternoon:
+          teacher:
+          lession: responsive
+          comment:
+    -
+      id: KW09-2019
+      FR:
+        morning:
+          teacher:
+          lession: accessibility
+          comment:
+        afternoon:
+          teacher:
+          lession: politics
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: responsive
+          comment:
+        afternoon:
+          teacher:
+          lession: responsive
+          comment:
+    -
+      id: KW10-2019
+      FR:
+        morning:
+          teacher:
+          lession: accessibility
+          comment:
+        afternoon:
+          teacher:
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: responsive
+          comment:
+        afternoon:
+          teacher:
+          lession: responsive
+          comment:
+    -
+      id: KW11-2019
+      FR:
+        morning:
+          teacher:
+          lession: accessibility
+          comment:
+        afternoon:
+          teacher:
+          lession: politics
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: responsive
+          comment:
+        afternoon:
+          teacher:
+          lession: responsive
+          comment:
+    -
+      id: KW12-2019
+      FR:
+        morning:
+          teacher:
+          lession: accessibility
+          comment:
+        afternoon:
+          teacher:
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: responsive
+          comment:
+        afternoon:
+          teacher:
+          lession: responsive
+          comment:
+    -
+      id: KW13-2019
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Karfreitag
+        afternoon:
+          teacher:
+          lession:
+          comment: Karfreitag
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Ostern
+        afternoon:
+          teacher:
+          lession:
+          comment: Ostern
+    -
+      id: KW14-2019
+      FR:
+        morning:
+          teacher:
+          lession: ads
+          comment:
+        afternoon:
+          teacher:
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: FontDay
+          comment:
+        afternoon:
+          teacher:
+          lession: FontDay
+          comment:
+    -
+      id: KW15-2019
+      FR:
+        morning:
+          teacher:
+          lession: csInterface
+          comment:
+        afternoon:
+          teacher:
+          lession: csInterface
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: responsive
+          comment:
+        afternoon:
+          teacher:
+          lession: responsive
+          comment:
+    -
+      id: KW16-2019
+      FR:
+        morning:
+          teacher:
+          lession: ads
+          comment:
+        afternoon:
+          teacher:
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: webshops
+          comment:
+        afternoon:
+          teacher:
+          lession: webshops
+          comment:
+    -
+      id: KW17-2019
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Frühlingsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Frühlingsferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Frühlingsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Frühlingsferien
+    -
+      id: KW18-2019
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Frühlingsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Frühlingsferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Frühlingsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Frühlingsferien
+    -
+      id: KW19-2019
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Auffahrt
+        afternoon:
+          teacher:
+          lession:
+          comment: Auffahrt
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Auffahrt
+        afternoon:
+          teacher:
+          lession:
+          comment: Auffahrt
+    -
+      id: KW20-2019
+      FR:
+        morning:
+          teacher:
+          lession: ads
+          comment:
+        afternoon:
+          teacher:
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: webshops
+          comment:
+        afternoon:
+          teacher:
+          lession: webshops
+          comment:
+    -
+      id: KW21-2019
+      FR:
+        morning:
+          teacher:
+          lession: MobileTypo
+          comment:
+        afternoon:
+          teacher:
+          lession: MobileTypo
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: webshops
+          comment:
+        afternoon:
+          teacher:
+          lession: webshops
+          comment:
+    -
+      id: KW22-2019
+      FR:
+        morning:
+          teacher:
+          lession: MobileTypo
+          comment:
+        afternoon:
+          teacher:
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: webshops
+          comment:
+        afternoon:
+          teacher:
+          lession: webshops
+          comment:
+    -
+      id: KW23-2019
+      FR:
+        morning:
+          teacher:
+          lession: MobileTypo
+          comment:
+        afternoon:
+          teacher:
+          lession: regEx
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: Crossmedia
+          comment:
+        afternoon:
+          teacher:
+          lession: Crossmedia
+          comment:
+    -
+      id: KW24-2019
+      FR:
+        morning:
+          teacher:
+          lession: MobileTypo
+          comment:
+        afternoon:
+          teacher:
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: Crossmedia
+          comment:
+        afternoon:
+          teacher:
+          lession: Crossmedia
+          comment:
+    -
+      id: KW25-2019
+      FR:
+        morning:
+          teacher:
+          lession: MobileTypo
+          comment:
+        afternoon:
+          teacher:
+          lession: MobileTypo
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: webshops
+          comment:
+        afternoon:
+          teacher:
+          lession: webshops
+          comment:
+    -
+      id: KW26-2019
+      FR:
+        morning:
+          teacher:
+          lession: templates
+          comment:
+        afternoon:
+          teacher:
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: webshops
+          comment:
+        afternoon:
+          teacher:
+          lession: webshops
+          comment:
+    -
+      id: KW27-2019
+      FR:
+        morning:
+          teacher:
+          lession: templates
+          comment:
+        afternoon:
+          teacher:
+          lession: Podcast
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: geo
+          comment:
+        afternoon:
+          teacher:
+          lession: geo
+          comment:
+    -
+      id: KW28-2019
+      FR:
+        morning:
+          teacher:
+          lession: templates
+          comment:
+        afternoon:
+          teacher:
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: geo
+          comment:
+        afternoon:
+          teacher:
+          lession: geo
+          comment:
+    -
+      id: KW29-2019
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Sommerferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sommerferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Sommerferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sommerferien
+    -
+      id: KW30-2019
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Sommerferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sommerferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Sommerferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sommerferien
+    -
+      id: KW31-2019
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Sommerferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sommerferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Sommerferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sommerferien
+    -
+      id: KW32-2019
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Sommerferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sommerferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Sommerferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sommerferien
+    -
+      id: KW33-2019
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Sommerferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sommerferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Sommerferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sommerferien

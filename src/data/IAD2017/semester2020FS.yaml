@@ -1,0 +1,719 @@
+id: IAD2017-2020FS
+data:
+  semester:
+    title: Frühlingssemester 2020
+    slug: 2020-FS
+    class: IAD2017
+    room: Zimmer 413 (noch nicht sicher) · Schule für Gestaltung Zürich, Ausstellungsstrasse 104, 8005 Zürich
+    notes:
+    links:
+      -
+        title: Herbstsemester 2017
+        href: ./2017-HS
+      -
+        title: Frühlingssemester 2018
+        href: ./2018-FS
+      -
+        title: Herbstsemester 2018
+        href: ./2018-HS
+      -
+        title: Frühlingssemester 2019
+        href: ./2019-FS
+      -
+        title: Herbstsemester 2019
+        href: ./2019-HS
+      -
+        title: Frühlingssemester 2020
+        href: ./2020-FS
+
+  lessions:
+    -
+      id: LAB
+      title: LAB
+      color: dark-red
+    -
+      id: ArtContext
+      title: Medien-/Technologiegeschichte
+      color: violet
+    -
+      id: TypeHistory
+      title: Technologiegeschichte der Schrift
+      color: violet
+    -
+      id: ChangeMngmnt
+      title: Zukunft – Umgang mit der Ungewissheit
+      color: petrol
+    -
+      id: ExpStory
+      title: Experimentelles Erzählen
+      color: light-green
+    -
+      id: community
+      title: Community Building
+      color: cold-green
+    -
+      id: InteractiveGraphic
+      title: Interaktive Grafiken
+      color: cyan
+    -
+      id: Marketing
+      title: Marketing & Analyse – KMU
+      color: cyan
+    -
+      id: FontDay
+      title: Tag der Schrift
+      color: cold-green
+    -
+      id: diplom
+      title: Diplom (selbstständige Arbeit)
+      color: green
+
+
+    -
+      id: blogs
+      title: Bolgs und Typografie
+      color: light-brown
+    -
+      id: csInterface
+      title: Case Study – Interface
+      color: mint
+
+
+
+    -
+      id: socialMedia
+      title: Konzeption und Social Media
+      color: magenta
+
+    -
+      id: AltDesign
+      title: Alternate & Design
+      color: cyan
+
+    -
+      id: ProjektWeek
+      title: Projektwoche
+      color: gray-violet
+
+
+    -
+      id: DataJournalism
+      title: Interaktion und Journalismus
+      color: gray-violet
+
+
+    -
+      id: IoT
+      title: Internet of Things
+      color: magenta
+
+    -
+      id: TypoDay
+      title: Tag der Schrift
+      color: cold-green
+
+    -
+      id: FontOnScreen
+      title: Bildschirme und Fonts
+      color: green-gray
+
+    -
+      id: Storytelling
+      title: Vom Platzhalter zur Geschichte
+      color: black
+
+
+
+
+
+
+  #  MobileTypo:
+  #    title: Typografie am mobilen Gerät
+  #    color: dark-green
+
+  #  Crossmedia:
+  #    title: Crossmedia von der Datenbank zur Ausgabe
+  #    color: gray-violet
+
+    -
+      id: GridModule
+      title: Grids & Modules  – Systeme für die Gestaltung
+      color: magenta
+    -
+      id: DiyHardware
+      title: Interaktion mit DIY–Hardware
+      color: bordeaux
+    -
+      id: Agil
+      title: Agile Planung
+      color: light-brown
+    -
+      id: Costs
+      title: Was kostet meine Stunde?
+      color: orange
+    -
+      id: Business
+      title: Unternehmensziele
+      color: orange
+  #  Guest:
+  #    title: Gastreferat
+  #    color: mint
+
+  teachers:
+    -
+      id: T1
+      name: Lehrername
+    -
+      id: T2
+      name: Lehrername
+    -
+      id: SH
+      name: Stefan Huber
+    -
+      id: BV
+      name: Basil Vogt
+    -
+      id: MW
+      name: Martin Werren
+    -
+      id: VM
+      name: Victor Mazón Gardoqui
+    -
+      id: HZ
+      name: Hanna Züllig/Brigitte Lampert
+    -
+      id: DF
+      name: Daniel Frei
+    -
+      id: UF
+      name: Ulrike Felsing
+    -
+      id: LG
+      name: Laurent Gachnang
+    -
+      id: UB
+      name: Urs Bernet
+
+
+
+  date:
+    -
+      id: KW08-2020
+      FR:
+        morning:
+          teacher:
+          lession: LAB
+          comment:
+        afternoon:
+          teacher:
+          lession: Marketing
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: blogs
+          comment:
+        afternoon:
+          teacher:
+          lession: blogs
+          comment:
+    -
+      id: KW09-2020
+      FR:
+        morning:
+          teacher:
+          lession: socialMedia
+          comment:
+        afternoon:
+          teacher:
+          lession: socialMedia
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: blogs
+          comment:
+        afternoon:
+          teacher:
+          lession: blogs
+          comment:
+    -
+      id: KW10-2020
+      FR:
+        morning:
+          teacher:
+          lession: Marketing
+          comment:
+        afternoon:
+          teacher:
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: diplom
+          comment:
+        afternoon:
+          teacher:
+          lession: diplom
+          comment:
+    -
+      id: KW11-2020
+      FR:
+        morning:
+          teacher:
+          lession: socialMedia
+          comment:
+        afternoon:
+          teacher:
+          lession: socialMedia
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: blogs
+          comment:
+        afternoon:
+          teacher:
+          lession: blogs
+          comment:
+    -
+      id: KW12-2020
+      FR:
+        morning:
+          teacher:
+          lession: Marketing
+          comment:
+        afternoon:
+          teacher:
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: blogs
+          comment:
+        afternoon:
+          teacher:
+          lession: blogs
+          comment:
+    -
+      id: KW13-2020
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Karfreitag
+        afternoon:
+          teacher:
+          lession:
+          comment: Karfreitag
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Ostern
+        afternoon:
+          teacher:
+          lession:
+          comment: Ostern
+    -
+      id: KW14-2020
+      FR:
+        morning:
+          teacher:
+          lession: Marketing
+          comment:
+        afternoon:
+          teacher:
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: blogs
+          comment:
+        afternoon:
+          teacher:
+          lession: blogs
+          comment:
+    -
+      id: KW15-2020
+      FR:
+        morning:
+          teacher:
+          lession: socialMedia
+          comment:
+        afternoon:
+          teacher:
+          lession: socialMedia
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: FontDay
+          comment:
+        afternoon:
+          teacher:
+          lession: FontDay
+          comment:
+    -
+      id: KW16-2020
+      FR:
+        morning:
+          teacher:
+          lession: Marketing
+          comment:
+        afternoon:
+          teacher:
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: csInterface
+          comment:
+        afternoon:
+          teacher:
+          lession: csInterface
+          comment:
+    -
+      id: KW17-2020
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Frühlingsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Frühlingsferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Frühlingsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Frühlingsferien
+    -
+      id: KW18-2020
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Frühlingsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Frühlingsferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Frühlingsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Frühlingsferien
+    -
+      id: KW19-2020
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Auffahrt
+        afternoon:
+          teacher:
+          lession:
+          comment: Auffahrt
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Auffahrt
+        afternoon:
+          teacher:
+          lession:
+          comment: Auffahrt
+    -
+      id: KW20-2020
+      FR:
+        morning:
+          teacher:
+          lession: diplom
+          comment:
+        afternoon:
+          teacher:
+          lession: diplom
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: diplom
+          comment:
+        afternoon:
+          teacher:
+          lession: diplom
+          comment:
+    -
+      id: KW21-2020
+      FR:
+        morning:
+          teacher:
+          lession: diplom
+          comment:
+        afternoon:
+          teacher:
+          lession: diplom
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: diplom
+          comment:
+        afternoon:
+          teacher:
+          lession: diplom
+          comment:
+    -
+      id: KW22-2020
+      FR:
+        morning:
+          teacher:
+          lession: LAB
+          comment:
+        afternoon:
+          teacher:
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: diplom
+          comment:
+        afternoon:
+          teacher:
+          lession: diplom
+          comment:
+    -
+      id: KW23-2020
+      FR:
+        morning:
+          teacher:
+          lession: diplom
+          comment:
+        afternoon:
+          teacher:
+          lession: diplom
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: diplom
+          comment:
+        afternoon:
+          teacher:
+          lession: diplom
+          comment:
+    -
+      id: KW24-2020
+      FR:
+        morning:
+          teacher:
+          lession: LAB
+          comment:
+        afternoon:
+          teacher:
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: diplom
+          comment:
+        afternoon:
+          teacher:
+          lession: diplom
+          comment:
+    -
+      id: KW25-2020
+      FR:
+        morning:
+          teacher:
+          lession: diplom
+          comment:
+        afternoon:
+          teacher:
+          lession: diplom
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: diplom
+          comment:
+        afternoon:
+          teacher:
+          lession: diplom
+          comment:
+    -
+      id: KW26-2020
+      FR:
+        morning:
+          teacher:
+          lession: LAB
+          comment:
+        afternoon:
+          teacher:
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: diplom
+          comment:
+        afternoon:
+          teacher:
+          lession: diplom
+          comment:
+    -
+      id: KW27-2017
+      FR:
+        morning:
+          teacher:
+          lession: diplom
+          comment:
+        afternoon:
+          teacher:
+          lession: diplom
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: diplom
+          comment:
+        afternoon:
+          teacher:
+          lession: diplom
+          comment:
+    -
+      id: KW28-2020
+      FR:
+        morning:
+          teacher:
+          lession: LAB
+          comment:
+        afternoon:
+          teacher:
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: diplom
+          comment:
+        afternoon:
+          teacher:
+          lession: diplom
+          comment:
+    -
+      id: KW29-2020
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Sommerferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sommerferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Sommerferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sommerferien
+    -
+      id: KW30-2020
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Sommerferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sommerferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Sommerferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sommerferien
+    -
+      id: KW31-2020
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Sommerferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sommerferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Sommerferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sommerferien
+    -
+      id: KW32-2020
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Sommerferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sommerferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Sommerferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sommerferien
+    -
+      id: KW33-2020
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Sommerferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sommerferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Sommerferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sommerferien

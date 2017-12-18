@@ -1,0 +1,659 @@
+id: IAD2017-2018HS
+data:
+  semester:
+    title: Herbstsemester 2018
+    slug: 2018-HS
+    class: IAD2017
+    room: Zimmer 413 (noch nicht sicher) · Schule für Gestaltung Zürich, Ausstellungsstrasse 104, 8005 Zürich
+    notes:
+    links:
+      -
+        title: Herbstsemester 2017
+        href: ./2017-HS
+      -
+        title: Frühlingssemester 2018
+        href: ./2018-FS
+      -
+        title: Herbstsemester 2018
+        href: ./2018-HS
+      -
+        title: Frühlingssemester 2019
+        href: ./2019-FS
+      -
+        title: Herbstsemester 2019
+        href: ./2019-HS
+      -
+        title: Frühlingssemester 2020
+        href: ./2020-FS
+
+  lessions:
+    -
+      id: LAB
+      title: LAB
+      color: dark-red
+    -
+      id: MotionDesign
+      title: Motion Design
+      color: violet
+    -
+      id: Law
+      title: Internet – Rechten und Pflichten
+      color: light-green
+    -
+      id: infografik
+      title: Infografik
+      color: petrol
+    -
+      id: InteractionJournalism
+      title: Interaktion und Journalismus
+      color: light-green
+    -
+      id: userinterfaces
+      title: Userinterfaces
+      color: cold-green
+    -
+      id: editorialDesign
+      title: Editorial Design
+      color: cyan
+    -
+      id: FabLab
+      title: Digitale Produktionsmittel
+      color: green
+    -
+      id: ProjektWeek
+      title: Projektwoche
+      color: gray-violet
+    -
+      id: csInterface
+      title: Case Study – Interface
+      color: mint
+  #  MobileTypo:
+  #    title: Typografie am mobilen Gerät
+  #    color: dark-green
+
+  #  Crossmedia:
+  #    title: Crossmedia von der Datenbank zur Ausgabe
+  #    color: gray-violet
+
+    -
+      id: MediaThinking
+      title: Denken über Medien
+      color: magenta
+    -
+      id: IoT
+      title: Internet of Things
+      color: bordeaux
+    -
+      id: TypeSystem
+      title: Typografische Systeme
+      color: light-brown
+    -
+      id: OpenSource
+      title: OpenSource und Communities
+      color: orange
+    -
+     id: processing
+     title: Processing – Code & Design
+     color: mint
+
+  teachers:
+    -
+      id: T1
+      name: Lehrername
+    -
+      id: T2
+      name: Lehrername
+    -
+      id: SH
+      name: Stefan Huber
+    -
+      id: BV
+      name: Basil Vogt
+    -
+      id: MW
+      name: Martin Werren
+    -
+      id: VM
+      name: Victor Mazón Gardoqui
+    -
+      id: HZ
+      name: Hanna Züllig/Brigitte Lampert
+    -
+      id: DF
+      name: Daniel Frei
+    -
+      id: UF
+      name: Ulrike Felsing
+    -
+      id: LG
+      name: Laurent Gachnang
+    -
+      id: UB
+      name: Urs Bernet
+    -
+      id: JS-SH
+      name: Jonas Shriqui & Stefan Huber
+
+
+
+  date:
+    -
+      id: KW34-2018
+      FR:
+        morning:
+          teacher:
+          lession: editorialDesign
+          comment:
+        afternoon:
+          teacher: SH
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: MotionDesign
+          comment:
+        afternoon:
+          teacher:
+          lession: MotionDesign
+          comment:
+    -
+      id: KW35-2018
+      FR:
+        morning:
+          teacher:
+          lession: FabLab
+          comment: Treffen im FabLab-Zürich
+        afternoon:
+          teacher:
+          lession: FabLab
+          comment: Treffen im FabLab-Zürich
+      SA:
+        morning:
+          teacher:
+          lession: editorialDesign
+          comment:
+        afternoon:
+          teacher:
+          lession: MotionDesign
+          comment:
+    -
+      id: KW36-2018
+      FR:
+        morning:
+          teacher:
+          lession: Law
+          comment:
+        afternoon:
+          teacher: SH
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: editorialDesign
+          comment:
+        afternoon:
+          teacher:
+          lession: MotionDesign
+          comment:
+    -
+      id: KW37-2018
+      FR:
+        morning:
+          teacher:
+          lession: Law
+          comment:
+        afternoon:
+          teacher:
+          lession: infografik
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: editorialDesign
+          comment:
+        afternoon:
+          teacher:
+          lession: MotionDesign
+          comment:
+    -
+      id: KW38-2018
+      FR:
+        morning:
+          teacher:
+          lession: Law
+          comment:
+        afternoon:
+          teacher: SH
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: editorialDesign
+          comment:
+        afternoon:
+          teacher:
+          lession: MotionDesign
+          comment:
+    -
+      id: KW39-2018
+      FR:
+        morning:
+          teacher:
+          lession: Law
+          comment:
+        afternoon:
+          teacher:
+          lession: infografik
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: MotionDesign
+          comment:
+        afternoon:
+          teacher:
+          lession: MotionDesign
+          comment:
+    -
+      id: KW40-2018
+      FR:
+        morning:
+          teacher:
+          lession: Law
+          comment:
+        afternoon:
+          teacher: SH
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: editorialDesign
+          comment:
+        afternoon:
+          teacher:
+          lession: editorialDesign
+          comment:
+    -
+      id: KW41-2018
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Herbstferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Herbstferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Herbstferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Herbstferien
+    -
+      id: KW42-2018
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Herbstferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Herbstferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Herbstferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Herbstferien
+    -
+      id: KW43-2018
+      FR:
+        morning:
+          teacher:
+          lession: infografik
+          comment:
+        afternoon:
+          teacher: SH
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: InteractionJournalism
+          comment:
+        afternoon:
+          teacher:
+          lession: InteractionJournalism
+          comment:
+    -
+      id: KW44-2018
+      FR:
+        morning:
+          teacher:
+          lession: infografik
+          comment:
+        afternoon:
+          teacher:
+          lession: infografik
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: InteractionJournalism
+          comment:
+        afternoon:
+          teacher:
+          lession: InteractionJournalism
+          comment:
+    -
+      id: KW45-2018
+      FR:
+        morning:
+          teacher:
+          lession: OpenSource
+          comment:
+        afternoon:
+          teacher: SH
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: csInterface
+          comment:
+        afternoon:
+          teacher:
+          lession: csInterface
+          comment:
+    -
+      id: KW46-2018
+      FR:
+        morning:
+          teacher:
+          lession: infografik
+          comment:
+        afternoon:
+          teacher:
+          lession: infografik
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: MediaThinking
+          comment:
+        afternoon:
+          teacher:
+          lession: MediaThinking
+          comment:
+    -
+      id: KW47-2018
+      FR:
+        morning:
+          teacher:
+          lession: OpenSource
+          comment:
+        afternoon:
+          teacher: SH
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: MediaThinking
+          comment:
+        afternoon:
+          teacher:
+          lession: MediaThinking
+          comment:
+    -
+      id: KW48-2018
+      FR:
+        morning:
+          teacher:
+          lession: infografik
+          comment:
+        afternoon:
+          teacher:
+          lession: infografik
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: processing
+          comment:
+        afternoon:
+          teacher:
+          lession: processing
+          comment:
+    -
+      id: KW49-2018
+      FR:
+        morning:
+          teacher:
+          lession: processing
+          comment:
+        afternoon:
+          teacher: SH
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: TypeSystem
+          comment:
+        afternoon:
+          teacher:
+          lession: TypeSystem
+          comment:
+    -
+      id: KW50-2018
+      FR:
+        morning:
+          teacher:
+          lession: processing
+          comment:
+        afternoon:
+          teacher:
+          lession: processing
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: TypeSystem
+          comment:
+        afternoon:
+          teacher:
+          lession: TypeSystem
+          comment:
+    -
+      id: KW51-2018
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+    -
+      id: KW52-2018
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+    -
+      id: KW01-2018
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Weihnachtsferien
+    -
+      id: KW02-2019
+      FR:
+        morning:
+          teacher:
+          lession: processing
+          comment:
+        afternoon:
+          teacher:
+          lession: processing
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: userinterfaces
+          comment:
+        afternoon:
+          teacher:
+          lession: userinterfaces
+          comment:
+    -
+      id: KW03-2019
+      FR:
+        morning:
+          teacher:
+          lession: TypeSystem
+          comment:
+        afternoon:
+          teacher: SH
+          lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: userinterfaces
+          comment:
+        afternoon:
+          teacher:
+          lession: userinterfaces
+          comment:
+    -
+      id: KW04-2019
+      FR:
+        morning:
+          teacher:
+          lession: processing
+          comment:
+        afternoon:
+          teacher:
+          lession: processing
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: userinterfaces
+          comment:
+        afternoon:
+          teacher:
+          lession: userinterfaces
+          comment:
+    -
+      id: KW05-2019
+      FR:
+        morning:
+          teacher:
+          lession: IoT
+          comment:
+        afternoon:
+          teacher:
+          lession: IoT
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: IoT
+          comment:
+        afternoon:
+          teacher:
+          lession: IoT
+          comment:
+    -
+      id: KW06-2019
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Sportferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sportferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Sportferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sportferien
+    -
+      id: KW07-2019
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Sportferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sportferien
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Sportferien
+        afternoon:
+          teacher:
+          lession:
+          comment: Sportferien
