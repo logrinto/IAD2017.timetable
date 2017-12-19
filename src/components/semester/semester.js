@@ -10,7 +10,10 @@ class Semester extends React.Component {
   state = { defaultLink: false };
 
   componentDidMount() {
-    this.setState({defaultLink: moment().format('[KW]ww-YYYY')})
+    let currentAnchor = moment().format('[KW]ww-YYYY');
+    if (document.getElementById(currentAnchor)) {
+      this.setState({defaultLink: currentAnchor})
+    }
   }
 
   render() {
