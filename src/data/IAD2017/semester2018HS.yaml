@@ -138,7 +138,10 @@ data:
     -
       id: JS-SH
       name: Jonas Shriqui & Stefan Huber
-
+    -
+      id: RB
+      name: Rudolf Barmettler
+      comment: RB nicht DO/FR im ZHdK-Semester
 
 
   date:
@@ -186,13 +189,13 @@ data:
       id: KW36-2018
       FR:
         morning:
-          teacher:
-          lession: Law
-          comment:
+          teacher: RB
+          lession: production
+          comment: Bleisatz
         afternoon:
-          teacher: SH
-          lession: LAB
-          comment:
+          teacher: RB
+          lession: production
+          comment: Bleisatz
       SA:
         morning:
           teacher:
@@ -207,12 +210,12 @@ data:
       FR:
         morning:
           teacher:
-          lession: production
-          comment: Bleisatz
+          lession: Law
+          comment:
         afternoon:
-          teacher:
-          lession: production
-          comment: Bleisatz
+          teacher: SH
+          lession: LAB
+          comment:
       SA:
         morning:
           teacher:

@@ -194,25 +194,35 @@ data:
     -
       id: UB
       name: Urs Bernet
-
-
+    -
+      id: TG
+      name: Timo Grossenbacher
+    -
+      id: JH
+      name: Jürg Halter
+    -
+      id: DK
+      name: Dominique Kerber
+    -
+      id: NH
+      name: Nadia Holdener
 
   date:
     -
       id: KW08-2018
       FR:
         morning:
-          teacher:
-          lession: TypeHistory
+          teacher: SH
+          lession: LAB
           comment:
         afternoon:
-          teacher:
+          teacher: UF
           lession: ArtContext
           comment:
       SA:
         morning:
-          teacher:
-          lession: AltDesign
+          teacher: SH
+          lession: TypeHistory
           comment:
         afternoon:
           teacher:
@@ -222,16 +232,16 @@ data:
       id: KW09-2018
       FR:
         morning:
-          teacher:
+          teacher: SH
           lession: TypeHistory
           comment:
         afternoon:
-          teacher:
+          teacher: UF
           lession: ArtContext
           comment:
       SA:
         morning:
-          teacher:
+          teacher: NH
           lession: YouTube
           comment:
         afternoon:
@@ -242,16 +252,16 @@ data:
       id: KW10-2018
       FR:
         morning:
-          teacher:
+          teacher: LG
           lession: Publisher
           comment:
         afternoon:
-          teacher:
+          teacher: UF
           lession: ArtContext
           comment:
       SA:
         morning:
-          teacher:
+          teacher: NH
           lession: YouTube
           comment:
         afternoon:
@@ -262,16 +272,16 @@ data:
       id: KW11-2018
       FR:
         morning:
-          teacher:
+          teacher: LG
           lession: Publisher
           comment:
         afternoon:
-          teacher:
+          teacher: SH
           lession: LAB
           comment:
       SA:
         morning:
-          teacher:
+          teacher: NH
           lession: YouTube
           comment:
         afternoon:
@@ -282,16 +292,16 @@ data:
       id: KW12-2018
       FR:
         morning:
-          teacher:
+          teacher: LG
           lession: Publisher
           comment:
         afternoon:
-          teacher:
+          teacher: SH
           lession: LAB
           comment:
       SA:
         morning:
-          teacher:
+          teacher: NH
           lession: YouTube
           comment:
         afternoon:
@@ -322,11 +332,11 @@ data:
       id: KW14-2018
       FR:
         morning:
-          teacher:
+          teacher: LG
           lession: Publisher
           comment:
         afternoon:
-          teacher:
+          teacher: SH
           lession: LAB
           comment:
       SA:
@@ -342,40 +352,40 @@ data:
       id: KW15-2018
       FR:
         morning:
-          teacher:
+          teacher: SH
           lession: FontOnScreen
           comment:
         afternoon:
-          teacher:
+          teacher: UF
           lession: ArtContext
           comment:
       SA:
         morning:
-          teacher:
+          teacher: TG
           lession: DataLiteracy
           comment:
         afternoon:
-          teacher:
+          teacher: TG
           lession: DataLiteracy
           comment:
     -
       id: KW16-2018
       FR:
         morning:
-          teacher:
+          teacher: SH
           lession: FontOnScreen
           comment:
         afternoon:
-          teacher:
+          teacher: SH
           lession: LAB
           comment:
       SA:
         morning:
-          teacher:
+          teacher: TG
           lession: DataLiteracy
           comment:
         afternoon:
-          teacher:
+          teacher: TG
           lession: DataLiteracy
           comment:
     -
@@ -442,71 +452,71 @@ data:
       id: KW20-2018
       FR:
         morning:
-          teacher:
+          teacher: SH
           lession: LAB
           comment:
         afternoon:
-          teacher:
+          teacher: DK
           lession: Fontdesign
           comment:
       SA:
         morning:
-          teacher:
-          lession: DataLiteracy
+          teacher: JH
+          lession: Storytelling
           comment:
         afternoon:
-          teacher:
-          lession: DataLiteracy
+          teacher: JH
+          lession: Storytelling
           comment:
     -
       id: KW21-2018
       FR:
         morning:
-          teacher:
+          teacher: UF
           lession: ArtContext
           comment:
         afternoon:
-          teacher:
+          teacher: DK
           lession: Fontdesign
           comment:
       SA:
         morning:
-          teacher:
-          lession: DataLiteracy
+          teacher: JH
+          lession: Storytelling
           comment:
         afternoon:
-          teacher:
-          lession: DataLiteracy
+          teacher: JH
+          lession: Storytelling
           comment:
     -
       id: KW22-2018
       FR:
         morning:
-          teacher:
+          teacher: SH
           lession: LAB
           comment:
         afternoon:
-          teacher:
+          teacher: DK
           lession: Fontdesign
           comment:
       SA:
         morning:
           teacher:
-          lession: Storytelling
-          comment:
+          lession:
+          comment: noch in planung
         afternoon:
           teacher:
-          lession: Storytelling
+          lession: noch in planung
           comment:
     -
       id: KW23-2018
       FR:
         morning:
-          teacher:
+          teacher: UF
           lession: ArtContext
           comment:
         afternoon:
-          teacher:
+          teacher: DK
           lession: Fontdesign
           comment:
       SA:
@@ -526,7 +536,7 @@ data:
           lession: Business
           comment:
         afternoon:
-          teacher:
+          teacher: SH
           lession: LAB
           comment:
       SA:
@@ -546,7 +556,7 @@ data:
           lession: Business
           comment:
         afternoon:
-          teacher:
+          teacher: DK
           lession: Fontdesign
           comment:
       SA:
@@ -566,7 +576,7 @@ data:
           lession: Business
           comment:
         afternoon:
-          teacher:
+          teacher: SH
           lession: LAB
           comment:
       SA:
@@ -606,18 +616,18 @@ data:
           lession: Business
           comment:
         afternoon:
-          teacher:
+          teacher: SH
           lession: LAB
           comment:
       SA:
         morning:
           teacher:
-          lession: Storytelling
-          comment:
+          lession:
+          comment: noch in planung
         afternoon:
           teacher:
-          lession: Storytelling
-          comment:
+          lession:
+          comment: noch in planung
     -
       id: KW29-2018
       week:
