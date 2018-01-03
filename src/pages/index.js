@@ -9,7 +9,7 @@ const IndexPage = ({ data }) => {
   root.semester.links.forEach((element) => {
       element.href = element.href.replace('../', './');
   });
-  
+
   return <Semester
         semester={root.semester}
         data={root.date}
@@ -20,7 +20,7 @@ const IndexPage = ({ data }) => {
 
 export const query = graphql`
 query SemesterQueryIndex {
-  allIad2017Yaml {
+  allIad2017Yaml(filter: {id: {eq: "IAD2017-2017HS"}}) {
     edges {
       node {
         data {

@@ -14,7 +14,7 @@ const IndexPage = ({ data }) => {
 
 export const query = graphql`
 query SemesterQuery2017HS {
-  allIad2017Yaml {
+  allIad2017Yaml(filter: {id: {eq: "IAD2017-2017HS"}}) {
     edges {
       node {
         data {

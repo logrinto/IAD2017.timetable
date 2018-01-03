@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import Semester from '../components/semester/semester.js'
 
 const IndexPage = ({ data }) => {
-  let root = data.allIad2017Yaml.edges[3].node.data;
+  let root = data.allIad2017Yaml.edges[0].node.data;
   return <Semester
         semester={root.semester}
         data={root.date}
@@ -14,7 +14,7 @@ const IndexPage = ({ data }) => {
 
 export const query = graphql`
 query SemesterQuery2019FS {
-  allIad2017Yaml {
+  allIad2017Yaml(filter: {id: {eq: "IAD2017-2019FS"}}) {
     edges {
       node {
         data {
