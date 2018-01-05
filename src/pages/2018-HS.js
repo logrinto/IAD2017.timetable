@@ -64,6 +64,7 @@ query SemesterQuery2018HS {
               }
             }
             week {
+              teacher
               lession
               comment
             }

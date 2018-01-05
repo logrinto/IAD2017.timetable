@@ -64,6 +64,7 @@ query SemesterQuery2020FS {
               }
             }
             week {
+              teacher
               lession
               comment
             }

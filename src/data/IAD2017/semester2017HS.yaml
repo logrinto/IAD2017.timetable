@@ -105,8 +105,8 @@ data:
       id: T1
       name: Lehrername
     -
-      id: T2
-      name: Lehrername
+      id: SC
+      name: Sebastian Cremers
     -
       id: SH
       name: Stefan Huber
@@ -624,7 +624,7 @@ data:
     -
       id: KW06-2018
       week:
-        teacher:
+        teacher: SC
         lession: ProjektWeek
         comment: Montag bis Freitag
     -

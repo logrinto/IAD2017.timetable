@@ -70,6 +70,7 @@ query SemesterQueryIndex {
               }
             }
             week {
+              teacher
               lession
               comment
             }
