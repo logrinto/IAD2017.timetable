@@ -215,7 +215,7 @@ data:
         morning:
           teacher: SH
           lession: LAB
-          comment:
+          comment: Rückschau – Input
         afternoon:
           teacher: UF
           lession: ArtContext
