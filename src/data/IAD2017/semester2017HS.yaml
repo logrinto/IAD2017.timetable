@@ -137,7 +137,9 @@ data:
     -
       id: JS-SH
       name: Jonas Shriqui & Stefan Huber
-
+    -
+      id: MS
+      name: Markus Sing
 
 
   date:
@@ -605,20 +607,20 @@ data:
       id: KW05-2018
       FR:
         morning:
-          teacher:
+          teacher: MS
           lession: DiyHardware
           comment:
         afternoon:
-          teacher:
+          teacher: MS
           lession: DiyHardware
           comment:
       SA:
         morning:
-          teacher:
+          teacher: MS
           lession: DiyHardware
           comment:
         afternoon:
-          teacher:
+          teacher: MS
           lession: DiyHardware
           comment:
     -
