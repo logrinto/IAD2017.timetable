@@ -149,12 +149,12 @@ data:
       id: KW34-2018
       FR:
         morning:
-          teacher:
-          lession: editorialDesign
-          comment:
-        afternoon:
           teacher: SH
           lession: LAB
+          comment:
+        afternoon:
+          teacher:
+          lession: editorialDesign
           comment:
       SA:
         morning:
