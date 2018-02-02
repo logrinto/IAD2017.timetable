@@ -217,13 +217,13 @@ data:
           lession: LAB
           comment: Rückschau – Input
         afternoon:
-          teacher: UF
-          lession: ArtContext
+          teacher: SH
+          lession: TypeHistory
           comment:
       SA:
         morning:
-          teacher: SH
-          lession: TypeHistory
+          teacher: NH
+          lession: YouTube
           comment:
         afternoon:
           teacher:
