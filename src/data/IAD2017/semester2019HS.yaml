@@ -95,6 +95,10 @@ data:
       id: thesis
       title: Thesis (selbstständige Arbeit)
       color: green
+    -
+      id: thesisprep
+      title: Thesis – Einführung & Themenfindung
+      color: green
   #  Guest:
   #    title: Gastreferat
   #    color: mint
@@ -164,12 +168,12 @@ data:
       id: KW35-2019
       FR:
         morning:
-          teacher:
-          lession: presentation
+          teacher: UF
+          lession: thesisprep
           comment:
         afternoon:
-          teacher:
-          lession: presentation
+          teacher: UF
+          lession: thesisprep
           comment:
       SA:
         morning:
@@ -205,11 +209,11 @@ data:
       FR:
         morning:
           teacher:
-          lession: presentation
+          lession: thesisprep
           comment:
         afternoon:
           teacher:
-          lession: presentation
+          lession: thesisprep
           comment:
       SA:
         morning:

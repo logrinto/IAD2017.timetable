@@ -215,7 +215,7 @@ data:
         morning:
           teacher: SH
           lession: LAB
-          comment: Rückschau – Input
+          comment: Rückschau – Input – Timeline Medien-/Technologiegeschichte
         afternoon:
           teacher: SH
           lession: TypeHistory
@@ -253,7 +253,7 @@ data:
       id: KW10-2018
       FR:
         morning:
-          teacher: LG
+          teacher:
           lession: Publisher
           comment:
         afternoon:
@@ -273,13 +273,13 @@ data:
       id: KW11-2018
       FR:
         morning:
-          teacher: LG
+          teacher:
           lession: Publisher
           comment:
         afternoon:
           teacher: SH
           lession: LAB
-          comment:
+          comment: Timeline Medien-/Technologiegeschichte
       SA:
         morning:
           teacher: NH
@@ -293,7 +293,7 @@ data:
       id: KW12-2018
       FR:
         morning:
-          teacher: LG
+          teacher:
           lession: Publisher
           comment:
         afternoon:
@@ -333,12 +333,12 @@ data:
       id: KW14-2018
       FR:
         morning:
-          teacher: LG
-          lession: Publisher
-          comment:
-        afternoon:
           teacher: SH
           lession: LAB
+          comment:
+        afternoon:
+          teacher: UF
+          lession: ArtContext
           comment:
       SA:
         morning:
