@@ -1,10 +1,9 @@
 import React from "react";
 import moment from "moment";
 import Halfday from "../halfday/halfday.js";
-// import './style.scss';
+import Anchor from "../anchor/anchor.js";
 
 const Week = ({ data, teachers, lessions }) => {
-  // console.log('Week', data);
   return (
     <div className="week">
       <span className="week--jump" id={data.id} />
@@ -15,7 +14,9 @@ const Week = ({ data, teachers, lessions }) => {
             <div className="week-header--title">
               <p>
                 <span className="bold">
-                  KW{moment(data.id, "[KW]ww-YYYY").format("ww · YYYY")}
+                  <Anchor anchor={data.id}>
+                    KW{moment(data.id, "[KW]ww-YYYY").format("ww · YYYY")}
+                  </Anchor>
                 </span>
                 <br />
                 {moment(data.id, "[KW]ww-YYYY")
@@ -44,13 +45,15 @@ const Week = ({ data, teachers, lessions }) => {
         {data.week && (
           <p>
             <span className="bold">
-              KW{moment(data.id, "[KW]ww-YYYY").format("ww · YYYY")}
+              <Anchor anchor={data.id}>
+                KW{moment(data.id, "[KW]ww-YYYY").format("ww · YYYY")}
+              </Anchor>
             </span>
             <br />
             {moment(data.id, "[KW]ww-YYYY")
               .add(1, "days")
-              .format("DD.MM")}{" "}
-            –{" "}
+              .format("DD.MM")}
+            {" – "}
             {moment(data.id, "[KW]ww-YYYY")
               .add(5, "days")
               .format("DD.MM.YYYY")}
