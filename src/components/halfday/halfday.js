@@ -1,23 +1,12 @@
 import React from 'react';
+import Anchor from '../anchor/anchor.js'
 // import Week from '../week/week.js'
 // import './style.scss';
 
 
 // const Halfday = ({ teacher, lession, comment }) => (
 
-const Wrapper = ({ children, anchor }) => {
 
-
-  return (
-    <div>
-      {anchor && <a href={`#detail-${anchor}`}>
-        {children}
-      </a>}
-      {!anchor && children}
-    </div>
-  )
-
-}
 
 
 const Halfday = ({ data: {teacher, lession, comment}, teachers, lessions }) => {
@@ -27,7 +16,8 @@ const Halfday = ({ data: {teacher, lession, comment}, teachers, lessions }) => {
   let lessionObj = lessions.find(item => item.id == lession)
 
   return (
-    <Wrapper
+    <Anchor
+      prefix={'detail-'}
       anchor={lession}
       >
       <div className="halfday">
@@ -37,7 +27,7 @@ const Halfday = ({ data: {teacher, lession, comment}, teachers, lessions }) => {
           {comment && <div className="halfday--comment"><span className="bg">{comment}</span></div>}
         </div>
       </div>
-    </Wrapper>
+    </Anchor>
   )
 }
 

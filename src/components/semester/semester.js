@@ -34,15 +34,16 @@ class Semester extends React.Component {
       {this.state && this.state.defaultLink && <a href={`#${this.state.defaultLink}`}>↓ aktuell</a>}
 
       <Lessions
-          data={data}
-          teachers={teachers}
-          lessions={lessions}
-        />
+        data={data}
+        teachers={teachers}
+        lessions={lessions}
+      />
+
       <Weeks
-          data={data}
-          teachers={teachers}
-          lessions={lessions}
-        />
+        data={data}
+        teachers={teachers}
+        lessions={lessions}
+      />
 
         <div className="pagebreak"></div>
 
