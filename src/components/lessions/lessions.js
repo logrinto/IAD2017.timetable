@@ -1,6 +1,6 @@
-import React from 'react';
-import moment from 'moment'
-import Lession from '../lession/lession.js'
+import React from "react";
+import moment from "moment";
+import Lession from "../lession/lession.js";
 // import './style.scss';
 
 const Lessions = ({ data, teachers, lessions, details }) => {
@@ -13,18 +13,21 @@ const Lessions = ({ data, teachers, lessions, details }) => {
     return 0;
   });
 
-  return (<div className="lessions">
-
-      {sortLession.map((lession) => {
-        return <Lession
+  return (
+    <div className="lessions">
+      {sortLession.map(lession => {
+        return (
+          <Lession
             key={lession.id}
             data={data}
             teachers={teachers}
             lession={lession}
             details={details}
-          />;
+          />
+        );
       })}
-  </div>)
-}
+    </div>
+  );
+};
 
-export default Lessions
+export default Lessions;

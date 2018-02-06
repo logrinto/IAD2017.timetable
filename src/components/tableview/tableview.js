@@ -14,6 +14,7 @@ const Tableview = ({ data, filter }) => {
               {currentDate.add(1, "days").format("[KW]ww")}
             </Anchor>
           );
+
           return [
             week.FR &&
               week.FR.morning.lession === filter && (
