@@ -2,7 +2,11 @@ import React from "react";
 import moment from "moment";
 import Tableview from "../tableview/tableview.js";
 import Anchor from "../anchor/anchor.js";
-// import './style.scss';
+
+// https://stackoverflow.com/questions/5366849/convert-1-to-0001-in-javascript
+function padLeft(nr, n, str) {
+  return Array(n - String(nr).length + 1).join(str || "0") + nr;
+}
 
 const Lession = ({ data, teachers, lession, details }) => {
   // console.log('lession data', data);
@@ -24,7 +28,7 @@ const Lession = ({ data, teachers, lession, details }) => {
   return (
     <div id={details && `detail-${lession.id}`} className="lession">
       <span className={`lession-bg lession-bg--${lession.color || "gray"}`} />
-      <span>{total} Lektionen&nbsp;&nbsp;·&nbsp;&nbsp;</span>
+      <span>{padLeft(total, 2)} Lektionen&nbsp;&nbsp;·&nbsp;&nbsp;</span>
 
       <Anchor prefix={"detail-"} anchor={lession.id}>
         <span className="bold">{lession.title} </span>
