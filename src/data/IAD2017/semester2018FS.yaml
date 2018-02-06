@@ -4,7 +4,7 @@ data:
     title: Frühlingssemester 2018
     slug: 2018-FS
     class: IAD2017
-    room: Zimmer 413 (noch nicht sicher) · Schule für Gestaltung Zürich, Ausstellungsstrasse 104, 8005 Zürich
+    room: Zimmer 413 · Schule für Gestaltung Zürich, Ausstellungsstrasse 104, 8005 Zürich
     notes: Projektwoche 2018 – 5.2–9.2.2018 & 16.7.-20.7.2018
     links:
       -
@@ -207,6 +207,9 @@ data:
       id: NH
       name: Nadia Holdener
       comment: bevorzugt SA
+    -
+      id: AB
+      name: Anneka Beatty
 
   date:
     -
@@ -226,7 +229,7 @@ data:
           lession: YouTube
           comment:
         afternoon:
-          teacher:
+          teacher: AB
           lession: AltDesign
           comment:
     -
@@ -246,7 +249,7 @@ data:
           lession: YouTube
           comment:
         afternoon:
-          teacher:
+          teacher: AB
           lession: AltDesign
           comment:
     -
@@ -266,7 +269,7 @@ data:
           lession: YouTube
           comment:
         afternoon:
-          teacher:
+          teacher: AB
           lession: AltDesign
           comment:
     -
@@ -286,7 +289,7 @@ data:
           lession: YouTube
           comment:
         afternoon:
-          teacher:
+          teacher: AB
           lession: AltDesign
           comment:
     -
@@ -306,7 +309,7 @@ data:
           lession: YouTube
           comment:
         afternoon:
-          teacher:
+          teacher: AB
           lession: AltDesign
           comment:
     -
