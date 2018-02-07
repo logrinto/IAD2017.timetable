@@ -10,8 +10,14 @@ const Tableview = ({ data, filter }) => {
         {data.map(week => {
           let currentDate = moment(week.id, "[KW]ww-YYYY");
           let KW = (
-            <Anchor anchor={currentDate.add(1, "days").format("[KW]ww-YYYY")}>
-              {currentDate.add(1, "days").format("[KW]ww")}
+            <Anchor
+              anchor={moment(currentDate)
+                .add(1, "days")
+                .format("[KW]ww-YYYY")}
+            >
+              {moment(currentDate)
+                .add(1, "days")
+                .format("[KW]ww")}
             </Anchor>
           );
 
@@ -20,8 +26,10 @@ const Tableview = ({ data, filter }) => {
               week.FR.morning.lession === filter && (
                 <li>
                   {KW}
-                  {currentDate.add(5, "days").format(" · [Fr] · DD.MM.YYYY")} ·
-                  08:15 – 11:40
+                  {moment(currentDate)
+                    .add(5, "days")
+                    .format(" · [Fr] · DD.MM.YYYY")}{" "}
+                  · 08:15 – 11:40
                 </li>
               ),
 
@@ -29,8 +37,10 @@ const Tableview = ({ data, filter }) => {
               week.FR.afternoon.lession === filter && (
                 <li>
                   {KW}
-                  {currentDate.add(5, "days").format(" · [Fr] · DD.MM.YYYY")} ·
-                  13:15 – 16:45
+                  {moment(currentDate)
+                    .add(5, "days")
+                    .format(" · [Fr] · DD.MM.YYYY")}{" "}
+                  · 13:15 – 16:45
                 </li>
               ),
 
@@ -38,8 +48,10 @@ const Tableview = ({ data, filter }) => {
               week.SA.morning.lession === filter && (
                 <li>
                   {KW}
-                  {currentDate.add(6, "days").format(" · [Sa] · DD.MM.YYYY")} ·
-                  08:15 – 11:40
+                  {moment(currentDate)
+                    .add(6, "days")
+                    .format(" · [Sa] · DD.MM.YYYY")}{" "}
+                  · 08:15 – 11:40
                 </li>
               ),
 
@@ -47,8 +59,10 @@ const Tableview = ({ data, filter }) => {
               week.SA.afternoon.lession === filter && (
                 <li>
                   {KW}
-                  {currentDate.add(6, "days").format(" · [Sa] · DD.MM.YYYY")} ·
-                  13:15 – 16:45
+                  {moment(currentDate)
+                    .add(6, "days")
+                    .format(" · [Sa] · DD.MM.YYYY")}{" "}
+                  · 13:15 – 16:45
                 </li>
               ),
 
@@ -56,10 +70,14 @@ const Tableview = ({ data, filter }) => {
               week.week.lession === filter && (
                 <li>
                   {KW}
-                  {currentDate.add(1, "days").format(" · [Mo] · DD.MM.YYYY")}
+                  {moment(currentDate)
+                    .add(1, "days")
+                    .format(" · [Mo] · DD.MM.YYYY")}
                   {" – "}
-                  {currentDate.add(5, "days").format("[Fr] · DD.MM.YYYY")} ·
-                  08:15 – 16:45
+                  {moment(currentDate)
+                    .add(5, "days")
+                    .format("[Fr] · DD.MM.YYYY")}{" "}
+                  · 08:15 – 16:45
                 </li>
               )
           ];
