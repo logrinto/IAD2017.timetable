@@ -116,13 +116,17 @@ data:
     -
       id: FontOnScreen
       title: Bildschirme und Fonts
-      color: green-gray
+      color: magenta
 
     -
       id: Storytelling
       title: Vom Platzhalter zur Geschichte
       color: black
 
+    -
+      id: CD-Starter
+      title: Corporate Design (UX)
+      color: black
 
 
 
@@ -213,8 +217,12 @@ data:
     -
       id: RR
       name: Rahel Räz
-
-
+    -
+      id: CT
+      name: Christof Täschler
+    -
+      id: MSK-SH
+      name: Michael Scherrer-Kast & Stefan Huber
 
   date:
     -
@@ -226,7 +234,7 @@ data:
           comment: Rückschau – Input – Timeline Medien-/Technologiegeschichte
         afternoon:
           teacher: SH
-          lession: TypeHistory
+          lession: LAB
           comment:
       SA:
         morning:
@@ -241,8 +249,8 @@ data:
       id: KW09-2018
       FR:
         morning:
-          teacher: SH
-          lession: TypeHistory
+          teacher: CT
+          lession: CD-Starter
           comment:
         afternoon:
           teacher: UF
@@ -261,8 +269,8 @@ data:
       id: KW10-2018
       FR:
         morning:
-          teacher:
-          lession: Publisher
+          teacher: CT
+          lession: CD-Starter
           comment:
         afternoon:
           teacher: UF
@@ -281,8 +289,8 @@ data:
       id: KW11-2018
       FR:
         morning:
-          teacher:
-          lession: Publisher
+          teacher: CT
+          lession: CD-Starter
           comment:
         afternoon:
           teacher: SH
@@ -301,8 +309,8 @@ data:
       id: KW12-2018
       FR:
         morning:
-          teacher:
-          lession: Publisher
+          teacher: CT
+          lession: CD-Starter
           comment:
         afternoon:
           teacher: SH
@@ -361,8 +369,8 @@ data:
       id: KW15-2018
       FR:
         morning:
-          teacher: SH
-          lession: FontOnScreen
+          teacher: CT
+          lession: CD-Starter
           comment:
         afternoon:
           teacher: UF
@@ -381,8 +389,8 @@ data:
       id: KW16-2018
       FR:
         morning:
-          teacher: SH
-          lession: FontOnScreen
+          teacher: CT
+          lession: CD-Starter
           comment:
         afternoon:
           teacher: SH
@@ -510,12 +518,12 @@ data:
           comment:
       SA:
         morning:
-          teacher:
-          lession:
-          comment: noch in planung
+          teacher: MSK-SH
+          lession: csInterface
+          comment:
         afternoon:
-          teacher:
-          lession: noch in planung
+          teacher: MSK-SH
+          lession: csInterface
           comment:
     -
       id: KW23-2018
@@ -541,12 +549,12 @@ data:
       id: KW24-2018
       FR:
         morning:
-          teacher:
-          lession: Business
+          teacher: SH
+          lession: TypeHistory
           comment:
         afternoon:
           teacher: SH
-          lession: LAB
+          lession: TypeHistory
           comment:
       SA:
         morning:
@@ -561,8 +569,8 @@ data:
       id: KW25-2018
       FR:
         morning:
-          teacher:
-          lession: Business
+          teacher: SH
+          lession: FontOnScreen
           comment:
         afternoon:
           teacher: DK
@@ -581,8 +589,8 @@ data:
       id: KW26-2018
       FR:
         morning:
-          teacher:
-          lession: Business
+          teacher: SH
+          lession: FontOnScreen
           comment:
         afternoon:
           teacher: SH
@@ -591,11 +599,11 @@ data:
       SA:
         morning:
           teacher:
-          lession: csInterface
-          comment:
+          lession:
+          comment: noch in Planung
         afternoon:
           teacher:
-          lession: csInterface
+          lession: noch in Planung
           comment:
     -
       id: KW27-2018

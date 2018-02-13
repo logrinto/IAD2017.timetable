@@ -8,5 +8,5 @@ public/
 yarn-error.log
 yarn.lock
 /travis/.ssh/id_rsa
-/info.md
+/src/data/IAD2017/info.md
 /hf_iad_semesterplan_uebersicht_inkl_projektwochen_20160109.xlsx
