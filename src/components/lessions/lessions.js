@@ -5,7 +5,7 @@ import Lession from "../lession/lession.js";
 
 const Lessions = ({ data, teachers, lessions, details }) => {
   // console.log('Lessions', data);
-  let sortLession = lessions.sort(function(a, b) {
+  let sortLession = lessions.sort((a, b) => {
     let titleA = a.title.toUpperCase(); // ignore upper and lowercase
     let titleB = b.title.toUpperCase(); // ignore upper and lowercase
     if (titleA < titleB) return -1;
