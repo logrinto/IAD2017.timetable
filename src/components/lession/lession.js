@@ -32,7 +32,6 @@ const Lession = ({ data, teachers, lession, details }) => {
 
       <Anchor prefix={"detail-"} anchor={lession.id}>
         <span className="bold">{lession.title} </span>
-        <span className="id">{lession.id}</span>
       </Anchor>
       {details && <Tableview data={data} filter={lession.id} />}
     </div>
