@@ -66,50 +66,14 @@ class Semester extends React.Component {
           <br />
           <br />
           <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
 
           <div>
             <a
               href="https://github.com/logrinto/IAD2017.timetable"
               target="_blank"
             >
-              → Stundenplan auf Github{" "}
-            </a>
+              → Stundenplan auf Github
+            </a>{" "}
             <a
               href="webcal://logrinto.github.io/IAD2017.timetable/IAD.ics"
               target="_blank"
