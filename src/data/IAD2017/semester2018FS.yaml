@@ -210,6 +210,11 @@ data:
     -
       id: AB
       name: Anneka Beatty
+    -
+      id: RR
+      name: Rahel Räz
+
+
 
   date:
     -
@@ -616,12 +621,12 @@ data:
       id: KW28-2018
       FR:
         morning:
-          teacher:
-          lession: Business
+          teacher: RR
+          lession: Publisher
           comment:
         afternoon:
-          teacher: SH
-          lession: LAB
+          teacher: RR
+          lession: Publisher
           comment:
       SA:
         morning:
@@ -629,9 +634,9 @@ data:
           lession:
           comment: noch in planung
         afternoon:
-          teacher:
-          lession:
-          comment: noch in planung
+          teacher: SH
+          lession: LAB
+          comment:
     -
       id: KW29-2018
       week:
