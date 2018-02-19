@@ -46,10 +46,6 @@ export const query = graphql`
                 href
               }
             }
-            teachers {
-              id
-              name
-            }
             lessions {
               id
               title
