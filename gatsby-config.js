@@ -1,13 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: 'IAD',
+    title: "IAD"
   },
-  pathPrefix: '/IAD2017.timetable',
+  pathPrefix: "/IAD2017.timetable",
   plugins: [
-    'gatsby-plugin-react-helmet',
-    'gatsby-transformer-yaml',
-    'gatsby-transformer-json',
-    'gatsby-plugin-postcss-sass',
+    "gatsby-plugin-react-helmet",
+    "gatsby-transformer-yaml",
+    "gatsby-transformer-json",
+    "gatsby-plugin-postcss-sass",
     // You can have multiple instances of this plugin
     // to read source nodes from different locations on your
     // filesystem.
@@ -16,18 +16,18 @@ module.exports = {
     // "pages" directory for Markdown files and a "data" directory
     // for `.json`, `.yaml`, `.csv`.
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: 'pages',
-        path: `${__dirname}/src/pages/`,
-      },
+        name: "pages",
+        path: `${__dirname}/src/pages/`
+      }
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: 'data',
-        path: `${__dirname}/src/data/`,
-      },
-    },
-  ],
-}
+        name: "data",
+        path: `${__dirname}/src/data/`
+      }
+    }
+  ]
+};
