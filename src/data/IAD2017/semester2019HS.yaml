@@ -103,45 +103,6 @@ data:
   #    title: Gastreferat
   #    color: mint
 
-  teachers:
-    -
-      id: T1
-      name: Lehrername
-    -
-      id: T2
-      name: Lehrername
-    -
-      id: SH
-      name: Stefan Huber
-    -
-      id: BV
-      name: Basil Vogt
-    -
-      id: MW
-      name: Martin Werren
-    -
-      id: VM
-      name: Victor Mazón Gardoqui
-    -
-      id: HZ
-      name: Hanna Züllig/Brigitte Lampert
-    -
-      id: DF
-      name: Daniel Frei
-    -
-      id: UF
-      name: Ulrike Felsing
-    -
-      id: LG
-      name: Laurent Gachnang
-    -
-      id: UB
-      name: Urs Bernet
-    -
-      id: JS-SH
-      name: Jonas Shriqui & Stefan Huber
-
-
 
   date:
     -

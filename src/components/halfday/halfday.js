@@ -11,6 +11,10 @@ const Halfday = ({
   let teacherObj = teachers.find(item => item.id == teacher);
   let lessionObj = lessions.find(item => item.id == lession);
 
+  if (teacher && !teacherObj) {
+    console.log("coudn't find teacher", teacher);
+  }
+
   return (
     <Anchor prefix={"detail-"} anchor={lession}>
       <div className="halfday">

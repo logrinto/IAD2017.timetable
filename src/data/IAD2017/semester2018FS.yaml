@@ -36,10 +36,6 @@ data:
       title: Medien-/Technologiegeschichte
       color: violet
     -
-      id: TypeHistory
-      title: Technologiegeschichte der Schrift
-      color: bordeaux
-    -
       id: ChangeMngmnt
       title: Zukunft – Umgang mit der Ungewissheit
       color: petrol
@@ -163,66 +159,6 @@ data:
   #  Guest:
   #    title: Gastreferat
   #    color: mint
-
-  teachers:
-    -
-      id: T1
-      name: Lehrername
-    -
-      id: T2
-      name: Lehrername
-    -
-      id: SH
-      name: Stefan Huber
-    -
-      id: BV
-      name: Basil Vogt
-    -
-      id: MW
-      name: Martin Werren
-    -
-      id: VM
-      name: Victor Mazón Gardoqui
-    -
-      id: HZ
-      name: Hanna Züllig/Brigitte Lampert
-    -
-      id: DF
-      name: Daniel Frei
-    -
-      id: UF
-      name: Ulrike Felsing
-    -
-      id: LG
-      name: Laurent Gachnang
-    -
-      id: UB
-      name: Urs Bernet
-    -
-      id: TG
-      name: Timo Grossenbacher
-    -
-      id: JH
-      name: Jürg Halter
-    -
-      id: DK
-      name: Dominique Kerber
-    -
-      id: NH
-      name: Nadia Holdener
-      comment: bevorzugt SA
-    -
-      id: AB
-      name: Anneka Beatty
-    -
-      id: RR
-      name: Rahel Räz
-    -
-      id: CT
-      name: Christof Täschler
-    -
-      id: MSK-SH
-      name: Michael Scherrer-Kast & Stefan Huber
 
   date:
     -
