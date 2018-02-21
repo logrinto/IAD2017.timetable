@@ -584,9 +584,10 @@ data:
     -
       id: KW06-2018
       week:
-        teacher: SC
-        lession: ProjektWeek
-        comment: Montag bis Freitag
+        all:
+          teacher: SC
+          lession: ProjektWeek
+          comment: Montag bis Freitag
     -
       id: KW07-2018
       FR:

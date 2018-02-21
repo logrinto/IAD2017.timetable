@@ -539,8 +539,8 @@ data:
           comment: noch in Planung
         afternoon:
           teacher:
-          lession: noch in Planung
-          comment:
+          lession:
+          comment: noch in Planung
     -
       id: KW27-2018
       FR:
@@ -584,9 +584,10 @@ data:
     -
       id: KW29-2018
       week:
-        teacher:
-        lession: ProjektWeek
-        comment: Montag bis Freitag
+        all:
+          teacher:
+          lession: ProjektWeek
+          comment: Montag bis Freitag
     -
       id: KW30-2018
       FR:

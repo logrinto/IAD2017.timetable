@@ -104,7 +104,7 @@ const Week = ({ data, teachers, lessions }) => {
           <div className="week--week">
             <div className="week--allweek">
               <Halfday
-                data={data.week}
+                data={data.week.all}
                 teachers={teachers}
                 lessions={lessions}
               />

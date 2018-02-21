@@ -77,9 +77,11 @@ export const query = graphql`
                 }
               }
               week {
-                teacher
-                lession
-                comment
+                all {
+                  teacher
+                  lession
+                  comment
+                }
               }
             }
           }
