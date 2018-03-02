@@ -111,7 +111,7 @@ data:
           comment:
         afternoon:
           teacher:
-          lession: editorialDesign
+          lession: userinterfaces
           comment:
       SA:
         morning:
@@ -136,7 +136,7 @@ data:
       SA:
         morning:
           teacher:
-          lession: editorialDesign
+          lession: userinterfaces
           comment:
         afternoon:
           teacher:
@@ -156,7 +156,7 @@ data:
       SA:
         morning:
           teacher:
-          lession: editorialDesign
+          lession: userinterfaces
           comment:
         afternoon:
           teacher:
@@ -176,7 +176,7 @@ data:
       SA:
         morning:
           teacher:
-          lession: editorialDesign
+          lession: userinterfaces
           comment:
         afternoon:
           teacher:
@@ -196,7 +196,7 @@ data:
       SA:
         morning:
           teacher:
-          lession: editorialDesign
+          lession: userinterfaces
           comment:
         afternoon:
           teacher:
@@ -236,11 +236,11 @@ data:
       SA:
         morning:
           teacher:
-          lession: editorialDesign
+          lession: userinterfaces
           comment:
         afternoon:
           teacher:
-          lession: editorialDesign
+          lession: userinterfaces
           comment:
     -
       id: KW41-2018
@@ -516,11 +516,11 @@ data:
       SA:
         morning:
           teacher:
-          lession: userinterfaces
+          lession: editorialDesign
           comment:
         afternoon:
           teacher:
-          lession: userinterfaces
+          lession: editorialDesign
           comment:
     -
       id: KW03-2019
@@ -536,11 +536,11 @@ data:
       SA:
         morning:
           teacher:
-          lession: userinterfaces
+          lession: editorialDesign
           comment:
         afternoon:
           teacher:
-          lession: userinterfaces
+          lession: editorialDesign
           comment:
     -
       id: KW04-2019
@@ -556,11 +556,11 @@ data:
       SA:
         morning:
           teacher:
-          lession: userinterfaces
+          lession: editorialDesign
           comment:
         afternoon:
           teacher:
-          lession: userinterfaces
+          lession: editorialDesign
           comment:
     -
       id: KW05-2019
