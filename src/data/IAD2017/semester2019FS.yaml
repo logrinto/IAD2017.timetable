@@ -251,26 +251,6 @@ data:
       FR:
         morning:
           teacher:
-          lession:
-          comment: Karfreitag
-        afternoon:
-          teacher:
-          lession:
-          comment: Karfreitag
-      SA:
-        morning:
-          teacher:
-          lession:
-          comment: Ostern
-        afternoon:
-          teacher:
-          lession:
-          comment: Ostern
-    -
-      id: KW14-2019
-      FR:
-        morning:
-          teacher:
           lession: ads
           comment:
         afternoon:
@@ -285,32 +265,32 @@ data:
         afternoon:
           teacher:
           lession: FontDay
+          comment:
+    -
+      id: KW14-2019
+      FR:
+        morning:
+          teacher:
+          lession: csInterface
+          comment:
+        afternoon:
+          teacher:
+          lession: csInterface
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: responsive
+          comment:
+        afternoon:
+          teacher:
+          lession: responsive
           comment:
     -
       id: KW15-2019
       FR:
         morning:
           teacher:
-          lession: csInterface
-          comment:
-        afternoon:
-          teacher:
-          lession: csInterface
-          comment:
-      SA:
-        morning:
-          teacher:
-          lession: responsive
-          comment:
-        afternoon:
-          teacher:
-          lession: responsive
-          comment:
-    -
-      id: KW16-2019
-      FR:
-        morning:
-          teacher:
           lession: ads
           comment:
         afternoon:
@@ -326,6 +306,26 @@ data:
           teacher:
           lession: webshops
           comment:
+    -
+      id: KW16-2019
+      FR:
+        morning:
+          teacher:
+          lession:
+          comment: Karfreitag
+        afternoon:
+          teacher:
+          lession:
+          comment: Karfreitag
+      SA:
+        morning:
+          teacher:
+          lession:
+          comment: Ostern
+        afternoon:
+          teacher:
+          lession:
+          comment: Ostern
     -
       id: KW17-2019
       FR:
@@ -371,31 +371,31 @@ data:
       FR:
         morning:
           teacher:
-          lession:
-          comment: Auffahrt
-        afternoon:
-          teacher:
-          lession:
-          comment: Auffahrt
-      SA:
-        morning:
-          teacher:
-          lession:
-          comment: Auffahrt
-        afternoon:
-          teacher:
-          lession:
-          comment: Auffahrt
-    -
-      id: KW20-2019
-      FR:
-        morning:
-          teacher:
           lession: ads
           comment:
         afternoon:
           teacher:
           lession: LAB
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: webshops
+          comment:
+        afternoon:
+          teacher:
+          lession: webshops
+          comment:
+    -
+      id: KW20-2019
+      FR:
+        morning:
+          teacher:
+          lession: MobileTypo
+          comment:
+        afternoon:
+          teacher:
+          lession: MobileTypo
           comment:
       SA:
         morning:
@@ -415,7 +415,7 @@ data:
           comment:
         afternoon:
           teacher:
-          lession: MobileTypo
+          lession: LAB
           comment:
       SA:
         morning:
@@ -431,21 +431,21 @@ data:
       FR:
         morning:
           teacher:
-          lession: MobileTypo
-          comment:
+          lession:
+          comment: Auffahrt
         afternoon:
           teacher:
-          lession: LAB
-          comment:
+          lession:
+          comment: Auffahrt
       SA:
         morning:
           teacher:
-          lession: webshops
-          comment:
+          lession:
+          comment: Auffahrt
         afternoon:
           teacher:
-          lession: webshops
-          comment:
+          lession:
+          comment: Auffahrt
     -
       id: KW23-2019
       FR:
