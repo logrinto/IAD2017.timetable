@@ -79,7 +79,10 @@ data:
   #  Crossmedia:
   #    title: Crossmedia von der Datenbank zur Ausgabe
   #    color: gray-violet
-
+    -
+      id: Business
+      title: Unternehmensziele
+      color: orange
     -
       id: MediaThinking
       title: Denken über Medien
@@ -356,11 +359,11 @@ data:
       SA:
         morning:
           teacher:
-          lession: MediaThinking
+          lession: Business
           comment:
         afternoon:
           teacher:
-          lession: MediaThinking
+          lession: Business
           comment:
     -
       id: KW47-2018
@@ -376,11 +379,11 @@ data:
       SA:
         morning:
           teacher:
-          lession: MediaThinking
+          lession: Business
           comment:
         afternoon:
           teacher:
-          lession: MediaThinking
+          lession: Business
           comment:
     -
       id: KW48-2018
