@@ -21,6 +21,7 @@ class Semester extends React.Component {
       <div className="semester">
         <h1>{semester.title}</h1>
         <h3>{semester.room}</h3>
+        {semester.notes && <h3>{semester.notes}</h3>}
         <p>Klasse {semester.class} · Änderungen vorbehalten.</p>
 
         <div className="navigation noPrint">
@@ -56,8 +57,6 @@ class Semester extends React.Component {
         <br />
         <br />
         <br />
-
-        <h3>{semester.notes}</h3>
 
         <div className="noPrint">
           <br />
