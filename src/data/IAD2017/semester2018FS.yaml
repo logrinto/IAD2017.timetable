@@ -475,12 +475,12 @@ data:
       SA:
         morning:
           teacher:
-          lession: ChangeMngmnt
-          comment:
+          lession:
+          comment: noch in Planung
         afternoon:
           teacher:
-          lession: ChangeMngmnt
-          comment:
+          lession:
+          comment: noch in Planung
     -
       id: KW24-2018
       FR:
@@ -495,12 +495,12 @@ data:
       SA:
         morning:
           teacher:
-          lession: ChangeMngmnt
-          comment:
+          lession:
+          comment: noch in Planung
         afternoon:
           teacher:
-          lession: ChangeMngmnt
-          comment:
+          lession:
+          comment: noch in Planung
     -
       id: KW25-2018
       FR:
@@ -515,12 +515,12 @@ data:
       SA:
         morning:
           teacher:
-          lession: ChangeMngmnt
-          comment:
+          lession:
+          comment: noch in Planung
         afternoon:
           teacher:
-          lession: ChangeMngmnt
-          comment:
+          lession:
+          comment: noch in Planung
     -
       id: KW26-2018
       FR:
