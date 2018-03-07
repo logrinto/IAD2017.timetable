@@ -28,6 +28,10 @@ data:
 
   lessions:
     -
+      id: ChangeMngmnt
+      title: Zukunft – Umgang mit der Ungewissheit
+      color: bordeaux
+    -
       id: LAB
       title: LAB
       color: dark-red
@@ -90,7 +94,7 @@ data:
     -
       id: IoT
       title: Internet of Things
-      color: bordeaux
+      color: petrol
     -
       id: TypeSystem
       title: Typografische Systeme
@@ -418,12 +422,12 @@ data:
           comment:
       SA:
         morning:
-          teacher:
-          lession: TypeSystem
+          teacher: HT
+          lession: ChangeMngmnt
           comment:
         afternoon:
-          teacher:
-          lession: TypeSystem
+          teacher: HT
+          lession: ChangeMngmnt
           comment:
     -
       id: KW50-2018
@@ -438,12 +442,12 @@ data:
           comment:
       SA:
         morning:
-          teacher:
-          lession: TypeSystem
+          teacher: HT
+          lession: ChangeMngmnt
           comment:
         afternoon:
-          teacher:
-          lession: TypeSystem
+          teacher: HT
+          lession: ChangeMngmnt
           comment:
     -
       id: KW51-2018

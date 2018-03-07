@@ -66,3 +66,7 @@ data:
       id: RB
       name: Rudolf Barmettler
       comment: RB nicht DO/FR im ZHdK-Semester
+    -
+      id: HT
+      name: Harald Taglinger
+      comment: 
