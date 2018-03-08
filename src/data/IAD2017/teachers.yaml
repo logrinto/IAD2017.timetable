@@ -37,7 +37,7 @@ data:
     -
       id: MS
       name: Markus Sing
-      comment: Nicht: erstes Septemberwochenende, letztes Oktoberwochenende, erstes Novemberwochenende
+      comment: "Nicht: erstes Septemberwochenende, letztes Oktoberwochenende, erstes Novemberwochenende"
     -
       id: TG
       name: Timo Grossenbacher
