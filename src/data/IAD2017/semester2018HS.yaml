@@ -153,11 +153,11 @@ data:
       id: KW36-2018
       FR:
         morning:
-          teacher: RB
+          teacher:
           lession: production
           comment: Bleisatz
         afternoon:
-          teacher: RB
+          teacher:
           lession: production
           comment: Bleisatz
       SA:
