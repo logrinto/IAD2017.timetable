@@ -122,11 +122,11 @@ data:
           comment:
       SA:
         morning:
-          teacher:
+          teacher: JG
           lession: MotionDesign
           comment:
         afternoon:
-          teacher:
+          teacher: JG
           lession: MotionDesign
           comment:
     -
@@ -146,7 +146,7 @@ data:
           lession: userinterfaces
           comment:
         afternoon:
-          teacher:
+          teacher: JG
           lession: MotionDesign
           comment:
     -
@@ -166,7 +166,7 @@ data:
           lession: userinterfaces
           comment:
         afternoon:
-          teacher:
+          teacher: JG
           lession: MotionDesign
           comment:
     -
@@ -186,7 +186,7 @@ data:
           lession: userinterfaces
           comment:
         afternoon:
-          teacher:
+          teacher: JG
           lession: MotionDesign
           comment:
     -
@@ -206,7 +206,7 @@ data:
           lession: userinterfaces
           comment:
         afternoon:
-          teacher:
+          teacher: JG
           lession: MotionDesign
           comment:
     -
@@ -222,11 +222,11 @@ data:
           comment:
       SA:
         morning:
-          teacher:
+          teacher: JG
           lession: MotionDesign
           comment:
         afternoon:
-          teacher:
+          teacher: JG
           lession: MotionDesign
           comment:
     -
