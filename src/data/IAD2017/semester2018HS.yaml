@@ -402,18 +402,18 @@ data:
           comment:
       SA:
         morning:
-          teacher:
+          teacher: HZ
           lession: processing
           comment:
         afternoon:
-          teacher:
+          teacher: HZ
           lession: processing
           comment:
     -
       id: KW49-2018
       FR:
         morning:
-          teacher:
+          teacher: HZ
           lession: processing
           comment:
         afternoon:
@@ -433,11 +433,11 @@ data:
       id: KW50-2018
       FR:
         morning:
-          teacher:
+          teacher: HZ
           lession: processing
           comment:
         afternoon:
-          teacher:
+          teacher: HZ
           lession: processing
           comment:
       SA:
@@ -513,11 +513,11 @@ data:
       id: KW02-2019
       FR:
         morning:
-          teacher:
+          teacher: HZ
           lession: processing
           comment:
         afternoon:
-          teacher:
+          teacher: HZ
           lession: processing
           comment:
       SA:
@@ -553,11 +553,11 @@ data:
       id: KW04-2019
       FR:
         morning:
-          teacher:
+          teacher: HZ
           lession: processing
           comment:
         afternoon:
-          teacher:
+          teacher: HZ
           lession: processing
           comment:
       SA:
