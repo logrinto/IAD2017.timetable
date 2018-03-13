@@ -17,8 +17,11 @@ data:
       id: VM
       name: Victor Mazón Gardoqui
     -
-      id: HZ
+      id: HZ-BL
       name: Hanna Züllig/Brigitte Lampert
+    -
+      id: HZ
+      name: Hanna Züllig
     -
       id: DF
       name: Daniel Frei

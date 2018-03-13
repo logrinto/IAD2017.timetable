@@ -354,11 +354,11 @@ data:
           comment:
       SA:
         morning:
-          teacher: HZ
+          teacher: HZ-BL
           lession: GridModule
           comment:
         afternoon:
-          teacher: HZ
+          teacher: HZ-BL
           lession: GridModule
           comment:
     -
@@ -374,11 +374,11 @@ data:
           comment: "Unterrichtsstart: 12:45 Uhr"
       SA:
         morning:
-          teacher: HZ
+          teacher: HZ-BL
           lession: GridModule
           comment:
         afternoon:
-          teacher: HZ
+          teacher: HZ-BL
           lession: GridModule
           comment:
     -
@@ -394,11 +394,11 @@ data:
           comment:
       SA:
         morning:
-          teacher: HZ
+          teacher: HZ-BL
           lession: GridModule
           comment:
         afternoon:
-          teacher: HZ
+          teacher: HZ-BL
           lession: GridModule
           comment:
     -
@@ -414,11 +414,11 @@ data:
           comment: "Unterrichtsstart: 12:45 Uhr. Abtausch von KW45"
       SA:
         morning:
-          teacher: HZ
+          teacher: HZ-BL
           lession: GridModule
           comment:
         afternoon:
-          teacher: HZ
+          teacher: HZ-BL
           lession: GridModule
           comment:
     -
@@ -434,11 +434,11 @@ data:
           comment:
       SA:
         morning:
-          teacher: HZ
+          teacher: HZ-BL
           lession: GridModule
           comment:
         afternoon:
-          teacher: HZ
+          teacher: HZ-BL
           lession: GridModule
           comment:
     -
@@ -514,11 +514,11 @@ data:
           comment:
       SA:
         morning:
-          teacher: HZ
+          teacher: HZ-BL
           lession: GridModule
           comment:
         afternoon:
-          teacher: HZ
+          teacher: HZ-BL
           lession: GridModule
           comment:
     -
@@ -534,11 +534,11 @@ data:
           comment: "Unterrichtsstart: 12:45 Uhr | Coding Grids & Modules | Abgabe Dokumentation · Experimentelles Erzählen"
       SA:
         morning:
-          teacher: HZ
+          teacher: HZ-BL
           lession: GridModule
           comment:
         afternoon:
-          teacher: HZ
+          teacher: HZ-BL
           lession: GridModule
           comment:
     -
@@ -554,11 +554,11 @@ data:
           comment: "Unterrichtsstart: 12:45 Uhr | Coding Grids & Modules | Review Dokumentation · Experimentelles Erzählen"
       SA:
         morning:
-          teacher: HZ
+          teacher: HZ-BL
           lession: GridModule
           comment:
         afternoon:
-          teacher: HZ
+          teacher: HZ-BL
           lession: GridModule
           comment:
     -
