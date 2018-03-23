@@ -145,8 +145,8 @@ data:
       title: Interaktion mit DIY–Hardware
       color: bordeaux
     -
-      id: Resource
-      title: Ressourcenplanung
+      id: ProjectManagement
+      title: Projektplanung
       color: light-brown
     -
       id: Costs
@@ -495,11 +495,11 @@ data:
       SA:
         morning:
           teacher: MW
-          lession: Resource
+          lession: ProjectManagement
           comment:
         afternoon:
           teacher: MW
-          lession: Resource
+          lession: ProjectManagement
           comment:
     -
       id: KW25-2018
@@ -515,11 +515,11 @@ data:
       SA:
         morning:
           teacher: MW
-          lession: Resource
+          lession: ProjectManagement
           comment:
         afternoon:
           teacher: MW
-          lession: Resource
+          lession: ProjectManagement
           comment:
     -
       id: KW26-2018
@@ -535,11 +535,11 @@ data:
       SA:
         morning:
           teacher: MW
-          lession: Resource
+          lession: ProjectManagement
           comment:
         afternoon:
           teacher: MW
-          lession: Resource
+          lession: ProjectManagement
           comment:
     -
       id: KW27-2018
