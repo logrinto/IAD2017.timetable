@@ -117,8 +117,8 @@ data:
           lession: LAB
           comment:
         afternoon:
-          teacher:
-          lession: userinterfaces
+          teacher: SH
+          lession: LAB
           comment:
       SA:
         morning:
@@ -174,16 +174,16 @@ data:
       FR:
         morning:
           teacher:
-          lession: Law
+          lession: userinterfaces
           comment:
         afternoon:
-          teacher: SH
-          lession: LAB
+          teacher:
+          lession: userinterfaces
           comment:
       SA:
         morning:
-          teacher:
-          lession: userinterfaces
+          teacher: SH
+          lession: LAB
           comment:
         afternoon:
           teacher: JG
