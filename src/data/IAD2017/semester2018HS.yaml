@@ -153,11 +153,11 @@ data:
       id: KW36-2018
       FR:
         morning:
-          teacher:
+          teacher: RB
           lession: production
           comment: Bleisatz
         afternoon:
-          teacher:
+          teacher: RB
           lession: production
           comment: Bleisatz
       SA:
@@ -193,12 +193,12 @@ data:
       id: KW38-2018
       FR:
         morning:
-          teacher:
-          lession: Law
+          teacher: SH
+          lession: TypeSystem
           comment:
         afternoon:
           teacher: SH
-          lession: LAB
+          lession: TypeSystem
           comment:
       SA:
         morning:
@@ -522,19 +522,19 @@ data:
           comment:
       SA:
         morning:
-          teacher:
+          teacher: MI
           lession: editorialDesign
           comment:
         afternoon:
-          teacher:
+          teacher: MI
           lession: editorialDesign
           comment:
     -
       id: KW03-2019
       FR:
         morning:
-          teacher:
-          lession: TypeSystem
+          teacher: SH
+          lession: LAB
           comment:
         afternoon:
           teacher: SH
@@ -542,11 +542,11 @@ data:
           comment:
       SA:
         morning:
-          teacher:
+          teacher: MI
           lession: editorialDesign
           comment:
         afternoon:
-          teacher:
+          teacher: MI
           lession: editorialDesign
           comment:
     -
@@ -562,11 +562,11 @@ data:
           comment:
       SA:
         morning:
-          teacher:
+          teacher: MI
           lession: editorialDesign
           comment:
         afternoon:
-          teacher:
+          teacher: MI
           lession: editorialDesign
           comment:
     -

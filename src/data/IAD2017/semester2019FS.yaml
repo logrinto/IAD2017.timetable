@@ -52,6 +52,10 @@ data:
       title: Politik und das Internet
       color: light-green
     -
+      id: Law
+      title: Internet – Rechte und Pflichten
+      color: light-green
+    -
       id: FontDay
       title: Tag der Schrift
       color: cold-green
@@ -244,11 +248,11 @@ data:
       SA:
         morning:
           teacher:
-          lession: TypeSystem
+          lession: Law
           comment:
         afternoon:
           teacher:
-          lession: TypeSystem
+          lession: Law
           comment:
     -
       id: KW13-2019
