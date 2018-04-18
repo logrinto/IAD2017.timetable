@@ -104,8 +104,8 @@ data:
       title: Regular Expressions
       color: cold-green
     -
-      id: webshops
-      title: Userinterfaces – Webshops
+      id: HumanCentered
+      title: Human-centered design
       color: green-gray
     -
       id: Storytelling
@@ -308,11 +308,11 @@ data:
       SA:
         morning:
           teacher:
-          lession: webshops
+          lession: HumanCentered
           comment:
         afternoon:
           teacher:
-          lession: webshops
+          lession: HumanCentered
           comment:
     -
       id: KW16-2019
@@ -388,11 +388,11 @@ data:
       SA:
         morning:
           teacher:
-          lession: webshops
+          lession: HumanCentered
           comment:
         afternoon:
           teacher:
-          lession: webshops
+          lession: HumanCentered
           comment:
     -
       id: KW20-2019
@@ -408,11 +408,11 @@ data:
       SA:
         morning:
           teacher:
-          lession: webshops
+          lession: HumanCentered
           comment:
         afternoon:
           teacher:
-          lession: webshops
+          lession: HumanCentered
           comment:
     -
       id: KW21-2019
@@ -428,11 +428,11 @@ data:
       SA:
         morning:
           teacher:
-          lession: webshops
+          lession: HumanCentered
           comment:
         afternoon:
           teacher:
-          lession: webshops
+          lession: HumanCentered
           comment:
     -
       id: KW22-2019
@@ -508,11 +508,11 @@ data:
       SA:
         morning:
           teacher:
-          lession: webshops
+          lession: HumanCentered
           comment:
         afternoon:
           teacher:
-          lession: webshops
+          lession: HumanCentered
           comment:
     -
       id: KW26-2019
@@ -528,11 +528,11 @@ data:
       SA:
         morning:
           teacher:
-          lession: webshops
+          lession: HumanCentered
           comment:
         afternoon:
           teacher:
-          lession: webshops
+          lession: HumanCentered
           comment:
     -
       id: KW27-2019
