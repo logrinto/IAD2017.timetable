@@ -411,7 +411,7 @@ data:
         afternoon:
           teacher: DK
           lession: Fontdesign
-          comment:
+          comment: Zimmer 515
       SA:
         morning:
           teacher: JH
@@ -431,7 +431,7 @@ data:
         afternoon:
           teacher: DK
           lession: Fontdesign
-          comment:
+          comment: Zimmer 515
       SA:
         morning:
           teacher: JH
@@ -451,7 +451,7 @@ data:
         afternoon:
           teacher: DK
           lession: Fontdesign
-          comment:
+          comment: Zimmer 515
       SA:
         morning:
           teacher: MSK-SH
@@ -471,7 +471,7 @@ data:
         afternoon:
           teacher: DK
           lession: Fontdesign
-          comment:
+          comment: Zimmer 515
       SA:
         morning:
           teacher:
@@ -511,7 +511,7 @@ data:
         afternoon:
           teacher: DK
           lession: Fontdesign
-          comment:
+          comment: Zimmer 515
       SA:
         morning:
           teacher: MW
