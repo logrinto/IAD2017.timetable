@@ -146,11 +146,11 @@ class Semesterplan {
             .minute(45),
           repeat: true
         },
-        comment: week.week.comment,
-        teacher: this.teacherResolve(week.week.teacher) || "",
+        comment: week.week.all.comment,
+        teacher: this.teacherResolve(week.week.all.teacher) || "",
         title:
-          this.lessionResolve(lessions, week.week.lession) ||
-          (week.week.comment || "")
+          this.lessionResolve(lessions, week.week.all.lession) ||
+          (week.week.all.comment || "")
       });
     }
   }
