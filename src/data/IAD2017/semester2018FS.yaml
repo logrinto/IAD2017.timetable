@@ -156,6 +156,18 @@ data:
       id: Business
       title: Unternehmensziele
       color: orange
+
+    -
+      id: geolocation
+      title: Maps und Daten
+      color: orange
+
+
+    -
+      id: colormanagement
+      title: Color Management
+      color: light-brown
+
   #  Guest:
   #    title: Gastreferat
   #    color: mint
@@ -474,13 +486,13 @@ data:
           comment: Zimmer 515
       SA:
         morning:
-          teacher:
-          lession:
-          comment: noch in Planung
+          teacher: RZ
+          lession: geolocation
+          comment:
         afternoon:
-          teacher:
-          lession:
-          comment: noch in Planung
+          teacher: RZ
+          lession: geolocation
+          comment:
     -
       id: KW24-2018
       FR:
@@ -574,9 +586,9 @@ data:
           comment:
       SA:
         morning:
-          teacher:
-          lession:
-          comment: noch in planung
+          teacher: FM
+          lession: colormanagement
+          comment:
         afternoon:
           teacher: SH
           lession: LAB

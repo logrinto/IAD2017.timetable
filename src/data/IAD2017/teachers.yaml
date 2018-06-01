@@ -90,3 +90,12 @@ data:
       id: MI
       name: Marlon Ilg
       comment:
+    -
+      id: RZ
+      name: Richard Zimerman
+      comment:
+
+    -
+      id: FM
+      name: Fritz Maurer
+      comment:
