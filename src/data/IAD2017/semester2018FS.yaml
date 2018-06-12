@@ -498,20 +498,20 @@ data:
       FR:
         morning:
           teacher: SH
+          lession: LAB
+          comment:
+        afternoon:
+          teacher: MW
+          lession: ProjectManagement
+          comment:
+      SA:
+        morning:
+          teacher: SH
           lession: TypeHistory
           comment:
         afternoon:
           teacher: SH
           lession: TypeHistory
-          comment:
-      SA:
-        morning:
-          teacher: MW
-          lession: ProjectManagement
-          comment:
-        afternoon:
-          teacher: MW
-          lession: ProjectManagement
           comment:
     -
       id: KW25-2018
