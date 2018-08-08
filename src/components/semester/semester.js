@@ -2,6 +2,8 @@ import React from "react";
 import Weeks from "../weeks/weeks.js";
 import Lessions from "../lessions/lessions.js";
 import moment from "moment";
+import Link from "gatsby-link"
+
 // import './style.scss';
 
 class Semester extends React.Component {
@@ -28,7 +30,7 @@ class Semester extends React.Component {
           <ul>
             {semester.links.map(link => (
               <li key={link.href}>
-                <a href={link.href}>→ {link.title}</a>
+                <Link to={link.href} activeClassName="active" className={`navigation ${link.class ? link.class : ''}`}>{link.title}</Link>
               </li>
             ))}
           </ul>

@@ -44,6 +44,7 @@ export const query = graphql`
               links {
                 title
                 href
+                class
               }
             }
             lessions {

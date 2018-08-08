@@ -31,6 +31,14 @@ a {
   }
 }
 
+
+a.navigation {
+  font-weight: bold;
+}
+a.active, a.current {
+  color: black;
+}
+
 .small {
   font-size: 0.6rem;
 }

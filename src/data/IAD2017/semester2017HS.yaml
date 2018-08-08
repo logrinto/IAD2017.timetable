@@ -10,6 +10,7 @@ data:
       -
         title: Herbstsemester 2017
         href: ../2017-HS
+        class: current
       -
         title: Frühlingssemester 2018
         href: ../2018-FS

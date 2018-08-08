@@ -37,7 +37,7 @@ export const query = graphql`
       }
     }
 
-    allIad2017Yaml(filter: { id: { eq: "IAD2017-2018FS" } }) {
+    allIad2017Yaml(filter: { id: { eq: "IAD2017-2018HS" } }) {
       edges {
         node {
           data {
@@ -49,6 +49,7 @@ export const query = graphql`
               links {
                 title
                 href
+                class
               }
             }
             lessions {

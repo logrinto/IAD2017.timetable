@@ -19,6 +19,7 @@ data:
       -
         title: Frühlingssemester 2019
         href: ../2019-FS
+        class: current
       -
         title: Herbstsemester 2019
         href: ../2019-HS

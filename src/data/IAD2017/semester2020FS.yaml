@@ -25,6 +25,7 @@ data:
       -
         title: Frühlingssemester 2020
         href: ../2020-FS
+        class: current
 
   lessions:
     -
