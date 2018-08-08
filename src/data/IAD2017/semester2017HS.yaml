@@ -9,23 +9,23 @@ data:
     links:
       -
         title: Herbstsemester 2017
-        href: ../2017-HS
+        href: /2017-HS
         class: current
       -
         title: Frühlingssemester 2018
-        href: ../2018-FS
+        href: /2018-FS
       -
         title: Herbstsemester 2018
-        href: ../2018-HS
+        href: /2018-HS
       -
         title: Frühlingssemester 2019
-        href: ../2019-FS
+        href: /2019-FS
       -
         title: Herbstsemester 2019
-        href: ../2019-HS
+        href: /2019-HS
       -
         title: Frühlingssemester 2020
-        href: ../2020-FS
+        href: /2020-FS
 
   lessions:
     -

@@ -5,12 +5,6 @@ import Semester from "../components/semester/semester.js";
 const IndexPage = ({ data }) => {
   let root = data.allIad2017Yaml.edges[0].node.data;
   let teachers = data.teachers.edges[0].node.data.teachers;
-
-  // for root index-page links
-  root.semester.links.forEach(element => {
-    element.href = element.href.replace("../", "./");
-  });
-
   return (
     <Semester
       semester={root.semester}
