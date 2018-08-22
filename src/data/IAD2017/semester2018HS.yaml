@@ -105,8 +105,8 @@ data:
       title: OpenSource und Communities
       color: cold-green
     -
-     id: processing
-     title: Processing – Code & Design
+     id: codeDesign
+     title: Code & Design
      color: mint
 
   date:
@@ -136,11 +136,11 @@ data:
         morning:
           teacher:
           lession: FabLab
-          comment: Treffen im FabLab-Zürich
+          comment: Treffen im FabLab-Zürich (Zimmerlistrasse 6, 8004 Zürich)
         afternoon:
           teacher:
           lession: FabLab
-          comment: Treffen im FabLab-Zürich
+          comment: Treffen im FabLab-Zürich (Zimmerlistrasse 6, 8004 Zürich)
       SA:
         morning:
           teacher: BP
@@ -156,11 +156,11 @@ data:
         morning:
           teacher: RB
           lession: production
-          comment: Bleisatz
+          comment: Bleisatz – Zimmer Lp U56
         afternoon:
           teacher: RB
           lession: production
-          comment: Bleisatz
+          comment: Bleisatz – Zimmer Lp U56
       SA:
         morning:
           teacher: BP
@@ -404,18 +404,18 @@ data:
       SA:
         morning:
           teacher: HZ
-          lession: processing
+          lession: codeDesign
           comment:
         afternoon:
           teacher: HZ
-          lession: processing
+          lession: codeDesign
           comment:
     -
       id: KW49-2018
       FR:
         morning:
           teacher: HZ
-          lession: processing
+          lession: codeDesign
           comment:
         afternoon:
           teacher: SH
@@ -435,11 +435,11 @@ data:
       FR:
         morning:
           teacher: HZ
-          lession: processing
+          lession: codeDesign
           comment:
         afternoon:
           teacher: HZ
-          lession: processing
+          lession: codeDesign
           comment:
       SA:
         morning:
@@ -515,11 +515,11 @@ data:
       FR:
         morning:
           teacher: HZ
-          lession: processing
+          lession: codeDesign
           comment:
         afternoon:
           teacher: HZ
-          lession: processing
+          lession: codeDesign
           comment:
       SA:
         morning:
@@ -555,11 +555,11 @@ data:
       FR:
         morning:
           teacher: HZ
-          lession: processing
+          lession: codeDesign
           comment:
         afternoon:
           teacher: HZ
-          lession: processing
+          lession: codeDesign
           comment:
       SA:
         morning:
