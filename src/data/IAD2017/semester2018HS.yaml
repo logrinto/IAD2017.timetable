@@ -303,11 +303,11 @@ data:
           comment:
       SA:
         morning:
-          teacher:
+          teacher: TG
           lession: InteractionJournalism
           comment:
         afternoon:
-          teacher:
+          teacher: TG
           lession: InteractionJournalism
           comment:
     -
@@ -323,11 +323,11 @@ data:
           comment:
       SA:
         morning:
-          teacher:
+          teacher: TG
           lession: InteractionJournalism
           comment:
         afternoon:
-          teacher:
+          teacher: TG
           lession: InteractionJournalism
           comment:
     -
