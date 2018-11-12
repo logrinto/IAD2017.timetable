@@ -414,8 +414,8 @@ data:
       id: KW49-2018
       FR:
         morning:
-          teacher: HZ
-          lession: codeDesign
+          teacher: SH
+          lession: LAB
           comment:
         afternoon:
           teacher: SH
@@ -534,8 +534,8 @@ data:
       id: KW03-2019
       FR:
         morning:
-          teacher: SH
-          lession: LAB
+          teacher: HZ
+          lession: codeDesign
           comment:
         afternoon:
           teacher: SH
