@@ -103,3 +103,28 @@ data:
       id: TA
       name: Thomas Amberg
       comment:
+    -
+      id: LvN
+      name: Lukas von Niederhäusern
+      comment:
+    -
+      id: JM
+      name: Joshua Muheim
+      comment:
+    -
+      id: DIV
+      name: Diverse Referenten
+      comment:
+    -
+      id: AE
+      name: Armin Egli
+      comment:
+    -
+      id: BL
+      name: Brigitte Lampert
+    -
+      id: MN
+      name: Mario Neuhaus
+    -
+      id: OW
+      name: Oliver Weinstock

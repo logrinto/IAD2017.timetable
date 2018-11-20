@@ -60,9 +60,10 @@ data:
       id: didacticDesign
       title: Didaktisches Design
       color: violet
+
     -
-      id: 3d
-      title: 3D im Browser
+      id: Crossmedia
+      title: Crossmedia von der Datenbank zur Ausgabe
       color: gray-violet
     -
       id: csInterface
@@ -220,11 +221,11 @@ data:
       SA:
         morning:
           teacher:
-          lession: 3d
+          lession: Crossmedia
           comment:
         afternoon:
           teacher:
-          lession: 3d
+          lession: Crossmedia
           comment:
     -
       id: KW40-2019
@@ -240,11 +241,11 @@ data:
       SA:
         morning:
           teacher:
-          lession: 3d
+          lession: Crossmedia
           comment:
         afternoon:
           teacher:
-          lession: 3d
+          lession: Crossmedia
           comment:
     -
       id: KW41-2019

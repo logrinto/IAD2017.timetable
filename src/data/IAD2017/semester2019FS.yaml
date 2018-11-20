@@ -73,8 +73,8 @@ data:
       title: Verlegen und Verlage (eBook)
       color: green
     -
-      id: templates
-      title: Templates und Services
+      id: marketing
+      title: Marketing Grundlagen
       color: light-brown
     -
       id: csInterface
@@ -93,8 +93,8 @@ data:
       title: Podcast – Inhalte hörbar machen
       color: gray-violet
     -
-      id: Crossmedia
-      title: Crossmedia von der Datenbank zur Ausgabe
+      id: 3d
+      title: 3D im Browser
       color: gray-violet
     -
       id: geo
@@ -114,10 +114,16 @@ data:
       color: black
     -
       id: ads
-      title: Onlinewerbung
+      title: Onlinewerbung & Analyse
       color: dark-green
-
-
+    -
+      id: resources
+      title: Ressourcenplanung
+      color: petrol
+    -
+      id: email
+      title: E-Mail Marketing
+      color: black
 
 
 
@@ -159,121 +165,121 @@ data:
       id: KW08-2019
       FR:
         morning:
-          teacher:
+          teacher: SH
           lession: LAB
           comment:
         afternoon:
-          teacher:
+          teacher: JM
           lession: accessibility
           comment:
       SA:
         morning:
-          teacher:
+          teacher: BP
           lession: responsive
           comment:
         afternoon:
-          teacher:
+          teacher: BP
           lession: responsive
           comment:
     -
       id: KW09-2019
       FR:
         morning:
-          teacher:
-          lession: accessibility
+          teacher: BP
+          lession: responsive
           comment:
         afternoon:
-          teacher:
-          lession: politics
+          teacher: BP
+          lession: responsive
           comment:
       SA:
         morning:
-          teacher:
-          lession: responsive
+          teacher: JM
+          lession: accessibility
           comment:
         afternoon:
-          teacher:
-          lession: responsive
-          comment:
+          teacher: DIV
+          lession: politics
+          comment: Diverse Referenten 50% & Stefan Huber 50%
     -
       id: KW10-2019
       FR:
         morning:
-          teacher:
-          lession: accessibility
+          teacher: BP
+          lession: responsive
           comment:
         afternoon:
-          teacher:
-          lession: LAB
+          teacher: BP
+          lession: responsive
           comment:
       SA:
         morning:
-          teacher:
-          lession: responsive
+          teacher: JM
+          lession: accessibility
           comment:
         afternoon:
-          teacher:
-          lession: responsive
+          teacher: SH
+          lession: LAB
           comment:
     -
       id: KW11-2019
       FR:
         morning:
-          teacher:
+          teacher: JM
           lession: accessibility
           comment:
         afternoon:
-          teacher:
+          teacher: DIV
           lession: politics
-          comment:
+          comment: Diverse Referenten 50% & Stefan Huber 50%
       SA:
         morning:
-          teacher:
+          teacher: BP
           lession: responsive
           comment:
         afternoon:
-          teacher:
+          teacher: BP
           lession: responsive
           comment:
     -
       id: KW12-2019
       FR:
         morning:
-          teacher:
+          teacher: JM
           lession: accessibility
           comment:
         afternoon:
-          teacher:
+          teacher: SH
           lession: LAB
           comment:
       SA:
         morning:
           teacher:
           lession: Law
-          comment:
+          comment: Dozenten noch offen
         afternoon:
           teacher:
           lession: Law
-          comment:
+          comment: Dozenten noch offen
     -
       id: KW13-2019
       FR:
         morning:
-          teacher:
-          lession: ads
+          teacher: SH
+          lession: TypeSystem
           comment:
         afternoon:
-          teacher:
-          lession: LAB
+          teacher: SH
+          lession: TypeSystem
           comment:
       SA:
         morning:
-          teacher:
-          lession: FontDay
+          teacher: MN
+          lession: ads
           comment:
         afternoon:
-          teacher:
-          lession: FontDay
+          teacher: SH
+          lession: LAB
           comment:
     -
       id: KW14-2019
@@ -289,30 +295,30 @@ data:
       SA:
         morning:
           teacher:
-          lession: TypeSystem
+          lession: FontDay
           comment:
         afternoon:
           teacher:
-          lession: TypeSystem
+          lession: FontDay
           comment:
     -
       id: KW15-2019
       FR:
         morning:
-          teacher:
+          teacher: MN
           lession: ads
           comment:
         afternoon:
-          teacher:
+          teacher: SH
           lession: LAB
           comment:
       SA:
         morning:
-          teacher:
+          teacher: AE
           lession: HumanCentered
           comment:
         afternoon:
-          teacher:
+          teacher: AE
           lession: HumanCentered
           comment:
     -
@@ -379,60 +385,60 @@ data:
       id: KW19-2019
       FR:
         morning:
-          teacher:
+          teacher: MN
           lession: ads
           comment:
         afternoon:
-          teacher:
+          teacher: SH
           lession: LAB
           comment:
       SA:
         morning:
-          teacher:
+          teacher: AE
           lession: HumanCentered
           comment:
         afternoon:
-          teacher:
+          teacher: AE
           lession: HumanCentered
           comment:
     -
       id: KW20-2019
       FR:
         morning:
-          teacher:
-          lession: MobileTypo
+          teacher: OW
+          lession: email
           comment:
         afternoon:
-          teacher:
-          lession: MobileTypo
+          teacher: OW
+          lession: email
           comment:
       SA:
         morning:
-          teacher:
+          teacher: AE
           lession: HumanCentered
           comment:
         afternoon:
-          teacher:
+          teacher: AE
           lession: HumanCentered
           comment:
     -
       id: KW21-2019
       FR:
         morning:
-          teacher:
-          lession: MobileTypo
+          teacher: MN
+          lession: ads
           comment:
         afternoon:
-          teacher:
+          teacher: SH
           lession: LAB
           comment:
       SA:
         morning:
-          teacher:
+          teacher: AE
           lession: HumanCentered
           comment:
         afternoon:
-          teacher:
+          teacher: AE
           lession: HumanCentered
           comment:
     -
@@ -459,120 +465,120 @@ data:
       id: KW23-2019
       FR:
         morning:
-          teacher:
-          lession: MobileTypo
+          teacher: SH
+          lession: regEx
           comment:
         afternoon:
-          teacher:
-          lession: regEx
+          teacher: SH
+          lession: LAB
           comment:
       SA:
         morning:
-          teacher:
-          lession: Crossmedia
+          teacher: LvN
+          lession: 3d
           comment:
         afternoon:
-          teacher:
-          lession: Crossmedia
+          teacher: LvN
+          lession: 3d
           comment:
     -
       id: KW24-2019
       FR:
         morning:
-          teacher:
-          lession: MobileTypo
+          teacher: LvN
+          lession: 3d
           comment:
         afternoon:
-          teacher:
-          lession: LAB
+          teacher: LvN
+          lession: 3d
           comment:
       SA:
         morning:
-          teacher:
-          lession: Crossmedia
+          teacher: MW
+          lession: resources
           comment:
         afternoon:
-          teacher:
-          lession: Crossmedia
+          teacher: MW
+          lession: resources
           comment:
     -
       id: KW25-2019
       FR:
         morning:
-          teacher:
-          lession: MobileTypo
+          teacher: AE
+          lession: HumanCentered
           comment:
         afternoon:
-          teacher:
-          lession: MobileTypo
+          teacher: AE
+          lession: HumanCentered
           comment:
       SA:
         morning:
-          teacher:
-          lession: HumanCentered
+          teacher: MW
+          lession: resources
           comment:
         afternoon:
-          teacher:
-          lession: HumanCentered
+          teacher: MW
+          lession: resources
           comment:
     -
       id: KW26-2019
       FR:
         morning:
-          teacher:
-          lession: templates
+          teacher: MN
+          lession: marketing
           comment:
         afternoon:
-          teacher:
+          teacher: SH
           lession: LAB
           comment:
       SA:
         morning:
-          teacher:
+          teacher: AE
           lession: HumanCentered
           comment:
         afternoon:
-          teacher:
+          teacher: AE
           lession: HumanCentered
           comment:
     -
       id: KW27-2019
       FR:
         morning:
-          teacher:
-          lession: templates
+          teacher: MN
+          lession: marketing
           comment:
         afternoon:
-          teacher:
-          lession: Podcast
+          teacher: MN
+          lession: marketing
           comment:
       SA:
         morning:
-          teacher:
+          teacher: TG
           lession: geo
           comment:
         afternoon:
-          teacher:
+          teacher: TG
           lession: geo
           comment:
     -
       id: KW28-2019
       FR:
         morning:
-          teacher:
-          lession: templates
+          teacher: MN
+          lession: marketing
           comment:
         afternoon:
-          teacher:
+          teacher: SH
           lession: LAB
           comment:
       SA:
         morning:
-          teacher:
+          teacher: TG
           lession: geo
           comment:
         afternoon:
-          teacher:
+          teacher: TG
           lession: geo
           comment:
     -
