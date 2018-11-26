@@ -394,12 +394,12 @@ data:
       id: KW48-2018
       FR:
         morning:
-          teacher:
-          lession: Law
+          teacher: SH
+          lession: LAB
           comment:
         afternoon:
-          teacher:
-          lession: Law
+          teacher: SH
+          lession: LAB
           comment:
       SA:
         morning:
@@ -414,12 +414,12 @@ data:
       id: KW49-2018
       FR:
         morning:
-          teacher: SH
-          lession: LAB
+          teacher: RI
+          lession: Law
           comment:
         afternoon:
-          teacher: SH
-          lession: LAB
+          teacher: RI
+          lession: Law
           comment:
       SA:
         morning:
