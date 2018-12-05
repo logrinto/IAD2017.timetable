@@ -1,0 +1,278 @@
+id: IAD2017-semester-01
+presence:
+  - id: KW34-2017
+    FR:
+      morning:
+        presence:
+          - xx
+          - pa
+          - mb
+          - nb
+          - sf
+          - mh
+          - sk
+          - mk
+          - lk
+          - nm
+          - tm
+          - nr
+          - ws
+          - nw
+      afternoon:
+        presence:
+          - xx
+          - mb
+          - nb
+          - sf
+          - mh
+          - sk
+          - mk
+          - lk
+          - nm
+          - tm
+          - nr
+          - ws
+          - nw
+          - pa
+    SA: null
+    week:
+      all:
+        presence:
+          - xx
+  - id: KW35-2017
+    FR:
+      morning: null
+      afternoon:
+        presence:
+          - mb
+          - nb
+          - sf
+          - mh
+          - sk
+          - mk
+          - lk
+          - nm
+          - tm
+          - nr
+          - ws
+          - nw
+    SA: null
+    week: null
+  - id: KW37-2017
+    FR:
+      morning: null
+      afternoon:
+        presence:
+          - pa
+          - nb
+          - sf
+          - mh
+          - sk
+          - mk
+          - lk
+          - nm
+          - tm
+          - nr
+          - ws
+          - nw
+    SA: null
+    week: null
+  - id: KW38-2017
+    FR:
+      morning: null
+      afternoon:
+        presence:
+          - pa
+          - mb
+          - nb
+          - sf
+          - mh
+          - sk
+          - mk
+          - lk
+          - nm
+          - tm
+          - nr
+          - ws
+          - nw
+    SA: null
+    week: null
+  - id: KW45-2017
+    FR:
+      morning: null
+      afternoon:
+        presence:
+          - pa
+          - mb
+          - nb
+          - sf
+          - mh
+          - sk
+          - mk
+          - lk
+          - nm
+          - tm
+          - nr
+          - ws
+          - nw
+    SA:
+      morning:
+        presence:
+          - pa
+          - mb
+          - nb
+          - sf
+          - mh
+          - sk
+          - mk
+          - lk
+          - nm
+          - tm
+          - nr
+          - ws
+          - nw
+      afternoon:
+        presence:
+          - pa
+          - mb
+          - nb
+          - sf
+          - mh
+          - sk
+          - mk
+          - lk
+          - nm
+          - tm
+          - nr
+          - ws
+          - nw
+    week: null
+  - id: KW47-2017
+    FR:
+      morning: null
+      afternoon:
+        presence:
+          - pa
+          - mb
+          - nb
+          - sf
+          - mh
+          - sk
+          - mk
+          - lk
+          - nm
+          - tm
+          - ws
+          - nw
+    SA: null
+    week: null
+  - id: KW49-2017
+    FR:
+      morning:
+        presence:
+          - pa
+          - mb
+          - nb
+          - sf
+          - mh
+          - sk
+          - mk
+          - lk
+          - nm
+          - tm
+          - nr
+          - ws
+          - nw
+      afternoon:
+        presence:
+          - pa
+          - mb
+          - nb
+          - sf
+          - mh
+          - sk
+          - mk
+          - lk
+          - nm
+          - tm
+          - nr
+          - ws
+          - nw
+    SA: null
+    week: null
+  - id: KW02-2018
+    FR:
+      morning: null
+      afternoon:
+        presence:
+          - pa
+          - mb
+          - sf
+          - mh
+          - sk
+          - mk
+          - lk
+          - nm
+          - tm
+          - nr
+          - ws
+          - nw
+    SA: null
+    week: null
+  - id: KW04-2018
+    FR:
+      morning: null
+      afternoon:
+        presence:
+          - pa
+          - mb
+          - nb
+          - sf
+          - mh
+          - sk
+          - mk
+          - lk
+          - nm
+          - tm
+          - nr
+          - ws
+          - nw
+    SA: null
+    week: null
+  - id: KW03-2018
+    FR:
+      morning: null
+      afternoon:
+        presence:
+          - pa
+          - mb
+          - nb
+          - sf
+          - mh
+          - sk
+          - mk
+          - lk
+          - nm
+          - tm
+          - nr
+          - ws
+          - nw
+    SA: null
+    week: null
+  - id: KW06-2018
+    FR: null
+    SA: null
+    week:
+      all:
+        presence:
+          - pa
+          - mb
+          - mh
+          - sk
+          - mk
+          - lk
+          - nm
+          - tm
+          - nr
+          - ws
+          - nw

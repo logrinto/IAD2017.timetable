@@ -1,0 +1,42 @@
+table.rotate {
+  text-align: center;
+  // table-layout: fixed;
+  width: 80%;
+
+  thead th {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background: #fff;
+  }
+
+  td {
+    &.noWrap {
+      // white-space: nowrap;
+    }
+  }
+
+  tr.header {
+    // height: 380px;
+  }
+
+  th {
+    text-align: center;
+    // white-space: nowrap;
+    // transform-origin: 50% 50%;
+    // transform: rotate(-90deg);
+    pointer-events: none;
+
+    & > div {
+      // margin: 0 -100%;
+      // display: inline-block;
+      // &:before {
+      //   content: "";
+      //   width: 0;
+      //   padding-top: 110%; /* takes width as reference, + 10% for faking some extra padding */
+      //   display: inline-block;
+      //   vertical-align: middle;
+      // }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+id: IAD2017-students
+students:
+  -
+    id: pa
+    name: Pascale Anderegg
+  -
+    id: mb
+    name: Marius Becker
+  -
+    id: nb
+    name: Nadia Bendinelli
+  -
+    id: sf
+    name: Stephanie Fuchs
+  -
+    id: mh
+    name: Marc Hatt
+  -
+    id: sk
+    name: Severin Kilchhofer
+  -
+    id: mk
+    name: Matthias Koch
+  -
+    id: lk
+    name: Lars Mäder
+  -
+    id: nm
+    name: Nils Mäder
+  -
+    id: tm
+    name: Tieu Khe Mayer
+  -
+    id: nr
+    name: Natasha Ruf
+  -
+    id: ws
+    name: Wolfgang Schoeck
+  -
+    id: nw
+    name: Nicole Watrinet
