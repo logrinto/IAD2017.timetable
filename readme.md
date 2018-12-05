@@ -11,3 +11,7 @@ MIT. See also `license.txt`
 ### Todo
 
 * Link different nodes [#1583](https://github.com/gatsbyjs/gatsby/issues/1583) & [#2575](https://github.com/gatsbyjs/gatsby/issues/2575)
+
+
+### Infos
+Bei Änderungen bitte Meldung an [Franziska Schneider](mailto:franziska.schneider@sfgz.ch).
