@@ -343,11 +343,11 @@ data:
           comment:
       SA:
         morning:
-          teacher: MSK-SH
+          teacher: JS-SH
           lession: csInterface
           comment:
         afternoon:
-          teacher: MSK-SH
+          teacher: JS-SH
           lession: csInterface
           comment:
     -
