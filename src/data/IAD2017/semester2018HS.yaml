@@ -336,7 +336,7 @@ data:
         morning:
           teacher:
           lession: OpenSource
-          comment: Gast-Referent: Martin Giger – Mozilla/FireFox
+          comment: "Gast-Referent: Martin Giger – Mozilla/FireFox"
         afternoon:
           teacher: SH
           lession: LAB
@@ -376,7 +376,7 @@ data:
         morning:
           teacher:
           lession: OpenSource
-          comment: Gast-Referent: Alexander Bönninger – Walz im 21. Jahrhundert | Ulrich Lantermann – Wikimedia CH
+          comment: "Gast-Referent: Alexander Bönninger – Walz im 21. Jahrhundert | Ulrich Lantermann – Wikimedia CH"
         afternoon:
           teacher: SH
           lession: LAB
