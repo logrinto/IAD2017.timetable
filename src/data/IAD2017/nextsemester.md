@@ -12,7 +12,7 @@ siehe auch IAD lernziele
 ### 4. Semester
 
 
-
+https://zurich.fablab.ch/events/kuenstliche-intelligenz-und-robotik-fuer-anfaenger-september/
 http://interactivedock.ch/kurse/interaction-design
 
 
