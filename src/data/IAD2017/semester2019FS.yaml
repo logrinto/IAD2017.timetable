@@ -470,11 +470,11 @@ data:
           comment:
       SA:
         morning:
-          teacher: LvN
+          teacher: MK
           lession: 3d
           comment:
         afternoon:
-          teacher: LvN
+          teacher: MK
           lession: 3d
           comment:
     -
@@ -501,11 +501,11 @@ data:
       id: KW25-2019
       FR:
         morning:
-          teacher: LvN
+          teacher: MK
           lession: 3d
           comment:
         afternoon:
-          teacher: LvN
+          teacher: MK
           lession: 3d
           comment:
       SA:
