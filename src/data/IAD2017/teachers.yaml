@@ -85,7 +85,7 @@ data:
     -
       id: BP
       name: Boris Périsset
-      comment:
+      comment: Eher nicht Samstag
     -
       id: MI
       name: Marlon Ilg
@@ -118,7 +118,7 @@ data:
     -
       id: AE
       name: Armin Egli
-      comment:
+      comment: Nicht Samstag
     -
       id: BL
       name: Brigitte Lampert

@@ -161,32 +161,32 @@ data:
       id: KW08-2019
       FR:
         morning:
-          teacher: SH
-          lession: LAB
+          teacher: AE
+          lession: HumanCentered
           comment:
         afternoon:
-          teacher: JM
-          lession: accessibility
+          teacher: AE
+          lession: HumanCentered
           comment:
       SA:
         morning:
-          teacher: BP
-          lession: responsive
-          comment:
+          teacher: JM
+          lession: accessibility
+          comment: ((LAB))
         afternoon:
-          teacher: BP
-          lession: responsive
+          teacher: JM
+          lession: accessibility
           comment:
     -
       id: KW09-2019
       FR:
         morning:
-          teacher: BP
-          lession: responsive
+          teacher: AE
+          lession: HumanCentered
           comment:
         afternoon:
-          teacher: BP
-          lession: responsive
+          teacher: AE
+          lession: HumanCentered
           comment:
       SA:
         morning:
@@ -201,12 +201,12 @@ data:
       id: KW10-2019
       FR:
         morning:
-          teacher: BP
-          lession: responsive
+          teacher: AE
+          lession: HumanCentered
           comment:
         afternoon:
-          teacher: BP
-          lession: responsive
+          teacher: AE
+          lession: HumanCentered
           comment:
       SA:
         morning:
@@ -230,16 +230,25 @@ data:
           comment: Diverse Referenten 50% & Stefan Huber 50%
       SA:
         morning:
-          teacher: BP
-          lession: responsive
+          teacher: AE
+          lession: HumanCentered
           comment:
         afternoon:
-          teacher: BP
-          lession: responsive
+          teacher: AE
+          lession: HumanCentered
           comment:
     -
       id: KW12-2019
       FR:
+        morning:
+          teacher: AE
+          lession: HumanCentered
+          comment:
+        afternoon:
+          teacher: AE
+          lession: HumanCentered
+          comment:
+      SA:
         morning:
           teacher: JM
           lession: accessibility
@@ -248,25 +257,16 @@ data:
           teacher: SH
           lession: LAB
           comment:
-      SA:
-        morning:
-          teacher:
-          lession: Law
-          comment: Dozenten noch offen
-        afternoon:
-          teacher:
-          lession: Law
-          comment: Dozenten noch offen
     -
       id: KW13-2019
       FR:
         morning:
-          teacher: SH
-          lession: TypeSystem
+          teacher: AE
+          lession: HumanCentered
           comment:
         afternoon:
-          teacher: SH
-          lession: TypeSystem
+          teacher: AE
+          lession: HumanCentered
           comment:
       SA:
         morning:
@@ -310,12 +310,12 @@ data:
           comment:
       SA:
         morning:
-          teacher: AE
-          lession: HumanCentered
+          teacher: SH
+          lession: TypeSystem
           comment:
         afternoon:
-          teacher: AE
-          lession: HumanCentered
+          teacher: SH
+          lession: TypeSystem
           comment:
     -
       id: KW16-2019
@@ -390,12 +390,12 @@ data:
           comment:
       SA:
         morning:
-          teacher: AE
-          lession: HumanCentered
+          teacher: BP
+          lession: responsive
           comment:
         afternoon:
-          teacher: AE
-          lession: HumanCentered
+          teacher: BP
+          lession: responsive
           comment:
     -
       id: KW20-2019
@@ -410,12 +410,12 @@ data:
           comment:
       SA:
         morning:
-          teacher: AE
-          lession: HumanCentered
+          teacher: BP
+          lession: responsive
           comment:
         afternoon:
-          teacher: AE
-          lession: HumanCentered
+          teacher: BP
+          lession: responsive
           comment:
     -
       id: KW21-2019
@@ -430,12 +430,12 @@ data:
           comment:
       SA:
         morning:
-          teacher: AE
-          lession: HumanCentered
+          teacher: BP
+          lession: responsive
           comment:
         afternoon:
-          teacher: AE
-          lession: HumanCentered
+          teacher: BP
+          lession: responsive
           comment:
     -
       id: KW22-2019
@@ -481,12 +481,12 @@ data:
       id: KW24-2019
       FR:
         morning:
-          teacher: LvN
-          lession: 3d
+          teacher: BP
+          lession: responsive
           comment:
         afternoon:
-          teacher: LvN
-          lession: 3d
+          teacher: BP
+          lession: responsive
           comment:
       SA:
         morning:
@@ -501,12 +501,12 @@ data:
       id: KW25-2019
       FR:
         morning:
-          teacher: AE
-          lession: HumanCentered
+          teacher: LvN
+          lession: 3d
           comment:
         afternoon:
-          teacher: AE
-          lession: HumanCentered
+          teacher: LvN
+          lession: 3d
           comment:
       SA:
         morning:
@@ -530,12 +530,12 @@ data:
           comment:
       SA:
         morning:
-          teacher: AE
-          lession: HumanCentered
+          teacher: TG
+          lession: geo
           comment:
         afternoon:
-          teacher: AE
-          lession: HumanCentered
+          teacher: TG
+          lession: geo
           comment:
     -
       id: KW27-2019
