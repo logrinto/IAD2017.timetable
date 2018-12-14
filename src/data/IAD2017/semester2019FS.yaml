@@ -42,7 +42,7 @@ data:
       color: violet
     -
       id: responsive
-      title: Responsive Design
+      title: Responsive Design.
       color: petrol
     -
       id: politics
@@ -170,11 +170,11 @@ data:
           comment:
       SA:
         morning:
-          teacher: JM
+          teacher: access
           lession: accessibility
-          comment: ((LAB))
+          comment:
         afternoon:
-          teacher: JM
+          teacher: access
           lession: accessibility
           comment:
     -
@@ -190,7 +190,7 @@ data:
           comment:
       SA:
         morning:
-          teacher: JM
+          teacher: access
           lession: accessibility
           comment:
         afternoon:
@@ -210,7 +210,7 @@ data:
           comment:
       SA:
         morning:
-          teacher: JM
+          teacher: access
           lession: accessibility
           comment:
         afternoon:
@@ -221,7 +221,7 @@ data:
       id: KW11-2019
       FR:
         morning:
-          teacher: JM
+          teacher: access
           lession: accessibility
           comment:
         afternoon:
@@ -250,7 +250,7 @@ data:
           comment:
       SA:
         morning:
-          teacher: JM
+          teacher: access
           lession: accessibility
           comment:
         afternoon:
