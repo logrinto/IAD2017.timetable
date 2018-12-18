@@ -401,11 +401,11 @@ data:
       id: KW20-2019
       FR:
         morning:
-          teacher: OW
+          teacher: DF
           lession: email
           comment:
         afternoon:
-          teacher: OW
+          teacher: DF
           lession: email
           comment:
       SA:
