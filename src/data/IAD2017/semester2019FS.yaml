@@ -530,11 +530,11 @@ data:
           comment:
       SA:
         morning:
-          teacher: TG
+          teacher:
           lession: geo
           comment:
         afternoon:
-          teacher: TG
+          teacher:
           lession: geo
           comment:
     -
@@ -550,11 +550,11 @@ data:
           comment:
       SA:
         morning:
-          teacher: TG
+          teacher:
           lession: geo
           comment:
         afternoon:
-          teacher: TG
+          teacher:
           lession: geo
           comment:
     -
@@ -570,11 +570,11 @@ data:
           comment:
       SA:
         morning:
-          teacher: TG
+          teacher:
           lession: geo
           comment:
         afternoon:
-          teacher: TG
+          teacher: 
           lession: geo
           comment:
     -
