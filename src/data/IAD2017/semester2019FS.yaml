@@ -530,11 +530,11 @@ data:
           comment:
       SA:
         morning:
-          teacher:
+          teacher: RZ
           lession: geo
           comment:
         afternoon:
-          teacher:
+          teacher: RZ
           lession: geo
           comment:
     -
@@ -550,11 +550,11 @@ data:
           comment:
       SA:
         morning:
-          teacher:
+          teacher: RZ
           lession: geo
           comment:
         afternoon:
-          teacher:
+          teacher: RZ
           lession: geo
           comment:
     -
@@ -570,11 +570,11 @@ data:
           comment:
       SA:
         morning:
-          teacher:
+          teacher: RZ
           lession: geo
           comment:
         afternoon:
-          teacher: 
+          teacher: RZ
           lession: geo
           comment:
     -
