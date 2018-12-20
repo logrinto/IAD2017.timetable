@@ -94,7 +94,7 @@ data:
       color: gray-violet
     -
       id: geo
-      title: Geografie und Visualisierung
+      title: Geografie und Visualisierung.
       color: magenta
     -
       id: regEx
@@ -105,10 +105,6 @@ data:
       title: Human-centered design
       color: green-gray
     -
-      id: Storytelling
-      title: Vom Platzhalter zur Geschichte
-      color: black
-    -
       id: ads
       title: Onlinewerbung & Analyse.
       color: dark-green
@@ -118,7 +114,7 @@ data:
       color: petrol
     -
       id: email
-      title: E-Mail Marketing
+      title: E-Mail Marketing.
       color: black
 
 
