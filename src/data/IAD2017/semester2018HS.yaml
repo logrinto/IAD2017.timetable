@@ -574,20 +574,20 @@ data:
       id: KW05-2019
       FR:
         morning:
-          teacher:
+          teacher: MB
           lession: IoT
           comment:
         afternoon:
-          teacher:
+          teacher: MB
           lession: IoT
           comment:
       SA:
         morning:
-          teacher:
+          teacher: MB
           lession: IoT
           comment:
         afternoon:
-          teacher:
+          teacher: MB
           lession: IoT
           comment:
     -
