@@ -10,7 +10,7 @@ siehe auch IAD lernziele
   – lernziele LAB: Templates und Services
 
 ### 4. Semester
-
+1. Semester >>> Timo bei neuem studiengang
 
 https://zurich.fablab.ch/events/kuenstliche-intelligenz-und-robotik-fuer-anfaenger-september/
 http://interactivedock.ch/kurse/interaction-design
