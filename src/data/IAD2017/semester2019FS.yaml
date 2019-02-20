@@ -97,8 +97,8 @@ data:
       title: Geografie und Visualisierung
       color: magenta
     -
-      id: regEx
-      title: Regular Expressions
+      id: parser
+      title: Parser & Regular Expressions
       color: cold-green
     -
       id: HumanCentered
@@ -458,7 +458,7 @@ data:
       FR:
         morning:
           teacher: SH
-          lession: regEx
+          lession: parser
           comment:
         afternoon:
           teacher: SH
