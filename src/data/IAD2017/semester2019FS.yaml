@@ -30,11 +30,11 @@ data:
   lessions:
     -
       id: TypeSystem
-      title: Typografische Systeme.
+      title: Typografische Systeme
       color: light-brown
     -
       id: LAB
-      title: LAB.
+      title: LAB
       color: dark-red
     -
       id: accessibility
@@ -42,11 +42,11 @@ data:
       color: violet
     -
       id: responsive
-      title: Responsive Design.
+      title: Responsive Design
       color: petrol
     -
       id: politics
-      title: Politik und das Internet.
+      title: Politik und Gesellschaft
       color: light-green
     -
       id: Law
@@ -54,7 +54,7 @@ data:
       color: light-green
     -
       id: FontDay
-      title: Tag der Schrift.
+      title: Tag der Schrift
       color: cold-green
     -
       id: InteractiveGraphic
@@ -70,11 +70,11 @@ data:
       color: green
     -
       id: marketing
-      title: Marketing Grundlagen.
+      title: Marketing Grundlagen
       color: light-brown
     -
       id: csInterface
-      title: Case Study – Interface.
+      title: Case Study – Interface
       color: mint
     -
       id: MobileTypo
@@ -94,11 +94,11 @@ data:
       color: gray-violet
     -
       id: geo
-      title: Geografie und Visualisierung.
+      title: Geografie und Visualisierung
       color: magenta
     -
       id: regEx
-      title: Regular Expressions.
+      title: Regular Expressions
       color: cold-green
     -
       id: HumanCentered
@@ -106,15 +106,15 @@ data:
       color: green-gray
     -
       id: ads
-      title: Onlinewerbung & Analyse.
+      title: Onlinewerbung & Analyse
       color: dark-green
     -
       id: resources
-      title: Ressourcenplanung.
+      title: Ressourcenplanung
       color: petrol
     -
       id: email
-      title: E-Mail Marketing.
+      title: E-Mail Marketing
       color: black
 
 
@@ -223,7 +223,7 @@ data:
         afternoon:
           teacher: DIV
           lession: politics
-          comment: Referate & Stefan Huber
+          comment: Referate & Stefan Huber | 13:15 Uhr · Erik Schönenberger · Geschäftsleiter Digitale Gesellschaft
       SA:
         morning:
           teacher: FS
