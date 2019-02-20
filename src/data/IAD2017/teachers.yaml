@@ -108,8 +108,12 @@ data:
       name: Madlaina Kalunder
       comment:
     -
-      id: access
-      name: Markus Graf (accessibility-doctor.com) & Zugang für alle
+      id: MG
+      name: Markus Graf
+      comment:
+    -
+      id: ZG
+      name: Zugang für alle
       comment:
     -
       id: DIV
@@ -119,6 +123,10 @@ data:
       id: AE
       name: Armin Egli
       comment: Nicht Samstag
+    -
+      id: FS
+      name: Fabian Scheiwiller
+      comment:
     -
       id: BL
       name: Brigitte Lampert

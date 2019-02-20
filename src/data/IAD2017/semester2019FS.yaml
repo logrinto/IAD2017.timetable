@@ -159,18 +159,18 @@ data:
         morning:
           teacher: AE
           lession: HumanCentered
-          comment:
+          comment: Besuch von betroffener Person.
         afternoon:
           teacher: AE
           lession: HumanCentered
-          comment:
+          comment: Besuch von betroffener Person.
       SA:
         morning:
-          teacher: access
+          teacher: MG
           lession: accessibility
           comment:
         afternoon:
-          teacher: access
+          teacher: MG
           lession: accessibility
           comment:
     -
@@ -186,13 +186,13 @@ data:
           comment:
       SA:
         morning:
-          teacher: access
+          teacher: MG
           lession: accessibility
           comment:
         afternoon:
           teacher: DIV
           lession: politics
-          comment: Diverse Referenten 50% & Stefan Huber 50%
+          comment: Referate & Stefan Huber
     -
       id: KW10-2019
       FR:
@@ -206,7 +206,7 @@ data:
           comment:
       SA:
         morning:
-          teacher: access
+          teacher: MG
           lession: accessibility
           comment:
         afternoon:
@@ -217,36 +217,36 @@ data:
       id: KW11-2019
       FR:
         morning:
-          teacher: access
+          teacher: ZG
           lession: accessibility
           comment:
         afternoon:
           teacher: DIV
           lession: politics
-          comment: Diverse Referenten 50% & Stefan Huber 50%
+          comment: Referate & Stefan Huber
       SA:
         morning:
-          teacher: AE
+          teacher: FS
           lession: HumanCentered
           comment:
         afternoon:
-          teacher: AE
+          teacher: FS
           lession: HumanCentered
           comment:
     -
       id: KW12-2019
       FR:
         morning:
-          teacher: AE
+          teacher: FS
           lession: HumanCentered
           comment:
         afternoon:
-          teacher: AE
+          teacher: FS
           lession: HumanCentered
           comment:
       SA:
         morning:
-          teacher: access
+          teacher: MG
           lession: accessibility
           comment:
         afternoon:
@@ -257,11 +257,11 @@ data:
       id: KW13-2019
       FR:
         morning:
-          teacher: AE
+          teacher: FS
           lession: HumanCentered
           comment:
         afternoon:
-          teacher: AE
+          teacher: FS
           lession: HumanCentered
           comment:
       SA:
