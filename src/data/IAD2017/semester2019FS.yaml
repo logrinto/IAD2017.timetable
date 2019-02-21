@@ -190,9 +190,9 @@ data:
           lession: accessibility
           comment:
         afternoon:
-          teacher: DIV
-          lession: politics
-          comment: Referate & Stefan Huber
+          teacher: SH
+          lession: LAB
+          comment:
     -
       id: KW10-2019
       FR:
@@ -210,20 +210,20 @@ data:
           lession: accessibility
           comment:
         afternoon:
-          teacher: SH
-          lession: LAB
-          comment:
+          teacher: DIV
+          lession: politics
+          comment: Referat & Stefan Huber | 13:15 Uhr · Marco Lardelli · Artificial intelligence (AI)
     -
       id: KW11-2019
       FR:
         morning:
           teacher: ZG
           lession: accessibility
-          comment:
+          comment: "Referentin: Sylvia Winkelmann-Ackermann"
         afternoon:
           teacher: DIV
           lession: politics
-          comment: Referate & Stefan Huber | 13:15 Uhr · Erik Schönenberger · Geschäftsleiter Digitale Gesellschaft
+          comment: Referat & Stefan Huber | 13:15 Uhr · Erik Schönenberger · Geschäftsleiter Digitale Gesellschaft
       SA:
         morning:
           teacher: FS
