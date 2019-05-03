@@ -1,9 +1,9 @@
-import fs from "fs";
-import postcssCalc from "postcss-calc";
-import postcssPresetEnv from "postcss-preset-env";
-import postcssNested from "postcss-nested";
-import postcssVars from "postcss-simple-vars";
-import postcssImport from "postcss-import";
+const fs = require("fs");
+const postcssCalc = require("postcss-calc");
+const postcssPresetEnv = require("postcss-preset-env");
+const postcssNested = require("postcss-nested");
+const postcssVars = require("postcss-simple-vars");
+const postcssImport = require("postcss-import");
 
 // this could later be exported
 const config = {
@@ -11,7 +11,7 @@ const config = {
   cssVariables: `${__dirname}/src/shared/css/variables.js`
 };
 
-export default {
+module.exports = {
   plugins: [
     postcssImport({
       root: config.root

@@ -1,0 +1,19 @@
+@import "./normalize";
+
+
+@import "./styles/color.css";
+@import "./styles/font.css";
+@import "./styles/html.css";
+
+
+@import "../components/semester/style.css";
+@import "../components/weeks/style.css";
+@import "../components/week/style.css";
+@import "../components/halfday/style.css";
+
+
+
+@import "../components/lessions/style.css";
+@import "../components/lession/style.css";
+
+@import "../components/tableview/style.css";

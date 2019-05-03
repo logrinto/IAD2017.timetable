@@ -1,6 +1,4 @@
 .weeks-header {
-  // @include container;
-
   position: sticky;
   top: -3rem;
   background-color: white;
@@ -11,14 +9,20 @@
   }
 
   &-inner {
-    @include border-top();
-    @include border-bottom();
+    border-top-style: solid;
+    border-top-width: 0.5rem;
+    border-top-color: black;
+
+    border-bottom-style: solid;
+    border-bottom-width: 0.5rem;
+    border-bottom-color: black;
 
     display: flex;
 
     &--morning,
     &--afternoon {
-      flex: 1 1 span(6);
+      /* flex: 1 1 span(6); */
+      flex: 1 1 36.70886%;
       p {
         padding-left: 0.6rem;
         padding-top: 2rem;
@@ -27,8 +31,10 @@
       }
     }
     &--morning {
-      margin-left: span(4);
-      padding-left: gutter();
+      /* margin-left: span(4); */
+      margin-left: 24.05063%;
+      /* padding-left: gutter(); */
+      padding-left: 1.26582%;
     }
   }
 }

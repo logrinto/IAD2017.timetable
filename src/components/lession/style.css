@@ -1,0 +1,36 @@
+.lession {
+  @media print {
+    page-break-inside: avoid;
+  }
+
+
+
+  .lession-bg--black       {  background-color:  $c_black       }
+  .lession-bg--bordeaux    {  background-color:  $c_bordeaux    ;}
+  .lession-bg--cold-green  {  background-color:  $c_cold-green  ;}
+  .lession-bg--cyan        {  background-color:  $c_cyan        ;}
+  .lession-bg--dark-green  {  background-color:  $c_dark-green  ;}
+  .lession-bg--dark-red    {  background-color:  $c_dark-red    ;}
+  .lession-bg--gray-violet {  background-color:  $c_gray-violet ;}
+  .lession-bg--green       {  background-color:  $c_green       ;}
+  .lession-bg--green-gray  {  background-color:  $c_green-gray  ;}
+  .lession-bg--light-brown {  background-color:  $c_light-brown ;}
+  .lession-bg--light-green {  background-color:  $c_light-green ;}
+  .lession-bg--magenta     {  background-color:  $c_magenta     ;}
+  .lession-bg--orange      {  background-color:  $c_orange      ;}
+  .lession-bg--petrol      {  background-color:  $c_petrol      ;}
+  .lession-bg--violet      {  background-color:  $c_violet      ;}
+  .lession-bg--gray        {  background-color:  $c_gray        ;}
+  .lession-bg--mint        {  background-color:  $c_mint        ;}
+
+
+
+
+
+  &-bg {
+    display: inline-block;
+    width: 2rem;
+    height: 1rem;
+    margin-right: 0.8rem;
+  }
+}

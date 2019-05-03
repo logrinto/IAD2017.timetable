@@ -4,17 +4,10 @@ html {
   font-size: 16px;
   @media print {
     font-size: 8px;
-    -webkit-print-color-adjust: exact; // Chrome, Safari
-    color-adjust: exact; // Firefox
+    -webkit-print-color-adjust: exact; /* Chrome, Safari */
+    color-adjust: exact; /* Firefox */
   }
 }
-
-// Tage defaults
-// @media print {
-//   body {
-//     margin: 15mm 15mm 20mm;
-//   }
-// }
 
 .bold,
 b {
