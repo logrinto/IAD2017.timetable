@@ -71,12 +71,14 @@ class Semester extends React.Component {
           <div>
             <a
               href="https://github.com/logrinto/IAD2017.timetable"
+              rel="noopener noreferrer"
               target="_blank"
             >
               → Stundenplan auf Github
             </a>{" "}
             <a
               href="webcal://logrinto.github.io/IAD2017.timetable/IAD.ics"
+              rel="noopener noreferrer"
               target="_blank"
             >
               → Stundenplan abonnieren

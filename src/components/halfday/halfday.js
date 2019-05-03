@@ -8,8 +8,8 @@ const Halfday = ({
 }) => {
   // console.log('Halfday', data);
 
-  let teacherObj = teachers.find(item => item.id == teacher);
-  let lessionObj = lessions.find(item => item.id == lession);
+  let teacherObj = teachers.find(item => item.id === teacher);
+  let lessionObj = lessions.find(item => item.id === lession);
 
   if (teacher && !teacherObj) {
     console.log("coudn't find teacher", teacher);

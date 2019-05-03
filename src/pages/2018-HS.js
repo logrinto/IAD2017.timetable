@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "gatsby-link";
 import Semester from "../components/semester/semester.js";
 
 const IndexPage = ({ data }) => {

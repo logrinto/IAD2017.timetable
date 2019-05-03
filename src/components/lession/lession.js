@@ -1,5 +1,4 @@
 import React from "react";
-import moment from "moment";
 import Tableview from "../tableview/tableview.js";
 import Anchor from "../anchor/anchor.js";
 

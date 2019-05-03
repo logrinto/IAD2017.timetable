@@ -7,7 +7,7 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-transformer-yaml",
     "gatsby-transformer-json",
-    "gatsby-plugin-postcss-sass",
+    "gatsby-plugin-postcss",
     // You can have multiple instances of this plugin
     // to read source nodes from different locations on your
     // filesystem.

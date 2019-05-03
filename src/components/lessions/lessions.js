@@ -1,5 +1,4 @@
 import React from "react";
-import moment from "moment";
 import Lession from "../lession/lession.js";
 // import './style.scss';
 
