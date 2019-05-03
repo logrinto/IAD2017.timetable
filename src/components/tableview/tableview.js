@@ -21,66 +21,68 @@ const Tableview = ({ data, filter }) => {
             </Anchor>
           );
 
-          return [
-            week.FR &&
-              week.FR.morning.lession === filter && (
-                <li>
-                  {KW}
-                  {moment(currentDate)
-                    .add(5, "days")
-                    .format(" · [Fr] · DD.MM.YYYY")}{" "}
-                  · 08:15 – 11:40
-                </li>
-              ),
+          return (
+            <React.Fragment key={week.id}>
+              {week.FR &&
+                week.FR.morning.lession === filter && (
+                  <li>
+                    {KW}
+                    {moment(currentDate)
+                      .add(5, "days")
+                      .format(" · [Fr] · DD.MM.YYYY")}{" "}
+                    · 08:15 – 11:40
+                  </li>
+                )}
 
-            week.FR &&
-              week.FR.afternoon.lession === filter && (
-                <li>
-                  {KW}
-                  {moment(currentDate)
-                    .add(5, "days")
-                    .format(" · [Fr] · DD.MM.YYYY")}{" "}
-                  · 13:15 – 16:45
-                </li>
-              ),
+              {week.FR &&
+                week.FR.afternoon.lession === filter && (
+                  <li>
+                    {KW}
+                    {moment(currentDate)
+                      .add(5, "days")
+                      .format(" · [Fr] · DD.MM.YYYY")}{" "}
+                    · 13:15 – 16:45
+                  </li>
+                )}
 
-            week.SA &&
-              week.SA.morning.lession === filter && (
-                <li>
-                  {KW}
-                  {moment(currentDate)
-                    .add(6, "days")
-                    .format(" · [Sa] · DD.MM.YYYY")}{" "}
-                  · 08:15 – 11:40
-                </li>
-              ),
+              {week.SA &&
+                week.SA.morning.lession === filter && (
+                  <li>
+                    {KW}
+                    {moment(currentDate)
+                      .add(6, "days")
+                      .format(" · [Sa] · DD.MM.YYYY")}{" "}
+                    · 08:15 – 11:40
+                  </li>
+                )}
 
-            week.SA &&
-              week.SA.afternoon.lession === filter && (
-                <li>
-                  {KW}
-                  {moment(currentDate)
-                    .add(6, "days")
-                    .format(" · [Sa] · DD.MM.YYYY")}{" "}
-                  · 13:15 – 16:45
-                </li>
-              ),
+              {week.SA &&
+                week.SA.afternoon.lession === filter && (
+                  <li>
+                    {KW}
+                    {moment(currentDate)
+                      .add(6, "days")
+                      .format(" · [Sa] · DD.MM.YYYY")}{" "}
+                    · 13:15 – 16:45
+                  </li>
+                )}
 
-            week.week &&
-              week.week.lession === filter && (
-                <li>
-                  {KW}
-                  {moment(currentDate)
-                    .add(1, "days")
-                    .format(" · [Mo] · DD.MM.YYYY")}
-                  {" – "}
-                  {moment(currentDate)
-                    .add(5, "days")
-                    .format("[Fr] · DD.MM.YYYY")}{" "}
-                  · 08:15 – 16:45
-                </li>
-              )
-          ];
+              {week.week &&
+                week.week.lession === filter && (
+                  <li>
+                    {KW}
+                    {moment(currentDate)
+                      .add(1, "days")
+                      .format(" · [Mo] · DD.MM.YYYY")}
+                    {" – "}
+                    {moment(currentDate)
+                      .add(5, "days")
+                      .format("[Fr] · DD.MM.YYYY")}{" "}
+                    · 08:15 – 16:45
+                  </li>
+                )}
+            </React.Fragment>
+          );
         })}
       </ul>
     </div>
