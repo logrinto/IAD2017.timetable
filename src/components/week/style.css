@@ -21,7 +21,6 @@
     &--title {
       /* flex: 1 1 span(3 of 4); */
       flex: 1 1 73.68421%;
-
     }
 
     &--day {
@@ -45,15 +44,14 @@
     /* flex: 1 1 span(4); */
     flex: 1 1 24.05063%;
     /* padding-right: gutter() / 2; */
-    padding-right: .63291%;
+    padding-right: 0.63291%;
   }
 
   &--date {
     /* flex: 1 1 span(12); */
     flex: 1 1 74.68354%;
     /* padding-left: gutter() / 2; */
-    padding-left: .63291%;
-
+    padding-left: 0.63291%;
   }
 
   &--day {
@@ -73,6 +71,5 @@
   &--afternoon {
     /* flex: 1 1 span(6 of 12); */
     flex: 1 1 49.15254%;
-
   }
 }

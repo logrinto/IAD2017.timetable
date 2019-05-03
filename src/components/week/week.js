@@ -15,13 +15,15 @@ const Week = ({ data, teachers, lessions }) => {
               <p>
                 <span className="bold">
                   <Anchor anchor={data.id}>
-                    KW{moment(data.id, "[KW]ww-YYYY").format("ww · YYYY")}
+                    KW
+                    {moment(data.id, "[KW]ww-YYYY").format("ww · YYYY")}
                   </Anchor>
                 </span>
                 <br />
                 {moment(data.id, "[KW]ww-YYYY")
                   .add(5, "days")
-                  .format("DD.MM")}/&shy;
+                  .format("DD.MM")}
+                /&shy;
                 {moment(data.id, "[KW]ww-YYYY")
                   .add(6, "days")
                   .format("DD.MM.YYYY")}
@@ -46,7 +48,8 @@ const Week = ({ data, teachers, lessions }) => {
           <p>
             <span className="bold">
               <Anchor anchor={data.id}>
-                KW{moment(data.id, "[KW]ww-YYYY").format("ww · YYYY")}
+                KW
+                {moment(data.id, "[KW]ww-YYYY").format("ww · YYYY")}
               </Anchor>
             </span>
             <br />

@@ -1,5 +1,4 @@
 import React from "react";
-import "./style.scss";
 import Semester from "../semester/semester";
 import yaml from "js-yaml";
 import request from "superagent";
