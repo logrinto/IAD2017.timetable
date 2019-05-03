@@ -16,6 +16,11 @@ https://zurich.fablab.ch/events/kuenstliche-intelligenz-und-robotik-fuer-anfaeng
 http://interactivedock.ch/kurse/interaction-design
 
 
+
+https://gamedesign.zhdk.ch/personen/team/mela-kocher/
+
+
+
 * Armin
   – User Experience/Usability
   – Marktumfeld/Marktanalyse
