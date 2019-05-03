@@ -34,11 +34,14 @@
     "build": "npm run gatsby-build && npm run ics",
     "gatsby-build": "gatsby build --prefix-paths",
     "start": "gatsby develop",
-    "ics": "./node_modules/.bin/babel-node --presets es2015 ./src/ics.js",
+    "ics": "babel --presets=@babel/env ./src/ics.js",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "babel-preset-env": "^1.7.0",
     "prettier": "^1.10.2",
     "uuid": "^3.2.1"
   }
