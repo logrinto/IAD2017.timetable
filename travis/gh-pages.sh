@@ -1,34 +1,34 @@
 #!/bin/bash
 
-# https://gist.github.com/domenic/ec8b0fc8ab45f39403dd
-# https://github.com/steveklabnik/automatically_update_github_pages_with_travis_example
-
-# generate keys with no passphrase
-# -----------------------------------------------------------------------------
-# mkdir ./.ssh/
-# ssh-keygen -t rsa -b 4096 -C "sh@signalwerk.ch" -f ./.ssh/id_rsa
-
-# generate keys with no passphrase
-# -----------------------------------------------------------------------------
-# cd ./.ssh/
-# travis encrypt-file ./id_rsa
-
-# others
-# -----------------------------------------------------------------------------
-# copy the id to the .travis.yml
-# add deploy key to https://github.com/<user>/<repo>/settings/keys
-
-
-
 set -e # Exit with nonzero exit code if anything fails
-
 
 echo "-- start"
 
-SOURCE_BRANCH="master"
-TARGET_BRANCH="gh-pages"
-DEPLOY_DIR="public"
+SOURCE_BRANCH="${SOURCE_BRANCH:-master}"
+TARGET_BRANCH="${TARGET_BRANCH:-gh-pages}"
+DEPLOY_DIR="${DEPLOY_DIR:-public}"
 
+ROOT_DIR=$(pwd)
+
+
+
+# Save some useful information
+REPO=`git config remote.origin.url`
+SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
+SHA=`git rev-parse --verify HEAD`
+
+echo "   * Variables"
+echo "     – SOURCE_BRANCH=${SOURCE_BRANCH}"
+echo "     – TARGET_BRANCH=${TARGET_BRANCH}"
+echo "     – DEPLOY_DIR=${DEPLOY_DIR}"
+echo "     – ENCRYPTION_LABEL=${ENCRYPTION_LABEL}"
+echo "     – COMMIT_AUTHOR_EMAIL=${COMMIT_AUTHOR_EMAIL}"
+echo "     – REPO=${REPO}"
+echo "     – TRAVIS_PULL_REQUEST=${TRAVIS_PULL_REQUEST}"
+echo "     – TRAVIS_BRANCH=${TRAVIS_BRANCH}"
+echo "     – REPO=${REPO}"
+echo "     – SSH_REPO=${SSH_REPO}"
+echo "     – SHA=${SHA}"
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
 if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
@@ -36,41 +36,36 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]
     exit 0
 fi
 
-# Save some useful information
-REPO=`git config remote.origin.url`
-echo "----- repo"
-SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
-SHA=`git rev-parse --verify HEAD`
-
 # Clone the existing gh-pages for this repo into $DEPLOY_DIR/
 # Create a new empty branch if gh-pages doesn't exist yet (should only happen on first deply)
+echo "   * get repo"
 git clone $REPO $DEPLOY_DIR
 cd $DEPLOY_DIR
 git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
-cd ..
+cd $ROOT_DIR
 
 # Clean out existing contents
-echo "-- clean up"
+echo "   * clean up"
 cd $DEPLOY_DIR
 # Recursively clean current directory but not dir named .git
 rm -r $(ls -a | grep -v '^\.\.$' | grep -v '^\.$' | grep -v '^\.git$')
-cd ..
+cd $ROOT_DIR
 
 
 # Run our compile script
-echo "-- build"
+echo "   * build"
 sh ./travis/build.sh
 
 # Now let's go have some fun with the cloned repo
 cd $DEPLOY_DIR
-echo "-- build info"
+echo "   * build info"
 
 git config user.name "Travis CI"
 git config user.email "$COMMIT_AUTHOR_EMAIL"
 
 # If there are no changes to the compiled out (e.g. this is a README update) then just bail.
 if [ $(git status --porcelain | wc -l) -lt 1 ]; then
-    echo "No changes to the output on this push; exiting."
+    echo "   * No changes to the output on this push; exiting."
     exit 0
 fi
 
@@ -85,7 +80,7 @@ ENCRYPTED_IV_VAR="encrypted_${ENCRYPTION_LABEL}_iv"
 ENCRYPTED_KEY=${!ENCRYPTED_KEY_VAR}
 ENCRYPTED_IV=${!ENCRYPTED_IV_VAR}
 eval `ssh-agent -s`
-openssl aes-256-cbc -K $ENCRYPTED_KEY -iv $ENCRYPTED_IV -in ../travis/.ssh/id_rsa.enc -d | ssh-add -
+openssl aes-256-cbc -K $ENCRYPTED_KEY -iv $ENCRYPTED_IV -in "$ROOT_DIR/travis/.ssh/id_rsa.enc" -d | ssh-add -
 
 # Now that we're all set up, we can push.
 git push $SSH_REPO $TARGET_BRANCH
