@@ -44,17 +44,23 @@ cd $DEPLOY_DIR
 git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
 cd $ROOT_DIR
 
-# Clean out existing contents
+# Clean out existing contents and save git
 echo "   * clean up"
-cd $DEPLOY_DIR
-# Recursively clean current directory but not dir named .git
-rm -r $(ls -a | grep -v '^\.\.$' | grep -v '^\.$' | grep -v '^\.git$')
 cd $ROOT_DIR
-
+mkdir __save_git
+mv $DEPLOY_DIR/.git __save_git/
+rm -rf $DEPLOY_DIR
+mkdir -p $DEPLOY_DIR
 
 # Run our compile script
 echo "   * build"
 sh ./travis/build.sh
+
+# restore git
+cd $ROOT_DIR
+mv __save_git/.git $DEPLOY_DIR/
+rm -rf __save_git
+
 
 # Now let's go have some fun with the cloned repo
 cd $DEPLOY_DIR
