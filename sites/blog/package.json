@@ -1,0 +1,22 @@
+{
+  "name": "IAD2017-timetable",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Stefan Huber <sh@signalwerk.ch>",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build --prefix-paths",
+    "start": "gatsby develop",
+    "ics": "babel-node --ignore anyValue --presets=@babel/env ./src/ics.js",
+    "develop": "gatsby develop"
+  },
+  "dependencies": {
+    "gatsby": "^2.0.19",
+    "gatsby-theme-timetable": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.0.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}

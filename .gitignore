@@ -1,12 +1,6 @@
-# Project dependencies
-# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
-node_modules
-.cache/
-# Build directory
-public/
-.DS_Store
-yarn-error.log
-yarn.lock
+/node_modules
 /travis/.ssh/id_rsa
-/src/data/IAD2017/info.md
-/hf_iad_semesterplan_uebersicht_inkl_projektwochen_20160109.xlsx
+/.cache
+/sites/blog/.cache
+/sites/blog/node_modules
+/sites/blog/public

@@ -1,0 +1,3 @@
+[submodule "themes/gatsby-theme-timetable"]
+	path = themes/gatsby-theme-timetable
+	url = git@github.com:signalwerk/timetable.git

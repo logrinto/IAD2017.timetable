@@ -1,48 +1,18 @@
 {
-  "name": "logrinto-semesterplanner",
-  "description": "Semesterplan",
+  "name": "IAD2017-timetable-all",
   "version": "1.0.0",
+  "main": "index.js",
   "author": "Stefan Huber <sh@signalwerk.ch>",
-  "dependencies": {
-    "gatsby": "^2.4.1",
-    "gatsby-link": "^2.1.0",
-    "gatsby-plugin-postcss": "^2.0.7",
-    "gatsby-plugin-react-helmet": "^3.0.12",
-    "gatsby-source-filesystem": "^2.0.33",
-    "gatsby-transformer-json": "^2.1.11",
-    "gatsby-transformer-yaml": "^2.1.12",
-    "immutable-ics": "^0.4.0",
-    "moment": "^2.20.1",
-    "node-sass": "^4.12.0",
-    "postcss-calc": "^7.0.1",
-    "postcss-cssnext": "^3.1.0",
-    "postcss-import": "^12.0.1",
-    "postcss-loader": "^3.0.0",
-    "postcss-nested": "^4.1.2",
-    "postcss-preset-env": "^6.6.0",
-    "postcss-simple-vars": "^5.0.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.0"
-  },
-  "keywords": [
-    "gatsby"
-  ],
   "license": "MIT",
-  "main": "n/a",
+  "private": true,
   "scripts": {
-    "build": "npm run gatsby-build && npm run ics",
-    "gatsby-build": "gatsby build --prefix-paths",
-    "start": "gatsby develop",
-    "ics": "babel --presets=@babel/env ./src/ics.js",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "yarn workspace IAD2017-timetable build",
+    "ics": "yarn workspace IAD2017-timetable ics",
+    "start": "yarn develop",
+    "develop": "yarn workspace IAD2017-timetable develop"
   },
-  "devDependencies": {
-    "@babel/cli": "^7.4.4",
-    "@babel/core": "^7.4.4",
-    "babel-preset-env": "^1.7.0",
-    "prettier": "^1.10.2",
-    "uuid": "^3.2.1"
-  }
+  "workspaces": [
+    "themes/*",
+    "sites/*"
+  ]
 }
