@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/typesetting`,
+  pathPrefix: `/IAD2017.timetable`,
 
   __experimentalThemes: [{
     resolve: 'gatsby-theme-timetable',
