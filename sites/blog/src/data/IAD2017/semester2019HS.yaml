@@ -54,21 +54,26 @@ data:
       color: cold-green
     -
       id: userinterface1x1
-      title: Das Wesen in der Bedienung
+      title: Das Wesen in der Bedienung*
       color: cyan
     -
       id: didacticDesign
-      title: Didaktisches Design
+      title: Didaktisches Design*
       color: violet
 
     -
       id: Crossmedia
-      title: Crossmedia von der Datenbank zur Ausgabe
+      title: Von der Datenbank zur Ausgabe*
       color: gray-violet
     -
       id: csInterface
       title: Case Study – Interface
       color: mint
+    -
+      id: DesignThinking
+      title: Design Thinking.
+      color: petrol
+
   #  MobileTypo:
   #    title: Typografie am mobilen Gerät
   #    color: dark-green
@@ -79,28 +84,28 @@ data:
 
     -
       id: documentation
-      title: Dokumentieren mit Text und Bild
+      title: Technische Dokumentation*
       color: magenta
     -
-      id: DiyHardware
-      title: Interaktion mit DIY–Hardware
-      color: bordeaux
-    -
       id: presentation
-      title: Kommunizieren & Präsentieren
+      title: Kommunizieren & Präsentieren.
       color: light-brown
     -
       id: gameDesign
-      title: Spiele als Zugang zur Information
+      title: Spiele als Zugang zur Information*
       color: orange
     -
       id: thesis
-      title: Thesis (selbstständige Arbeit)
+      title: Thesis (selbstständige Arbeit).
       color: green
     -
       id: thesisprep
-      title: Thesis – Einführung & Themenfindung
+      title: Thesis – Einführung & Themenfindung*
       color: green
+    -
+      id: marketingme
+      title: Marketing · Meine Leistung.
+      color: mint
   #  Guest:
   #    title: Gastreferat
   #    color: mint
@@ -111,8 +116,8 @@ data:
       id: KW34-2019
       FR:
         morning:
-          teacher: SH
-          lession: LAB
+          teacher:
+          lession: documentation
           comment:
         afternoon:
           teacher:
@@ -131,11 +136,11 @@ data:
       id: KW35-2019
       FR:
         morning:
-          teacher: UF
+          teacher:
           lession: thesisprep
           comment:
         afternoon:
-          teacher: UF
+          teacher:
           lession: thesisprep
           comment:
       SA:
@@ -151,7 +156,7 @@ data:
       id: KW36-2019
       FR:
         morning:
-          teacher:
+          teacher: DF
           lession: presentation
           comment:
         afternoon:
@@ -161,11 +166,11 @@ data:
       SA:
         morning:
           teacher:
-          lession: thesis
+          lession: gameDesign
           comment:
         afternoon:
           teacher:
-          lession: thesis
+          lession: gameDesign
           comment:
     -
       id: KW37-2019
@@ -191,7 +196,7 @@ data:
       id: KW38-2019
       FR:
         morning:
-          teacher:
+          teacher: DF
           lession: presentation
           comment:
         afternoon:
@@ -211,11 +216,11 @@ data:
       id: KW39-2019
       FR:
         morning:
-          teacher:
+          teacher: DF
           lession: presentation
           comment:
         afternoon:
-          teacher:
+          teacher: DF
           lession: presentation
           comment:
       SA:
@@ -232,11 +237,11 @@ data:
       FR:
         morning:
           teacher:
-          lession: sponsoring
+          lession: thesis
           comment:
         afternoon:
           teacher:
-          lession: LAB
+          lession: thesis
           comment:
       SA:
         morning:
@@ -292,47 +297,47 @@ data:
       FR:
         morning:
           teacher:
-          lession: csInterface
+          lession: userinterface1x1
           comment:
         afternoon:
           teacher:
-          lession: csInterface
+          lession: userinterface1x1
           comment:
       SA:
         morning:
           teacher:
-          lession: userinterface1x1
+          lession: csInterface
           comment:
         afternoon:
           teacher:
-          lession: userinterface1x1
+          lession: csInterface
           comment:
     -
       id: KW44-2019
       FR:
         morning:
           teacher:
-          lession: projectLead
+          lession: userinterface1x1
           comment:
         afternoon:
           teacher:
-          lession: LAB
+          lession: userinterface1x1
           comment:
       SA:
         morning:
           teacher:
-          lession: userinterface1x1
+          lession: LAB
           comment:
         afternoon:
           teacher:
-          lession: userinterface1x1
+          lession: didacticDesign
           comment:
     -
       id: KW45-2019
       FR:
         morning:
-          teacher:
-          lession: projectLead
+          teacher: MN
+          lession: marketingme
           comment:
         afternoon:
           teacher:
@@ -347,32 +352,33 @@ data:
           teacher:
           lession: userinterface1x1
           comment:
+
     -
       id: KW46-2019
       FR:
         morning:
           teacher:
-          lession: projectLead
+          lession: userinterface1x1
           comment:
         afternoon:
           teacher:
-          lession: LAB
+          lession: userinterface1x1
           comment:
       SA:
         morning:
           teacher:
-          lession: userinterface1x1
+          lession: LAB
           comment:
         afternoon:
           teacher:
-          lession: userinterface1x1
+          lession: didacticDesign
           comment:
     -
       id: KW47-2019
       FR:
         morning:
-          teacher:
-          lession: projectLead
+          teacher: MN
+          lession: marketingme
           comment:
         afternoon:
           teacher:
@@ -392,47 +398,47 @@ data:
       FR:
         morning:
           teacher:
-          lession: projectLead
+          lession: userinterface1x1
           comment:
         afternoon:
           teacher:
-          lession: LAB
+          lession: userinterface1x1
           comment:
       SA:
         morning:
           teacher:
-          lession: designStructure
+          lession: LAB
           comment:
         afternoon:
           teacher:
-          lession: designStructure
+          lession: didacticDesign
           comment:
     -
       id: KW49-2019
       FR:
         morning:
-          teacher:
-          lession: didacticDesign
+          teacher: MN
+          lession: marketingme
           comment:
         afternoon:
-          teacher:
-          lession: didacticDesign
+          teacher: MN
+          lession: marketingme
           comment:
       SA:
         morning:
           teacher:
-          lession: designStructure
+          lession: didacticDesign
           comment:
         afternoon:
           teacher:
-          lession: designStructure
+          lession: didacticDesign
           comment:
     -
       id: KW50-2019
       FR:
         morning:
-          teacher:
-          lession: didacticDesign
+          teacher: MN
+          lession: marketingme
           comment:
         afternoon:
           teacher:
@@ -441,11 +447,11 @@ data:
       SA:
         morning:
           teacher:
-          lession: designStructure
+          lession: didacticDesign
           comment:
         afternoon:
           teacher:
-          lession: designStructure
+          lession: didacticDesign
           comment:
     -
       id: KW51-2019
@@ -512,11 +518,11 @@ data:
       FR:
         morning:
           teacher:
-          lession: didacticDesign
+          lession: LAB
           comment:
         afternoon:
           teacher:
-          lession: didacticDesign
+          lession: LAB
           comment:
       SA:
         morning:
@@ -531,12 +537,12 @@ data:
       id: KW03-2020
       FR:
         morning:
-          teacher:
-          lession: LAB
+          teacher: HBGS
+          lession: DesignThinking
           comment:
         afternoon:
-          teacher:
-          lession: LAB
+          teacher: HBGS
+          lession: DesignThinking
           comment:
       SA:
         morning:
