@@ -457,8 +457,8 @@ data:
       id: KW23-2019
       FR:
         morning:
-          teacher: SH
-          lession: parser
+          teacher: BP
+          lession: responsive
           comment:
         afternoon:
           teacher: SH
@@ -477,8 +477,8 @@ data:
       id: KW24-2019
       FR:
         morning:
-          teacher: BP
-          lession: responsive
+          teacher: SH
+          lession: parser
           comment:
         afternoon:
           teacher: BP
