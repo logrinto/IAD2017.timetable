@@ -57,8 +57,8 @@ data:
       title: Interaktive Grafiken
       color: cyan
     -
-      id: Marketing
-      title: Marketing & Analyse – KMU
+      id: cms
+      title: CMS & API
       color: cyan
     -
       id: FontDay
@@ -170,7 +170,7 @@ data:
           comment:
         afternoon:
           teacher:
-          lession: Marketing
+          lession: cms
           comment:
       SA:
         morning:
@@ -206,7 +206,7 @@ data:
       FR:
         morning:
           teacher:
-          lession: Marketing
+          lession: cms
           comment:
         afternoon:
           teacher:
@@ -246,7 +246,7 @@ data:
       FR:
         morning:
           teacher:
-          lession: Marketing
+          lession: cms
           comment:
         afternoon:
           teacher:
@@ -286,7 +286,7 @@ data:
       FR:
         morning:
           teacher:
-          lession: Marketing
+          lession: cms
           comment:
         afternoon:
           teacher:
@@ -326,7 +326,7 @@ data:
       FR:
         morning:
           teacher:
-          lession: Marketing
+          lession: cms
           comment:
         afternoon:
           teacher:
