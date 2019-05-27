@@ -58,12 +58,12 @@ data:
       color: cyan
     -
       id: didacticDesign
-      title: Didaktisches Design*
+      title: Didaktisches Design.
       color: violet
 
     -
-      id: Crossmedia
-      title: Von der Datenbank zur Ausgabe*
+      id: database
+      title: Von der Datenbank zur Ausgabe.
       color: gray-violet
     -
       id: csInterface
@@ -74,13 +74,6 @@ data:
       title: Design Thinking.
       color: petrol
 
-  #  MobileTypo:
-  #    title: Typografie am mobilen Gerät
-  #    color: dark-green
-
-  #  Crossmedia:
-  #    title: Crossmedia von der Datenbank zur Ausgabe
-  #    color: gray-violet
 
     -
       id: documentation
@@ -137,51 +130,51 @@ data:
       FR:
         morning:
           teacher:
-          lession: thesisprep
+          lession: gameDesign
           comment:
         afternoon:
           teacher:
-          lession: thesisprep
+          lession: gameDesign
           comment:
       SA:
         morning:
           teacher:
-          lession: gameDesign
+          lession: csInterface
           comment:
         afternoon:
           teacher:
-          lession: gameDesign
+          lession: csInterface
           comment:
     -
       id: KW36-2019
       FR:
         morning:
+          teacher:
+          lession: gameDesign
+          comment:
+        afternoon:
+          teacher:
+          lession: gameDesign
+          comment:
+      SA:
+        morning:
           teacher: DF
           lession: presentation
           comment:
         afternoon:
-          teacher:
+          teacher: SH
           lession: LAB
-          comment:
-      SA:
-        morning:
-          teacher:
-          lession: gameDesign
-          comment:
-        afternoon:
-          teacher:
-          lession: gameDesign
           comment:
     -
       id: KW37-2019
       FR:
         morning:
           teacher:
-          lession: thesisprep
+          lession: thesis
           comment:
         afternoon:
           teacher:
-          lession: thesisprep
+          lession: thesis
           comment:
       SA:
         morning:
@@ -196,21 +189,21 @@ data:
       id: KW38-2019
       FR:
         morning:
-          teacher: DF
-          lession: presentation
+          teacher:
+          lession: gameDesign
           comment:
         afternoon:
           teacher:
-          lession: LAB
+          lession: gameDesign
           comment:
       SA:
         morning:
           teacher:
-          lession: gameDesign
+          lession: LAB
           comment:
         afternoon:
-          teacher:
-          lession: gameDesign
+          teacher: DF
+          lession: presentation
           comment:
     -
       id: KW39-2019
@@ -225,32 +218,32 @@ data:
           comment:
       SA:
         morning:
-          teacher:
-          lession: Crossmedia
+          teacher: AEB
+          lession: database
           comment:
         afternoon:
-          teacher:
-          lession: Crossmedia
+          teacher: AEB
+          lession: database
           comment:
     -
       id: KW40-2019
       FR:
         morning:
-          teacher:
-          lession: thesis
+          teacher: UF
+          lession: thesisprep
           comment:
         afternoon:
-          teacher:
-          lession: thesis
+          teacher: UF
+          lession: thesisprep
           comment:
       SA:
         morning:
-          teacher:
-          lession: Crossmedia
+          teacher: AEB
+          lession: database
           comment:
         afternoon:
-          teacher:
-          lession: Crossmedia
+          teacher: AEB
+          lession: database
           comment:
     -
       id: KW41-2019
@@ -296,31 +289,31 @@ data:
       id: KW43-2019
       FR:
         morning:
-          teacher:
+          teacher: FSOTHER
           lession: userinterface1x1
           comment:
         afternoon:
-          teacher:
+          teacher: FSOTHER
           lession: userinterface1x1
           comment:
       SA:
         morning:
-          teacher:
-          lession: csInterface
+          teacher: UF
+          lession: thesisprep
           comment:
         afternoon:
-          teacher:
-          lession: csInterface
+          teacher: UF
+          lession: thesisprep
           comment:
     -
       id: KW44-2019
       FR:
         morning:
-          teacher:
+          teacher: FSOTHER
           lession: userinterface1x1
           comment:
         afternoon:
-          teacher:
+          teacher: FSOTHER
           lession: userinterface1x1
           comment:
       SA:
@@ -329,7 +322,7 @@ data:
           lession: LAB
           comment:
         afternoon:
-          teacher:
+          teacher: CA
           lession: didacticDesign
           comment:
     -
@@ -340,16 +333,16 @@ data:
           lession: marketingme
           comment:
         afternoon:
-          teacher:
+          teacher: CA
           lession: didacticDesign
-          comment:
+          comment: Online-Session
       SA:
         morning:
-          teacher:
+          teacher: FSOTHER
           lession: userinterface1x1
           comment:
         afternoon:
-          teacher:
+          teacher: FSOTHER
           lession: userinterface1x1
           comment:
 
@@ -357,7 +350,7 @@ data:
       id: KW46-2019
       FR:
         morning:
-          teacher:
+          teacher: FSOTHER
           lession: userinterface1x1
           comment:
         afternoon:
@@ -370,9 +363,9 @@ data:
           lession: LAB
           comment:
         afternoon:
-          teacher:
+          teacher: CA
           lession: didacticDesign
-          comment:
+          comment: Online-Session
     -
       id: KW47-2019
       FR:
@@ -381,27 +374,27 @@ data:
           lession: marketingme
           comment:
         afternoon:
-          teacher:
+          teacher: CA
           lession: didacticDesign
           comment:
       SA:
         morning:
-          teacher:
+          teacher: FSOTHER
           lession: userinterface1x1
           comment:
         afternoon:
-          teacher:
+          teacher: FSOTHER
           lession: userinterface1x1
           comment:
     -
       id: KW48-2019
       FR:
         morning:
-          teacher:
+          teacher: FSOTHER
           lession: userinterface1x1
           comment:
         afternoon:
-          teacher:
+          teacher: FSOTHER
           lession: userinterface1x1
           comment:
       SA:
@@ -410,7 +403,7 @@ data:
           lession: LAB
           comment:
         afternoon:
-          teacher:
+          teacher: CA
           lession: didacticDesign
           comment:
     -
@@ -426,11 +419,11 @@ data:
           comment:
       SA:
         morning:
-          teacher:
+          teacher: CA
           lession: didacticDesign
           comment:
         afternoon:
-          teacher:
+          teacher: CA
           lession: didacticDesign
           comment:
     -
@@ -446,11 +439,11 @@ data:
           comment:
       SA:
         morning:
-          teacher:
+          teacher: CA
           lession: didacticDesign
           comment:
         afternoon:
-          teacher:
+          teacher: CA
           lession: didacticDesign
           comment:
     -
