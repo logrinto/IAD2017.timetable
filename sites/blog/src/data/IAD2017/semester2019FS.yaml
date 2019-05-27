@@ -463,7 +463,7 @@ data:
         afternoon:
           teacher: SH
           lession: LAB
-          comment:
+          comment: Vertretung Alexander Jenter
       SA:
         morning:
           teacher: MK
