@@ -488,31 +488,31 @@ data:
         morning:
           teacher: MW
           lession: resources
-          comment:
+          comment: Achtung! Zimmer 210
         afternoon:
           teacher: MW
           lession: resources
-          comment:
+          comment: Achtung! Zimmer 210
     -
       id: KW25-2019
       FR:
         morning:
           teacher: MK
           lession: 3d
-          comment:
+          comment: Achtung! Zimmer 610
         afternoon:
           teacher: MK
           lession: 3d
-          comment:
+          comment: Achtung! Zimmer 610
       SA:
         morning:
           teacher: MW
           lession: resources
-          comment:
+          comment: Achtung! Zimmer 613
         afternoon:
           teacher: MW
           lession: resources
-          comment:
+          comment: Achtung! Zimmer 613
     -
       id: KW26-2019
       FR:
