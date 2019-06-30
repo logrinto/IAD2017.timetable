@@ -5,7 +5,7 @@ data:
     slug: 2020-FS
     class: IAD2017
     room: Zimmer 413 · Schule für Gestaltung Zürich, Ausstellungsstrasse 104, 8005 Zürich
-    notes: Schul- und Ferienzeiten noch nicht gesichert.
+    notes: ""
     links:
       -
         title: Herbstsemester 2017
@@ -266,26 +266,6 @@ data:
       FR:
         morning:
           teacher:
-          lession:
-          comment: Karfreitag
-        afternoon:
-          teacher:
-          lession:
-          comment: Karfreitag
-      SA:
-        morning:
-          teacher:
-          lession:
-          comment: Ostern
-        afternoon:
-          teacher:
-          lession:
-          comment: Ostern
-    -
-      id: KW14-2020
-      FR:
-        morning:
-          teacher:
           lession: cms
           comment:
         afternoon:
@@ -300,47 +280,67 @@ data:
         afternoon:
           teacher:
           lession: blogs
+          comment:
+    -
+      id: KW14-2020
+      FR:
+        morning:
+          teacher:
+          lession: socialMedia
+          comment:
+        afternoon:
+          teacher:
+          lession: socialMedia
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: FontDay
+          comment:
+        afternoon:
+          teacher:
+          lession: FontDay
           comment:
     -
       id: KW15-2020
       FR:
         morning:
           teacher:
-          lession: socialMedia
-          comment:
+          lession:
+          comment: Karfreitag
         afternoon:
           teacher:
-          lession: socialMedia
-          comment:
+          lession:
+          comment: Karfreitag
       SA:
         morning:
           teacher:
-          lession: FontDay
-          comment:
+          lession:
+          comment: Ostern
         afternoon:
           teacher:
-          lession: FontDay
-          comment:
+          lession:
+          comment: Ostern
     -
       id: KW16-2020
       FR:
         morning:
           teacher:
-          lession: cms
-          comment:
+          lession:
+          comment: Frühlingsferien
         afternoon:
           teacher:
-          lession: LAB
-          comment:
+          lession:
+          comment: Frühlingsferien
       SA:
         morning:
           teacher:
-          lession: csInterface
-          comment:
+          lession:
+          comment: Frühlingsferien
         afternoon:
           teacher:
-          lession: csInterface
-          comment:
+          lession:
+          comment: Frühlingsferien
     -
       id: KW17-2020
       FR:
@@ -366,41 +366,41 @@ data:
       FR:
         morning:
           teacher:
-          lession:
-          comment: Frühlingsferien
+          lession: cms
+          comment:
         afternoon:
           teacher:
-          lession:
-          comment: Frühlingsferien
+          lession: LAB
+          comment:
       SA:
         morning:
           teacher:
-          lession:
-          comment: Frühlingsferien
+          lession: csInterface
+          comment:
         afternoon:
           teacher:
-          lession:
-          comment: Frühlingsferien
+          lession: csInterface
+          comment:
     -
       id: KW19-2020
       FR:
         morning:
           teacher:
-          lession:
-          comment: Auffahrt
+          lession: diplom
+          comment:
         afternoon:
           teacher:
-          lession:
-          comment: Auffahrt
+          lession: diplom
+          comment:
       SA:
         morning:
           teacher:
-          lession:
-          comment: Auffahrt
+          lession: diplom
+          comment:
         afternoon:
           teacher:
-          lession:
-          comment: Auffahrt
+          lession: diplom
+          comment:
     -
       id: KW20-2020
       FR:
@@ -426,21 +426,21 @@ data:
       FR:
         morning:
           teacher:
-          lession: diplom
-          comment:
+          lession:
+          comment: Auffahrt
         afternoon:
           teacher:
-          lession: diplom
-          comment:
+          lession:
+          comment: Auffahrt
       SA:
         morning:
           teacher:
-          lession: diplom
-          comment:
+          lession:
+          comment: Auffahrt
         afternoon:
           teacher:
-          lession: diplom
-          comment:
+          lession:
+          comment: Auffahrt
     -
       id: KW22-2020
       FR:
