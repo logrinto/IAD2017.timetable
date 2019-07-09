@@ -152,10 +152,18 @@ data:
       id: CA
       name: Charlotte Axelsson
     -
-      id: FSOTHER
-      name: Fabian Scheiwiller & (noch offen)
+      id: FSRR
+      name: Fabian Scheiwiller & Roman Rast
       comment:
     -
       id: AEB
       name: Andreas Eberhard
       comment:
+    -
+      id: ADS
+      name: Alessandro Di Stefano
+      comment:
+
+
+
+        Fabian.Scheiwiller@zuehlke.com

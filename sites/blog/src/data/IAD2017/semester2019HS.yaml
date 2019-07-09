@@ -85,7 +85,7 @@ data:
       color: light-brown
     -
       id: gameDesign
-      title: Spiele als Zugang zur Information*
+      title: Spiele als Zugang zur Information
       color: orange
     -
       id: thesis
@@ -118,22 +118,22 @@ data:
           comment:
       SA:
         morning:
-          teacher:
+          teacher: ADS
           lession: gameDesign
           comment:
         afternoon:
-          teacher:
+          teacher: ADS
           lession: gameDesign
           comment:
     -
       id: KW35-2019
       FR:
         morning:
-          teacher:
+          teacher: ADS
           lession: gameDesign
           comment:
         afternoon:
-          teacher:
+          teacher: ADS
           lession: gameDesign
           comment:
       SA:
@@ -149,11 +149,11 @@ data:
       id: KW36-2019
       FR:
         morning:
-          teacher:
+          teacher: ADS
           lession: gameDesign
           comment:
         afternoon:
-          teacher:
+          teacher: ADS
           lession: gameDesign
           comment:
       SA:
@@ -178,22 +178,22 @@ data:
           comment:
       SA:
         morning:
-          teacher:
+          teacher: ADS
           lession: gameDesign
           comment:
         afternoon:
-          teacher:
+          teacher: ADS
           lession: gameDesign
           comment:
     -
       id: KW38-2019
       FR:
         morning:
-          teacher:
+          teacher: ADS
           lession: gameDesign
           comment:
         afternoon:
-          teacher:
+          teacher: ADS
           lession: gameDesign
           comment:
       SA:
@@ -289,11 +289,11 @@ data:
       id: KW43-2019
       FR:
         morning:
-          teacher: FSOTHER
+          teacher: FSRR
           lession: userinterface1x1
           comment:
         afternoon:
-          teacher: FSOTHER
+          teacher: FSRR
           lession: userinterface1x1
           comment:
       SA:
@@ -309,11 +309,11 @@ data:
       id: KW44-2019
       FR:
         morning:
-          teacher: FSOTHER
+          teacher: FSRR
           lession: userinterface1x1
           comment:
         afternoon:
-          teacher: FSOTHER
+          teacher: FSRR
           lession: userinterface1x1
           comment:
       SA:
@@ -338,11 +338,11 @@ data:
           comment: Online-Session
       SA:
         morning:
-          teacher: FSOTHER
+          teacher: FSRR
           lession: userinterface1x1
           comment:
         afternoon:
-          teacher: FSOTHER
+          teacher: FSRR
           lession: userinterface1x1
           comment:
 
@@ -350,7 +350,7 @@ data:
       id: KW46-2019
       FR:
         morning:
-          teacher: FSOTHER
+          teacher: FSRR
           lession: userinterface1x1
           comment:
         afternoon:
@@ -379,22 +379,22 @@ data:
           comment:
       SA:
         morning:
-          teacher: FSOTHER
+          teacher: FSRR
           lession: userinterface1x1
           comment:
         afternoon:
-          teacher: FSOTHER
+          teacher: FSRR
           lession: userinterface1x1
           comment:
     -
       id: KW48-2019
       FR:
         morning:
-          teacher: FSOTHER
+          teacher: FSRR
           lession: userinterface1x1
           comment:
         afternoon:
-          teacher: FSOTHER
+          teacher: FSRR
           lession: userinterface1x1
           comment:
       SA:
