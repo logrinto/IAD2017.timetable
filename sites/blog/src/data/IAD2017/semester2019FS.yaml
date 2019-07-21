@@ -428,7 +428,7 @@ data:
         morning:
           teacher: BP
           lession: responsive
-          comment:
+          comment: "Referat: Florian Schulz · Designing with Ratio – Responsive Design"
         afternoon:
           teacher: BP
           lession: responsive

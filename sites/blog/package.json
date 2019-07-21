@@ -11,12 +11,12 @@
     "develop": "gatsby develop"
   },
   "dependencies": {
-    "gatsby": "^2.0.19",
+    "gatsby": "^2.13.25",
     "gatsby-theme-timetable": "*"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.4",
-    "@babel/node": "^7.0.0",
+    "@babel/core": "^7.5.4",
+    "@babel/node": "^7.5.0",
     "babel-preset-env": "^1.7.0"
   }
 }
