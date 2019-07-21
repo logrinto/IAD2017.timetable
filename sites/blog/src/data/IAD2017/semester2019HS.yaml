@@ -289,12 +289,12 @@ data:
       id: KW43-2019
       FR:
         morning:
-          teacher: FSRR
-          lession: userinterface1x1
+          teacher:
+          lession: thesis
           comment:
         afternoon:
-          teacher: FSRR
-          lession: userinterface1x1
+          teacher:
+          lession: thesis
           comment:
       SA:
         morning:
@@ -309,12 +309,12 @@ data:
       id: KW44-2019
       FR:
         morning:
-          teacher: FSRR
-          lession: userinterface1x1
+          teacher:
+          lession: thesis
           comment:
         afternoon:
-          teacher: FSRR
-          lession: userinterface1x1
+          teacher:
+          lession: thesis
           comment:
       SA:
         morning:
@@ -338,12 +338,12 @@ data:
           comment: Online-Session
       SA:
         morning:
-          teacher: FSRR
-          lession: userinterface1x1
+          teacher:
+          lession: thesis
           comment:
         afternoon:
-          teacher: FSRR
-          lession: userinterface1x1
+          teacher:
+          lession: thesis
           comment:
 
     -
@@ -354,7 +354,7 @@ data:
           lession: userinterface1x1
           comment:
         afternoon:
-          teacher:
+          teacher: FSRR
           lession: userinterface1x1
           comment:
       SA:
@@ -379,12 +379,12 @@ data:
           comment:
       SA:
         morning:
-          teacher: FSRR
-          lession: userinterface1x1
+          teacher:
+          lession: thesis
           comment:
         afternoon:
-          teacher: FSRR
-          lession: userinterface1x1
+          teacher:
+          lession: thesis
           comment:
     -
       id: KW48-2019
@@ -519,12 +519,12 @@ data:
           comment:
       SA:
         morning:
-          teacher:
-          lession: thesis
+          teacher: FSRR
+          lession: userinterface1x1
           comment:
         afternoon:
-          teacher:
-          lession: thesis
+          teacher: FSRR
+          lession: userinterface1x1
           comment:
     -
       id: KW03-2020
@@ -539,12 +539,12 @@ data:
           comment:
       SA:
         morning:
-          teacher:
-          lession: thesis
+          teacher: FSRR
+          lession: userinterface1x1
           comment:
         afternoon:
-          teacher:
-          lession: thesis
+          teacher: FSRR
+          lession: userinterface1x1
           comment:
     -
       id: KW04-2020
@@ -559,12 +559,12 @@ data:
           comment:
       SA:
         morning:
-          teacher:
-          lession: thesis
+          teacher: FSRR
+          lession: userinterface1x1
           comment:
         afternoon:
-          teacher:
-          lession: thesis
+          teacher: FSRR
+          lession: userinterface1x1
           comment:
     -
       id: KW05-2020
@@ -579,12 +579,12 @@ data:
           comment:
       SA:
         morning:
-          teacher:
-          lession: thesis
+          teacher: FSRR
+          lession: userinterface1x1
           comment:
         afternoon:
-          teacher:
-          lession: thesis
+          teacher: FSRR
+          lession: userinterface1x1
           comment:
     -
       id: KW06-2020
