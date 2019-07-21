@@ -93,7 +93,7 @@ data:
       color: green
     -
       id: thesisprep
-      title: Thesis – Einführung & Themenfindung*
+      title: Thesis – Einführung & Themenfindung
       color: green
     -
       id: marketingme
@@ -109,12 +109,12 @@ data:
       id: KW34-2019
       FR:
         morning:
-          teacher:
-          lession: documentation
+          teacher: UF
+          lession: thesisprep
           comment:
         afternoon:
-          teacher:
-          lession: documentation
+          teacher: UF
+          lession: thesisprep
           comment:
       SA:
         morning:
@@ -229,12 +229,12 @@ data:
       id: KW40-2019
       FR:
         morning:
-          teacher: UF
-          lession: thesisprep
+          teacher:
+          lession: documentation
           comment:
         afternoon:
-          teacher: UF
-          lession: thesisprep
+          teacher:
+          lession: documentation
           comment:
       SA:
         morning:
