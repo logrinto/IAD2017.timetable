@@ -54,7 +54,7 @@ data:
       color: cold-green
     -
       id: userinterface1x1
-      title: Das Wesen in der Bedienung*
+      title: Das Wesen in der Bedienung
       color: cyan
     -
       id: didacticDesign
