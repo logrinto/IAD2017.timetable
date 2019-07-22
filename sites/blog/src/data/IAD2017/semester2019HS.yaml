@@ -67,7 +67,7 @@ data:
       color: gray-violet
     -
       id: csInterface
-      title: Case Study – Interface
+      title: Case Study – Interface*
       color: mint
     -
       id: DesignThinking
