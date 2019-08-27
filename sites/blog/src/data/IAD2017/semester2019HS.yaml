@@ -139,11 +139,11 @@ data:
       SA:
         morning:
           teacher:
-          lession: csInterface
+          lession: thesis
           comment:
         afternoon:
           teacher:
-          lession: csInterface
+          lession: thesis
           comment:
     -
       id: KW36-2019
@@ -170,11 +170,11 @@ data:
       FR:
         morning:
           teacher:
-          lession: thesis
+          lession: csInterface
           comment:
         afternoon:
           teacher:
-          lession: thesis
+          lession: csInterface
           comment:
       SA:
         morning:
