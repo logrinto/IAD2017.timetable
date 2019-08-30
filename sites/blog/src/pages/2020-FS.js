@@ -1,10 +1,13 @@
 import React from "react";
+import get from "lodash/get";
 import { graphql } from "gatsby";
 
 import Page from "gatsby-theme-timetable/src/pages";
 import Timetable from "gatsby-theme-timetable/src/components/Timetable";
 
 const PageIndex = ({ data, location }) => {
+  const generation = get(data, "site.siteMetadata.generation");
+
   let root = data.allIad2017Yaml.edges[0].node.data;
   let teachers = data.teachers.edges[0].node.data.teachers;
   return (
@@ -14,6 +17,7 @@ const PageIndex = ({ data, location }) => {
         data={root.date}
         teachers={teachers}
         lessions={root.lessions}
+        generation={generation}
       />
     </Page>
   );
@@ -23,6 +27,7 @@ export const query = graphql`
   query SemesterQuery2020FS {
     site {
       siteMetadata {
+        generation
         title
         description
         author
