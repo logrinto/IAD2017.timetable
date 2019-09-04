@@ -169,11 +169,11 @@ data:
       id: KW37-2019
       FR:
         morning:
-          teacher:
+          teacher: CTSH
           lession: csInterface
           comment:
         afternoon:
-          teacher:
+          teacher: CTSH
           lession: csInterface
           comment:
       SA:
@@ -230,11 +230,11 @@ data:
       FR:
         morning:
           teacher:
-          lession: documentation
+          lession: thesis
           comment:
         afternoon:
           teacher:
-          lession: documentation
+          lession: thesis
           comment:
       SA:
         morning:
@@ -289,12 +289,12 @@ data:
       id: KW43-2019
       FR:
         morning:
-          teacher:
-          lession: thesis
+          teacher: DF
+          lession: presentation
           comment:
         afternoon:
-          teacher:
-          lession: thesis
+          teacher: DF
+          lession: presentation
           comment:
       SA:
         morning:
