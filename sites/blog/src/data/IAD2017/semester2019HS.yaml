@@ -67,7 +67,7 @@ data:
       color: gray-violet
     -
       id: csInterface
-      title: Case Study – Interface*
+      title: Case Study – Interface
       color: mint
     -
       id: DesignThinking
@@ -211,11 +211,11 @@ data:
         morning:
           teacher: DF
           lession: presentation
-          comment:
+          comment: HF – Audit 2 findet gleichzeitig statt
         afternoon:
           teacher: DF
           lession: presentation
-          comment:
+          comment: HF – Audit 2 findet gleichzeitig statt
       SA:
         morning:
           teacher: AEB
@@ -289,12 +289,12 @@ data:
       id: KW43-2019
       FR:
         morning:
-          teacher: DF
-          lession: presentation
+          teacher:
+          lession: thesis
           comment:
         afternoon:
-          teacher: DF
-          lession: presentation
+          teacher:
+          lession: thesis
           comment:
       SA:
         morning:
@@ -309,12 +309,12 @@ data:
       id: KW44-2019
       FR:
         morning:
-          teacher:
-          lession: thesis
+          teacher: DF
+          lession: presentation
           comment:
         afternoon:
-          teacher:
-          lession: thesis
+          teacher: DF
+          lession: presentation
           comment:
       SA:
         morning:
