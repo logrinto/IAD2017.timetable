@@ -8,6 +8,7 @@
   "scripts": {
     "build": "yarn workspace IAD2017-timetable build",
     "ics": "yarn workspace IAD2017-timetable ics",
+    "clean": "rm -rf node_modules && rm -rf sites/blog/.cache&& rm -rf themes/gatsby-theme-timetable/node_modules && rm -rf sites/blog/node_modules ",
     "start": "yarn develop",
     "develop": "yarn workspace IAD2017-timetable develop"
   },
