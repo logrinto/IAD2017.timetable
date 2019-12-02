@@ -33,6 +33,10 @@ data:
       title: LAB
       color: dark-red
     -
+      id: END
+      title: Abschluss/Review
+      color: dark-red
+    -
       id: ArtContext
       title: Medien-/Technologiegeschichte
       color: violet
@@ -58,7 +62,7 @@ data:
       color: cyan
     -
       id: cms
-      title: CMS & API
+      title: CMS & API*
       color: cyan
     -
       id: FontDay
@@ -72,11 +76,11 @@ data:
 
     -
       id: blogs
-      title: Bolgs und Typografie
+      title: Portfolio, Bolg und Typografie
       color: light-brown
     -
       id: csInterface
-      title: Case Study – Interface
+      title: Case Study – Interface*
       color: mint
 
 
@@ -98,8 +102,8 @@ data:
 
 
     -
-      id: DataJournalism
-      title: Interaktion und Journalismus
+      id: code-experiments
+      title: Design · Code · Experiment*
       color: gray-violet
 
 
@@ -119,14 +123,25 @@ data:
       color: green-gray
 
     -
-      id: Storytelling
-      title: Vom Platzhalter zur Geschichte
+      id: exhibition
+      title: Ausstellungsdesign für Digitales*
       color: black
 
+    -
+      id: components
+      title: Komponente gestalten und dokumentieren*
+      color: petrol
 
 
+    -
+      id: diplom-prep
+      title: Diplome – Austausch und Feedback*
+      color: green-gray
 
-
+    -
+      id: diplom-tec
+      title: Diplome – Support*
+      color: dark-green
 
   #  MobileTypo:
   #    title: Typografie am mobilen Gerät
@@ -166,139 +181,139 @@ data:
       FR:
         morning:
           teacher:
-          lession: LAB
-          comment:
-        afternoon:
-          teacher:
           lession: cms
+          comment: Wordpress & JSON API – Andreas Eberhart
+        afternoon:
+          teacher: SH
+          lession: LAB
           comment:
       SA:
         morning:
-          teacher:
-          lession: blogs
+          teacher: RZ
+          lession: components
           comment:
         afternoon:
-          teacher:
-          lession: blogs
+          teacher: RZ
+          lession: components
           comment:
     -
       id: KW09-2020
       FR:
         morning:
-          teacher:
-          lession: socialMedia
+          teacher: RZ
+          lession: components
           comment:
         afternoon:
-          teacher:
-          lession: socialMedia
+          teacher: RZ
+          lession: components
           comment:
       SA:
         morning:
-          teacher:
-          lession: blogs
+          teacher: SH
+          lession: LAB
           comment:
         afternoon:
           teacher:
-          lession: blogs
-          comment:
+          lession: cms
+          comment: Decouple, Drupal & GraphQL – Amazee Labs
     -
       id: KW10-2020
       FR:
         morning:
           teacher:
-          lession: cms
-          comment:
+          lession: code-experiments
+          comment: Voraussichtlich Jürg Lehni
         afternoon:
           teacher:
-          lession: LAB
-          comment:
+          lession: code-experiments
+          comment: Voraussichtlich Jürg Lehni
       SA:
         morning:
-          teacher:
-          lession: diplom
+          teacher: RZ
+          lession: components
           comment:
         afternoon:
-          teacher:
-          lession: diplom
+          teacher: RZ
+          lession: components
           comment:
     -
       id: KW11-2020
       FR:
         morning:
           teacher:
-          lession: socialMedia
-          comment:
+          lession: code-experiments
+          comment: Voraussichtlich Jürg Lehni
         afternoon:
           teacher:
-          lession: socialMedia
-          comment:
+          lession: code-experiments
+          comment: Voraussichtlich Jürg Lehni
       SA:
         morning:
-          teacher:
-          lession: blogs
+          teacher: RZ
+          lession: components
           comment:
         afternoon:
-          teacher:
-          lession: blogs
+          teacher: RZ
+          lession: components
           comment:
     -
       id: KW12-2020
       FR:
         morning:
           teacher:
-          lession: cms
+          lession: csInterface
           comment:
         afternoon:
           teacher:
-          lession: LAB
+          lession: csInterface
           comment:
       SA:
         morning:
           teacher:
-          lession: blogs
-          comment:
+          lession: code-experiments
+          comment: Voraussichtlich Jürg Lehni
         afternoon:
           teacher:
-          lession: blogs
-          comment:
+          lession: code-experiments
+          comment: Voraussichtlich Jürg Lehni
     -
       id: KW13-2020
       FR:
         morning:
           teacher:
           lession: cms
-          comment:
+          comment: Craft CMS – Alexander Jenter, NEOS – Stefan Huber
         afternoon:
-          teacher:
+          teacher: SH
           lession: LAB
           comment:
       SA:
         morning:
           teacher:
-          lession: blogs
+          lession: diplom
           comment:
         afternoon:
           teacher:
-          lession: blogs
+          lession: diplom
           comment:
     -
       id: KW14-2020
       FR:
         morning:
-          teacher:
-          lession: socialMedia
+          teacher: SH
+          lession: blogs
           comment:
         afternoon:
-          teacher:
-          lession: socialMedia
-          comment:
+          teacher: SH
+          lession: blogs
+          comment: Referat
       SA:
         morning:
-          teacher:
+          teacher: JS
           lession: FontDay
           comment:
         afternoon:
-          teacher:
+          teacher: JS
           lession: FontDay
           comment:
     -
@@ -366,31 +381,31 @@ data:
       FR:
         morning:
           teacher:
-          lession: cms
-          comment:
+          lession:
+          comment: 1. Mai
         afternoon:
           teacher:
-          lession: LAB
-          comment:
+          lession:
+          comment: 1. Mai
       SA:
         morning:
-          teacher:
-          lession: csInterface
+          teacher: SH
+          lession: blogs
           comment:
         afternoon:
-          teacher:
-          lession: csInterface
-          comment:
+          teacher: SH
+          lession: blogs
+          comment: Referat
     -
       id: KW19-2020
       FR:
         morning:
-          teacher:
-          lession: diplom
+          teacher: SH
+          lession: blogs
           comment:
         afternoon:
-          teacher:
-          lession: diplom
+          teacher: SH
+          lession: blogs
           comment:
       SA:
         morning:
@@ -414,12 +429,12 @@ data:
           comment:
       SA:
         morning:
-          teacher:
-          lession: diplom
+          teacher: CT
+          lession: diplom-prep
           comment:
         afternoon:
-          teacher:
-          lession: diplom
+          teacher: CT
+          lession: diplom-prep
           comment:
     -
       id: KW21-2020
@@ -445,12 +460,12 @@ data:
       id: KW22-2020
       FR:
         morning:
-          teacher:
-          lession: LAB
+          teacher: AJ
+          lession: diplom-tec
           comment:
         afternoon:
-          teacher:
-          lession: LAB
+          teacher: AJ
+          lession: diplom-tec
           comment:
       SA:
         morning:
@@ -465,12 +480,12 @@ data:
       id: KW23-2020
       FR:
         morning:
-          teacher:
-          lession: diplom
+          teacher: CT
+          lession: diplom-prep
           comment:
         afternoon:
-          teacher:
-          lession: diplom
+          teacher: CT
+          lession: diplom-prep
           comment:
       SA:
         morning:
@@ -485,11 +500,11 @@ data:
       id: KW24-2020
       FR:
         morning:
-          teacher:
+          teacher: SH
           lession: LAB
           comment:
         afternoon:
-          teacher:
+          teacher: SH
           lession: LAB
           comment:
       SA:
@@ -505,12 +520,12 @@ data:
       id: KW25-2020
       FR:
         morning:
-          teacher:
-          lession: diplom
+          teacher: CW
+          lession: exhibition
           comment:
         afternoon:
-          teacher:
-          lession: diplom
+          teacher: CW
+          lession: exhibition
           comment:
       SA:
         morning:
@@ -525,12 +540,12 @@ data:
       id: KW26-2020
       FR:
         morning:
-          teacher:
-          lession: LAB
+          teacher: CW
+          lession: exhibition
           comment:
         afternoon:
-          teacher:
-          lession: LAB
+          teacher: CW
+          lession: exhibition
           comment:
       SA:
         morning:
@@ -545,12 +560,12 @@ data:
       id: KW27-2020
       FR:
         morning:
-          teacher:
-          lession: diplom
+          teacher: CW
+          lession: exhibition
           comment:
         afternoon:
-          teacher:
-          lession: diplom
+          teacher: CW
+          lession: exhibition
           comment:
       SA:
         morning:
@@ -566,20 +581,20 @@ data:
       FR:
         morning:
           teacher:
-          lession: LAB
+          lession: diplom
           comment:
         afternoon:
           teacher:
-          lession: LAB
+          lession: diplom
           comment:
       SA:
         morning:
-          teacher:
-          lession: diplom
+          teacher: SH
+          lession: END
           comment:
         afternoon:
-          teacher:
-          lession: diplom
+          teacher: SH
+          lession: END
           comment:
     -
       id: KW29-2020

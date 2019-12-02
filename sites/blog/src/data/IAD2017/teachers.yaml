@@ -8,6 +8,9 @@ data:
       id: SH
       name: Stefan Huber
     -
+      id: AJ
+      name: Alex Jenter
+    -
       id: BV
       name: Basil Vogt
     -
@@ -22,6 +25,12 @@ data:
     -
       id: HZ
       name: Hanna Züllig
+    -
+      id: JS
+      name: Jonas Schudel
+    -
+      id: CW
+      name: Claudia Wildermut
     -
       id: DF
       name: Daniel Frei
