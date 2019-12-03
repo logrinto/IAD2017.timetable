@@ -76,7 +76,7 @@ data:
 
     -
       id: blogs
-      title: Portfolio, Bolg und Typografie
+      title: Portfolio, Blog und Typografie
       color: light-brown
     -
       id: csInterface
