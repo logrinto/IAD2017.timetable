@@ -572,11 +572,11 @@ data:
         morning:
           teacher:
           lession: thesis
-          comment:
+          comment: Verteidigung – Zimmer 413
         afternoon:
           teacher:
           lession: thesis
-          comment:
+          comment: Verteidigung – Zimmer 413
       SA:
         morning:
           teacher: FSRR
