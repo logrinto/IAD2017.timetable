@@ -222,11 +222,11 @@ data:
         morning:
           teacher:
           lession: code-experiments
-          comment: Voraussichtlich Jürg Lehni
+          comment: Leander Herzog – leanderherzog.ch
         afternoon:
           teacher:
           lession: code-experiments
-          comment: Voraussichtlich Jürg Lehni
+          comment: Leander Herzog – leanderherzog.ch
       SA:
         morning:
           teacher: RZ
@@ -242,11 +242,11 @@ data:
         morning:
           teacher:
           lession: code-experiments
-          comment: Voraussichtlich Jürg Lehni
+          comment: Leander Herzog – leanderherzog.ch
         afternoon:
           teacher:
           lession: code-experiments
-          comment: Voraussichtlich Jürg Lehni
+          comment: Leander Herzog – leanderherzog.ch
       SA:
         morning:
           teacher: RZ
@@ -271,11 +271,11 @@ data:
         morning:
           teacher:
           lession: code-experiments
-          comment: Voraussichtlich Jürg Lehni
+          comment: Leander Herzog – leanderherzog.ch
         afternoon:
           teacher:
           lession: code-experiments
-          comment: Voraussichtlich Jürg Lehni
+          comment: Leander Herzog – leanderherzog.ch
     -
       id: KW13-2020
       FR:
@@ -480,11 +480,11 @@ data:
       id: KW23-2020
       FR:
         morning:
-          teacher: CT
+          teacher: BP
           lession: diplom-prep
           comment:
         afternoon:
-          teacher: CT
+          teacher: BP
           lession: diplom-prep
           comment:
       SA:
