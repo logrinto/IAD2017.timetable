@@ -300,13 +300,13 @@ data:
       id: KW14-2020
       FR:
         morning:
-          teacher: SH
-          lession: blogs
+          teacher:
+          lession: diplom
           comment:
         afternoon:
-          teacher: SH
-          lession: blogs
-          comment: Referat
+          teacher:
+          lession: diplom
+          comment: 
       SA:
         morning:
           teacher: JS
@@ -549,23 +549,23 @@ data:
           comment:
       SA:
         morning:
-          teacher:
-          lession: diplom
+          teacher: CW
+          lession: exhibition
           comment:
         afternoon:
-          teacher:
-          lession: diplom
+          teacher: CW
+          lession: exhibition
           comment:
     -
       id: KW27-2020
       FR:
         morning:
-          teacher: CW
-          lession: exhibition
+          teacher:
+          lession: diplom
           comment:
         afternoon:
-          teacher: CW
-          lession: exhibition
+          teacher:
+          lession: diplom
           comment:
       SA:
         morning:
@@ -580,12 +580,12 @@ data:
       id: KW28-2020
       FR:
         morning:
-          teacher:
-          lession: diplom
+          teacher: CW
+          lession: exhibition
           comment:
         afternoon:
-          teacher:
-          lession: diplom
+          teacher: CW
+          lession: exhibition
           comment:
       SA:
         morning:
