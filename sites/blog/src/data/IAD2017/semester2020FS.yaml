@@ -124,7 +124,7 @@ data:
 
     -
       id: exhibition
-      title: Ausstellungsdesign für Digitales*
+      title: Ausstellungsdesign für Digitales
       color: black
 
     -
@@ -140,7 +140,7 @@ data:
 
     -
       id: diplom-tec
-      title: Diplome – Support*
+      title: Diplome – Support
       color: dark-green
 
   #  MobileTypo:
@@ -182,29 +182,29 @@ data:
         morning:
           teacher:
           lession: cms
-          comment: Wordpress & JSON API – Andreas Eberhart
+          comment: Wordpress & JSON API
         afternoon:
           teacher: SH
           lession: LAB
           comment:
       SA:
         morning:
-          teacher: RZ
+          teacher: 
           lession: components
           comment:
         afternoon:
-          teacher: RZ
+          teacher: 
           lession: components
           comment:
     -
       id: KW09-2020
       FR:
         morning:
-          teacher: RZ
+          teacher: 
           lession: components
           comment:
         afternoon:
-          teacher: RZ
+          teacher: 
           lession: components
           comment:
       SA:
@@ -229,11 +229,11 @@ data:
           comment: Leander Herzog – leanderherzog.ch
       SA:
         morning:
-          teacher: RZ
+          teacher: 
           lession: components
           comment:
         afternoon:
-          teacher: RZ
+          teacher: 
           lession: components
           comment:
     -
@@ -249,11 +249,11 @@ data:
           comment: Leander Herzog – leanderherzog.ch
       SA:
         morning:
-          teacher: RZ
+          teacher: 
           lession: components
           comment:
         afternoon:
-          teacher: RZ
+          teacher: 
           lession: components
           comment:
     -
@@ -306,7 +306,7 @@ data:
         afternoon:
           teacher:
           lession: diplom
-          comment: 
+          comment:
       SA:
         morning:
           teacher: JS
