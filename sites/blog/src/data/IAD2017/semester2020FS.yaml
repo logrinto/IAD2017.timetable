@@ -429,11 +429,11 @@ data:
           comment:
       SA:
         morning:
-          teacher: CT
+          teacher: 
           lession: diplom-prep
           comment:
         afternoon:
-          teacher: CT
+          teacher: 
           lession: diplom-prep
           comment:
     -
