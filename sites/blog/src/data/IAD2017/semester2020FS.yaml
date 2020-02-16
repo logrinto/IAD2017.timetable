@@ -62,7 +62,7 @@ data:
       color: cyan
     -
       id: cms
-      title: CMS & API*
+      title: CMS & API
       color: cyan
     -
       id: FontDay
@@ -80,7 +80,7 @@ data:
       color: light-brown
     -
       id: csInterface
-      title: Case Study – Interface*
+      title: Case Study – Interface
       color: mint
 
 
@@ -103,7 +103,7 @@ data:
 
     -
       id: code-experiments
-      title: Design · Code · Experiment*
+      title: Design · Code · Experiment
       color: gray-violet
 
 
@@ -180,42 +180,42 @@ data:
       id: KW08-2020
       FR:
         morning:
-          teacher:
-          lession: cms
-          comment: Wordpress & JSON API
+          teacher: SH
+          lession: LAB
+          comment:
         afternoon:
           teacher: SH
           lession: LAB
           comment:
       SA:
         morning:
-          teacher: 
-          lession: components
-          comment:
+          teacher:
+          lession: code-experiments
+          comment: Leander Herzog – leanderherzog.ch
         afternoon:
-          teacher: 
-          lession: components
-          comment:
+          teacher:
+          lession: code-experiments
+          comment: Leander Herzog – leanderherzog.ch
     -
       id: KW09-2020
       FR:
         morning:
-          teacher: 
-          lession: components
-          comment:
+          teacher:
+          lession: code-experiments
+          comment: Leander Herzog – leanderherzog.ch
         afternoon:
-          teacher: 
-          lession: components
-          comment:
+          teacher:
+          lession: code-experiments
+          comment: Leander Herzog – leanderherzog.ch
       SA:
         morning:
           teacher: SH
           lession: LAB
           comment:
         afternoon:
-          teacher:
-          lession: cms
-          comment: Decouple, Drupal & GraphQL – Amazee Labs
+          teacher: SH
+          lession: LAB
+          comment:
     -
       id: KW10-2020
       FR:
@@ -229,11 +229,11 @@ data:
           comment: Leander Herzog – leanderherzog.ch
       SA:
         morning:
-          teacher: 
+          teacher:
           lession: components
           comment:
         afternoon:
-          teacher: 
+          teacher:
           lession: components
           comment:
     -
@@ -241,60 +241,60 @@ data:
       FR:
         morning:
           teacher:
-          lession: code-experiments
-          comment: Leander Herzog – leanderherzog.ch
-        afternoon:
-          teacher:
-          lession: code-experiments
-          comment: Leander Herzog – leanderherzog.ch
-      SA:
-        morning:
-          teacher: 
           lession: components
           comment:
         afternoon:
-          teacher: 
+          teacher:
           lession: components
+          comment:
+      SA:
+        morning:
+          teacher:
+          lession: diplom
+          comment:
+        afternoon:
+          teacher:
+          lession: diplom
           comment:
     -
       id: KW12-2020
       FR:
         morning:
-          teacher:
+          teacher: MSK-SH
           lession: csInterface
           comment:
         afternoon:
-          teacher:
+          teacher: MSK-SH
           lession: csInterface
           comment:
       SA:
         morning:
           teacher:
-          lession: code-experiments
-          comment: Leander Herzog – leanderherzog.ch
+          lession: components
+          comment:
         afternoon:
           teacher:
-          lession: code-experiments
-          comment: Leander Herzog – leanderherzog.ch
+          lession: components
+          comment:
     -
       id: KW13-2020
       FR:
         morning:
           teacher:
           lession: cms
-          comment: Craft CMS – Alexander Jenter, NEOS – Stefan Huber
+          comment: Refereat
         afternoon:
-          teacher: SH
-          lession: LAB
-          comment:
+          teacher:
+          lession: cms
+          comment: Refereat
       SA:
         morning:
           teacher:
-          lession: diplom
+          lession: components
           comment:
         afternoon:
           teacher:
-          lession: diplom
+          lession: components
           comment:
     -
       id: KW14-2020
