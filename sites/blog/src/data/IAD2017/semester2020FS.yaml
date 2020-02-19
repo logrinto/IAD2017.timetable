@@ -182,11 +182,11 @@ data:
         morning:
           teacher: SH
           lession: LAB
-          comment:
+          comment: Rückmeldung Thesis
         afternoon:
           teacher: SH
           lession: LAB
-          comment:
+          comment: Rückmeldung Thesis
       SA:
         morning:
           teacher:
