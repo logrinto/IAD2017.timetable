@@ -429,11 +429,11 @@ data:
           comment:
       SA:
         morning:
-          teacher: 
+          teacher:
           lession: diplom-prep
           comment:
         afternoon:
-          teacher: 
+          teacher:
           lession: diplom-prep
           comment:
     -
@@ -529,33 +529,33 @@ data:
           comment:
       SA:
         morning:
-          teacher:
-          lession: diplom
+          teacher: CW
+          lession: exhibition
           comment:
         afternoon:
-          teacher:
-          lession: diplom
+          teacher: CW
+          lession: exhibition
           comment:
     -
       id: KW26-2020
       FR:
         morning:
-          teacher: CW
-          lession: exhibition
-          comment:
+          teacher:
+          lession: diplom
+          comment: Diplomarbeit · Verteidigung
         afternoon:
-          teacher: CW
-          lession: exhibition
-          comment:
+          teacher:
+          lession: diplom
+          comment: Diplomarbeit · Verteidigung
       SA:
         morning:
-          teacher: CW
-          lession: exhibition
-          comment:
+          teacher:
+          lession: diplom
+          comment: Diplomarbeit · Verteidigung
         afternoon:
-          teacher: CW
-          lession: exhibition
-          comment:
+          teacher:
+          lession: diplom
+          comment: Diplomarbeit · Verteidigung
     -
       id: KW27-2020
       FR:
@@ -569,12 +569,12 @@ data:
           comment:
       SA:
         morning:
-          teacher:
-          lession: diplom
+          teacher: CW
+          lession: exhibition
           comment:
         afternoon:
-          teacher:
-          lession: diplom
+          teacher: CW
+          lession: exhibition
           comment:
     -
       id: KW28-2020
