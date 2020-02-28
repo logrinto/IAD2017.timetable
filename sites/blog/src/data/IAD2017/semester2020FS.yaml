@@ -229,23 +229,23 @@ data:
           comment: Leander Herzog – leanderherzog.ch
       SA:
         morning:
-          teacher:
-          lession: components
+          teacher: sh
+          lession: blogs
           comment:
         afternoon:
-          teacher:
-          lession: components
+          teacher: sh
+          lession: blogs
           comment:
     -
       id: KW11-2020
       FR:
         morning:
-          teacher:
-          lession: components
+          teacher: sh
+          lession: blogs
           comment:
         afternoon:
-          teacher:
-          lession: components
+          teacher: sh
+          lession: blogs
           comment:
       SA:
         morning:
@@ -270,11 +270,11 @@ data:
       SA:
         morning:
           teacher:
-          lession: components
+          lession: diplom
           comment:
         afternoon:
           teacher:
-          lession: components
+          lession: diplom
           comment:
     -
       id: KW13-2020
@@ -290,11 +290,11 @@ data:
       SA:
         morning:
           teacher:
-          lession: components
+          lession: diplom
           comment:
         afternoon:
           teacher:
-          lession: components
+          lession: diplom
           comment:
     -
       id: KW14-2020
@@ -389,23 +389,23 @@ data:
           comment: 1. Mai
       SA:
         morning:
-          teacher: SH
-          lession: blogs
+          teacher:
+          lession: components
           comment:
         afternoon:
-          teacher: SH
-          lession: blogs
-          comment: Referat
+          teacher:
+          lession: components
+          comment:
     -
       id: KW19-2020
       FR:
         morning:
-          teacher: SH
-          lession: blogs
+          teacher:
+          lession: components
           comment:
         afternoon:
-          teacher: SH
-          lession: blogs
+          teacher:
+          lession: components
           comment:
       SA:
         morning:
@@ -421,11 +421,11 @@ data:
       FR:
         morning:
           teacher:
-          lession: diplom
+          lession: components
           comment:
         afternoon:
           teacher:
-          lession: diplom
+          lession: components
           comment:
       SA:
         morning:
@@ -470,11 +470,11 @@ data:
       SA:
         morning:
           teacher:
-          lession: diplom
+          lession: components
           comment:
         afternoon:
           teacher:
-          lession: diplom
+          lession: components
           comment:
     -
       id: KW23-2020
