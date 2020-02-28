@@ -240,21 +240,21 @@ data:
       id: KW11-2020
       FR:
         morning:
-          teacher: sh
-          lession: blogs
+          teacher: 
+          lession: diplom
           comment:
         afternoon:
-          teacher: sh
-          lession: blogs
+          teacher:
+          lession: diplom
           comment:
       SA:
         morning:
-          teacher:
-          lession: diplom
+          teacher: sh
+          lession: blogs
           comment:
         afternoon:
-          teacher:
-          lession: diplom
+          teacher: sh
+          lession: blogs
           comment:
     -
       id: KW12-2020
