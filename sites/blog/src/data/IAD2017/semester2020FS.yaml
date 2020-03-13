@@ -62,11 +62,11 @@ data:
       color: cyan
     -
       id: cms
-      title: Abgesagt: CMS & API
+      title: "Abgesagt: CMS & API"
       color: cyan
     -
       id: FontDay
-      title: Abgesagt: Tag der Schrift
+      title: "Abgesagt: Tag der Schrift"
       color: cold-green
     -
       id: diplom
