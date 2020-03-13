@@ -251,11 +251,11 @@ data:
         morning:
           teacher: sh
           lession: blogs
-          comment: Remote (COVID-19) · Referat: Frank Rausch
+          comment: "Remote (COVID-19) · Referat: Frank Rausch"
         afternoon:
           teacher: sh
           lession: blogs
-          comment: Remote (COVID-19) · Gast: Oliver Reichenstein
+          comment: "Remote (COVID-19) · Gast: Oliver Reichenstein"
     -
       id: KW12-2020
       FR:
