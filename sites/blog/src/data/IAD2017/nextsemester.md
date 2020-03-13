@@ -1,3 +1,12 @@
+Stundenplan
+* Fritz
+* Parser
+* Jonas Shriqui
+* Components Guide
+* Timo Gossenbacher
+* Rudolf
+
+
 ## Weitere Semester
 siehe auch IAD lernziele
 
@@ -14,10 +23,6 @@ siehe auch IAD lernziele
 
 https://zurich.fablab.ch/events/kuenstliche-intelligenz-und-robotik-fuer-anfaenger-september/
 http://interactivedock.ch/kurse/interaction-design
-
-
-
-https://gamedesign.zhdk.ch/personen/team/mela-kocher/
 
 
 

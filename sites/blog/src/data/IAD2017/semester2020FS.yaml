@@ -62,11 +62,11 @@ data:
       color: cyan
     -
       id: cms
-      title: CMS & API
+      title: Abgesagt: CMS & API
       color: cyan
     -
       id: FontDay
-      title: Tag der Schrift
+      title: Abgesagt: Tag der Schrift
       color: cold-green
     -
       id: diplom
@@ -191,22 +191,22 @@ data:
         morning:
           teacher:
           lession: code-experiments
-          comment: Leander Herzog – leanderherzog.ch
+          comment:
         afternoon:
           teacher:
           lession: code-experiments
-          comment: Leander Herzog – leanderherzog.ch
+          comment:
     -
       id: KW09-2020
       FR:
         morning:
           teacher:
           lession: code-experiments
-          comment: Leander Herzog – leanderherzog.ch
+          comment:
         afternoon:
           teacher:
           lession: code-experiments
-          comment: Leander Herzog – leanderherzog.ch
+          comment:
       SA:
         morning:
           teacher: SH
@@ -222,11 +222,11 @@ data:
         morning:
           teacher:
           lession: code-experiments
-          comment: Leander Herzog – leanderherzog.ch
+          comment: Remote (COVID-19)
         afternoon:
           teacher:
           lession: code-experiments
-          comment: Leander Herzog – leanderherzog.ch
+          comment: Remote (COVID-19)
       SA:
         morning:
           teacher: sh
@@ -240,7 +240,7 @@ data:
       id: KW11-2020
       FR:
         morning:
-          teacher: 
+          teacher:
           lession: diplom
           comment:
         afternoon:
@@ -251,11 +251,11 @@ data:
         morning:
           teacher: sh
           lession: blogs
-          comment:
+          comment: Remote (COVID-19) · Referat: Frank Rausch
         afternoon:
           teacher: sh
           lession: blogs
-          comment:
+          comment: Remote (COVID-19) · Gast: Oliver Reichenstein
     -
       id: KW12-2020
       FR:
