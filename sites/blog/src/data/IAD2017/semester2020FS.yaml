@@ -262,11 +262,11 @@ data:
         morning:
           teacher: MSK-SH
           lession: csInterface
-          comment:
+          comment: Remote (COVID-19)
         afternoon:
           teacher: MSK-SH
           lession: csInterface
-          comment:
+          comment: Remote (COVID-19)
       SA:
         morning:
           teacher:
