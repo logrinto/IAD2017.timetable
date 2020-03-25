@@ -131,7 +131,10 @@ data:
       id: components
       title: Komponente gestalten und dokumentieren*
       color: petrol
-
+    -
+      id: plattforms
+      title: Plattformen und Benutzer
+      color: petrol
 
     -
       id: diplom-prep
@@ -281,12 +284,12 @@ data:
       FR:
         morning:
           teacher:
-          lession: cms
-          comment: Refereat · Gabriel Hase · livingdocs.io
+          lession: diplom
+          comment: CMS & AP wurde verschoben
         afternoon:
           teacher:
-          lession: cms
-          comment: Refereat
+          lession: diplom
+          comment: CMS & AP wurde verschoben
       SA:
         morning:
           teacher:
@@ -309,13 +312,13 @@ data:
           comment:
       SA:
         morning:
-          teacher: JS
-          lession: FontDay
-          comment:
+          teacher:
+          lession: diplom
+          comment: Tag der Schrift wurde abgesagt
         afternoon:
-          teacher: JS
-          lession: FontDay
-          comment:
+          teacher:
+          lession: diplom
+          comment: Tag der Schrift wurde abgesagt
     -
       id: KW15-2020
       FR:
@@ -389,23 +392,23 @@ data:
           comment: 1. Mai
       SA:
         morning:
-          teacher:
-          lession: components
+          teacher: FS
+          lession: plattforms
           comment:
         afternoon:
-          teacher:
-          lession: components
+          teacher: FS
+          lession: plattforms
           comment:
     -
       id: KW19-2020
       FR:
         morning:
-          teacher:
-          lession: components
+          teacher: FS
+          lession: plattforms
           comment:
         afternoon:
-          teacher:
-          lession: components
+          teacher: FS
+          lession: plattforms
           comment:
       SA:
         morning:
@@ -420,12 +423,12 @@ data:
       id: KW20-2020
       FR:
         morning:
-          teacher:
-          lession: components
+          teacher: FS
+          lession: plattforms
           comment:
         afternoon:
-          teacher:
-          lession: components
+          teacher: FS
+          lession: plattforms
           comment:
       SA:
         morning:
@@ -469,12 +472,12 @@ data:
           comment:
       SA:
         morning:
-          teacher:
-          lession: components
+          teacher: FS
+          lession: plattforms
           comment:
         afternoon:
-          teacher:
-          lession: components
+          teacher: FS
+          lession: plattforms
           comment:
     -
       id: KW23-2020
@@ -549,24 +552,24 @@ data:
           comment: Diplomarbeit · Verteidigung
       SA:
         morning:
-          teacher:
-          lession: diplom
-          comment: Diplomarbeit · Verteidigung
+          teacher: JS
+          lession: FontDay
+          comment: Ersatztag für Tag der Schrift vom 4. April 2020
         afternoon:
-          teacher:
-          lession: diplom
-          comment: Diplomarbeit · Verteidigung
+          teacher: JS
+          lession: FontDay
+          comment: Ersatztag für Tag der Schrift vom 4. April 2020
     -
       id: KW27-2020
       FR:
         morning:
           teacher:
-          lession: diplom
-          comment:
+          lession: cms
+          comment: Refereat · Gabriel Hase · livingdocs.io
         afternoon:
           teacher:
-          lession: diplom
-          comment:
+          lession: cms
+          comment: Refereat
       SA:
         morning:
           teacher: CW
