@@ -285,40 +285,40 @@ data:
         morning:
           teacher:
           lession: diplom
-          comment: CMS & AP wurde verschoben
+          comment: https://zoom.us/j/171411534 || CMS & AP wurde verschoben
         afternoon:
           teacher:
           lession: diplom
-          comment: CMS & AP wurde verschoben
+          comment: https://zoom.us/j/171411534 || CMS & AP wurde verschoben
       SA:
         morning:
           teacher:
           lession: diplom
-          comment:
+          comment: https://zoom.us/j/948644138
         afternoon:
           teacher:
           lession: diplom
-          comment:
+          comment: https://zoom.us/j/948644138
     -
       id: KW14-2020
       FR:
         morning:
           teacher:
           lession: diplom
-          comment:
+          comment: https://zoom.us/j/650929875
         afternoon:
           teacher:
           lession: diplom
-          comment:
+          comment: https://zoom.us/j/650929875
       SA:
         morning:
           teacher:
           lession: diplom
-          comment: Tag der Schrift wurde abgesagt
+          comment: https://zoom.us/j/587620608 || Tag der Schrift wurde abgesagt
         afternoon:
           teacher:
           lession: diplom
-          comment: Tag der Schrift wurde abgesagt
+          comment: https://zoom.us/j/587620608 || Tag der Schrift wurde abgesagt
     -
       id: KW15-2020
       FR:
