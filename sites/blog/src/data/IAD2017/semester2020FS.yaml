@@ -65,8 +65,8 @@ data:
       title: "Abgesagt: CMS & API"
       color: cyan
     -
-      id: FontDay
-      title: "Abgesagt: Tag der Schrift"
+      id: ShopTalk
+      title: "ShopTalk"
       color: cold-green
     -
       id: diplom
@@ -525,20 +525,20 @@ data:
         morning:
           teacher: CW
           lession: exhibition
-          comment:
+          comment: Zoom-Session
         afternoon:
           teacher: CW
           lession: exhibition
-          comment:
+          comment: Zoom-Session
       SA:
         morning:
-          teacher: CW
-          lession: exhibition
-          comment:
+          teacher: SH
+          lession: ShopTalk
+          comment: In Schulhaus · Ersatztag für Tag der Schrift vom 4. April 2020
         afternoon:
-          teacher: CW
-          lession: exhibition
-          comment:
+          teacher: SH
+          lession: ShopTalk
+          comment: In Schulhaus · Ersatztag für Tag der Schrift vom 4. April 2020
     -
       id: KW26-2020
       FR:
@@ -552,44 +552,44 @@ data:
           comment: Diplomarbeit · Verteidigung
       SA:
         morning:
-          teacher: JS
-          lession: FontDay
-          comment: Ersatztag für Tag der Schrift vom 4. April 2020
-        afternoon:
-          teacher: JS
-          lession: FontDay
-          comment: Ersatztag für Tag der Schrift vom 4. April 2020
-    -
-      id: KW27-2020
-      FR:
-        morning:
           teacher:
           lession: cms
           comment: Refereat · Gabriel Hase · livingdocs.io
         afternoon:
           teacher:
           lession: cms
-          comment: Refereat
+          comment:
+    -
+      id: KW27-2020
+      FR:
+        morning:
+          teacher: CW
+          lession: exhibition
+          comment: in Schulhaus
+        afternoon:
+          teacher: CW
+          lession: exhibition
+          comment: in Schulhaus
       SA:
         morning:
           teacher: CW
           lession: exhibition
-          comment:
+          comment: in Schulhaus
         afternoon:
           teacher: CW
           lession: exhibition
-          comment:
+          comment: in Schulhaus
     -
       id: KW28-2020
       FR:
         morning:
           teacher: CW
           lession: exhibition
-          comment:
+          comment: in Schulhaus
         afternoon:
           teacher: CW
           lession: exhibition
-          comment:
+          comment: in Schulhaus
       SA:
         morning:
           teacher: SH
