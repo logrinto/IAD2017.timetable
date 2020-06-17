@@ -232,11 +232,11 @@ data:
           comment: Remote (COVID-19)
       SA:
         morning:
-          teacher: sh
+          teacher: SH
           lession: blogs
           comment:
         afternoon:
-          teacher: sh
+          teacher: SH
           lession: blogs
           comment:
     -
@@ -252,11 +252,11 @@ data:
           comment:
       SA:
         morning:
-          teacher: sh
+          teacher: SH
           lession: blogs
           comment: "Remote (COVID-19) · Referat: Frank Rausch"
         afternoon:
-          teacher: sh
+          teacher: SH
           lession: blogs
           comment: "Remote (COVID-19) · Gast: Oliver Reichenstein"
     -
