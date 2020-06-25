@@ -536,11 +536,11 @@ data:
         morning:
           teacher: SH
           lession: ShopTalk
-          comment: In Schulhaus · Ersatztag für Tag der Schrift vom 4. April 2020
+          comment: in Schulhaus · Ersatztag für Tag der Schrift vom 4. April 2020
         afternoon:
           teacher: SH
           lession: ShopTalk
-          comment: In Schulhaus · Ersatztag für Tag der Schrift vom 4. April 2020
+          comment: in Schulhaus · Ersatztag für Tag der Schrift vom 4. April 2020
     -
       id: KW26-2020
       FR:
@@ -556,11 +556,11 @@ data:
         morning:
           teacher: JB
           lession: eq
-          comment:
+          comment: in Schulhaus
         afternoon:
           teacher: AJ-SH
           lession: cms
-          comment:
+          comment: in Schulhaus
     -
       id: KW27-2020
       FR:
@@ -596,7 +596,7 @@ data:
         morning:
           teacher: SH
           lession: END
-          comment: 9:45 · Start
+          comment:  9:45 · Start in Schulhaus
         afternoon:
           teacher: SH
           lession: END
