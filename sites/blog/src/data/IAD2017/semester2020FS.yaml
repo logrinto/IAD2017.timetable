@@ -62,7 +62,7 @@ data:
       color: cyan
     -
       id: cms
-      title: "Abgesagt: CMS & API"
+      title: "CMS & API"
       color: cyan
     -
       id: ShopTalk
@@ -82,8 +82,10 @@ data:
       id: csInterface
       title: Case Study – Interface
       color: mint
-
-
+    -
+      id: eq
+      title: Emotional Intelligence
+      color: orange
 
     -
       id: socialMedia
@@ -552,11 +554,11 @@ data:
           comment: Diplomarbeit · Verteidigung
       SA:
         morning:
-          teacher:
-          lession: cms
-          comment: Refereat · Gabriel Hase · livingdocs.io
+          teacher: JB
+          lession: eq
+          comment:
         afternoon:
-          teacher:
+          teacher: AJ-SH
           lession: cms
           comment:
     -
@@ -594,11 +596,11 @@ data:
         morning:
           teacher: SH
           lession: END
-          comment:
+          comment: 9:45 · Start
         afternoon:
           teacher: SH
           lession: END
-          comment:
+          comment: 13:30 · Ausstellungseröffnung
     -
       id: KW29-2020
       FR:

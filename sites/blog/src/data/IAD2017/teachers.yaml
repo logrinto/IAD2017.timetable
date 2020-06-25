@@ -11,6 +11,9 @@ data:
       id: AJ
       name: Alex Jenter
     -
+      id: AJ-SH
+      name: Alex Jenter & Stefan Huber
+    -
       id: BV
       name: Basil Vogt
     -
@@ -135,7 +138,7 @@ data:
     -
       id: FS
       name: Fabian Scheiwiller
-      comment:
+      comment: Fabian.Scheiwiller@zuehlke.com
     -
       id: BL
       name: Brigitte Lampert
@@ -181,7 +184,7 @@ data:
       id: ADS
       name: Alessandro Di Stefano
       comment:
-
-
-
-        Fabian.Scheiwiller@zuehlke.com
+    -
+      id: JB
+      name:  Joanita Bonnier
+      comment:
