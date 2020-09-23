@@ -140,7 +140,7 @@ data:
 
     -
       id: diplom-prep
-      title: Diplome – Austausch und Feedback*
+      title: Diplome – Austausch und Feedback
       color: green-gray
 
     -
@@ -434,11 +434,11 @@ data:
           comment:
       SA:
         morning:
-          teacher:
+          teacher: FR
           lession: diplom-prep
           comment:
         afternoon:
-          teacher:
+          teacher: FR
           lession: diplom-prep
           comment:
     -
