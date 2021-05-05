@@ -194,22 +194,22 @@ data:
           comment: Rückmeldung Thesis
       SA:
         morning:
-          teacher:
+          teacher: LH
           lession: code-experiments
           comment:
         afternoon:
-          teacher:
+          teacher: LH
           lession: code-experiments
           comment:
     -
       id: KW09-2020
       FR:
         morning:
-          teacher:
+          teacher: LH
           lession: code-experiments
           comment:
         afternoon:
-          teacher:
+          teacher: LH
           lession: code-experiments
           comment:
       SA:
@@ -225,11 +225,11 @@ data:
       id: KW10-2020
       FR:
         morning:
-          teacher:
+          teacher: LH
           lession: code-experiments
           comment: Remote Teaching (COVID-19)
         afternoon:
-          teacher:
+          teacher: LH
           lession: code-experiments
           comment: Remote Teaching (COVID-19)
       SA:

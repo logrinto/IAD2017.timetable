@@ -63,7 +63,7 @@ data:
 
     -
       id: database
-      title: Von der Datenbank zur Ausgabe.
+      title: Von der Datenbank zur Ausgabe
       color: gray-violet
     -
       id: csInterface
